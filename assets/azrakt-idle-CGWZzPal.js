@@ -1,0 +1,1 @@
+import{m as t,H as s}from"./herois-motion-base--_AHTgn1.js";import"./recompensas-B3rB9DjQ.js";import"./rheagon-visual-B4W1_bbW.js";const a={respiracao:9,ritmo:1.5,balanco:3.2,fase:1.2};function i(e,o,r){return t(e,o,r,a)}class p extends s{constructor(o,r){super(o,r,i)}}export{p as AzraktIdle};

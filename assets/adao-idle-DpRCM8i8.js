@@ -1,0 +1,1 @@
+import{m as t,H as s}from"./herois-motion-base--_AHTgn1.js";import"./recompensas-B3rB9DjQ.js";import"./rheagon-visual-B4W1_bbW.js";const a={respiracao:8,ritmo:1.7,balanco:2.6,fase:.1};function i(r,o,e){return t(r,o,e,a)}class p extends s{constructor(o,e){super(o,e,i)}}export{p as AdaoIdle};

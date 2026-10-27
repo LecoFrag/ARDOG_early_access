@@ -1,1 +1,0 @@
-import{M as t}from"./laboratorioBatalha-kneOVdsR.js";import{o as s}from"./hildred-formas-motion-t8lhN6TO.js";import"./rheagon-visual-Bs33HejR.js";import"./recompensas-bi4H4PY1.js";import"./sons-XBMCh3gl.js";const p=(r,e,o)=>s("serpente",r,e,o);class a extends t{constructor(e,o){super(e,o,p)}}export{a as HildredSerpenteIdle};

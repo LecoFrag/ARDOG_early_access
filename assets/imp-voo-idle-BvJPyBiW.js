@@ -1,1 +1,0 @@
-import{D as s}from"./diabo-idle-base-DVgPdDJA.js";import"./recompensas-bi4H4PY1.js";import"./rheagon-visual-Bs33HejR.js";function e(r,t,o){return{x:8*Math.sin(o*.95),y:24*Math.sin(o*2.2)}}class p extends s{constructor(t,o){super(t,o,e)}}export{p as ImpVooIdle};

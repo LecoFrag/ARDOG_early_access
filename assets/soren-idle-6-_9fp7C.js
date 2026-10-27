@@ -1,0 +1,1 @@
+import{m as t,H as s}from"./herois-motion-base--_AHTgn1.js";import"./recompensas-B3rB9DjQ.js";import"./rheagon-visual-B4W1_bbW.js";const i={respiracao:7.5,ritmo:1.8,balanco:2.8,fase:2.1};function a(r,o,e){return t(r,o,e,i)}class p extends s{constructor(o,e){super(o,e,a)}}export{p as SorenIdle};

@@ -1,0 +1,1 @@
+import{M as s}from"./laboratorioBatalha-Dcqsly3v.js";import{o as e}from"./hildred-formas-motion-t8lhN6TO.js";import"./rheagon-visual-B4W1_bbW.js";import"./recompensas-B3rB9DjQ.js";import"./sons-XBMCh3gl.js";const m=(t,o,r)=>e("lobo",t,o,r);class a extends s{constructor(o,r){super(o,r,m)}}export{a as HildredLoboIdle};
