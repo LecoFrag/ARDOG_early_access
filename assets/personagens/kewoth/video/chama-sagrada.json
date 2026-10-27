@@ -1,0 +1,32 @@
+{
+  "id": "kewoth-chama-sagrada",
+  "arquivo": "chama-sagrada.webm",
+  "original": "original/chama-sagrada.webm",
+  "largura": 464,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.5102,
+  "originY": 0.9667,
+  "topo": 0.0347,
+  "pes": [
+    [
+      0.1703,
+      0.9667
+    ],
+    [
+      0.8502,
+      0.9347
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "chama-sagrada",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/kewoth/chama-sagrada.webp",
+  "sha256Imagem": "645a69e9993fc52ca1dddfac7408602ec30e2c74463a76cac415b98c8f217272",
+  "sha256PNG": "a3c2b2b23a23837275e7a1c512e8ca9ca13a60e5be3feb3dfc95d91227b80833",
+  "movimento": "Elevação da prece com martelo e escudo acompanhando os braços.",
+  "nota": "Somente asset; sem cadastro ou integração no jogo. Sem efeitos mágicos ou projéteis. Conferir âncoras na integração."
+}

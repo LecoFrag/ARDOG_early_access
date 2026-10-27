@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 400">
+  <!-- Prologue (PROLOGO.md): whoever knocks, seen only as a shape against the lantern light in the hallway. -->
+  <defs>
+    <radialGradient id="luz" cx="30%" cy="78%" r="70%"><stop offset="0" stop-color="#ffcf7a" stop-opacity=".75"/><stop offset=".45" stop-color="#b8662a" stop-opacity=".35"/><stop offset="1" stop-color="#1a110b" stop-opacity="0"/></radialGradient>
+    <linearGradient id="corpo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d0805"/><stop offset="1" stop-color="#050302"/></linearGradient>
+  </defs>
+  <rect width="340" height="400" fill="#140d08"/>
+  <rect width="340" height="400" fill="url(#luz)"/>
+  <path d="M40 400 C 52 330, 98 300, 140 292 L 200 292 C 242 300, 288 330, 300 400 Z" fill="url(#corpo)"/>
+  <path d="M120 300 C 108 250, 110 170, 170 150 C 230 170, 232 250, 220 300 Z" fill="url(#corpo)"/>
+  <path d="M104 214 C 100 140, 140 104, 170 104 C 200 104, 240 140, 236 214 C 226 190, 210 176, 170 172 C 130 176, 114 190, 104 214 Z" fill="#0a0604"/>
+  <path d="M104 214 C 100 140, 140 104, 170 104" fill="none" stroke="#e79a4c" stroke-opacity=".5" stroke-width="3"/>
+  <path d="M42 398 C 54 330, 98 300, 140 292" fill="none" stroke="#e79a4c" stroke-opacity=".45" stroke-width="3"/>
+  <text x="170" y="250" text-anchor="middle" font-family="Georgia, serif" font-size="56" fill="#e7b46a" fill-opacity=".35">?</text>
+</svg>

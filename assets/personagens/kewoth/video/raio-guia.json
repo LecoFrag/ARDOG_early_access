@@ -1,0 +1,32 @@
+{
+  "id": "kewoth-raio-guia",
+  "arquivo": "raio-guia.webm",
+  "original": "original/raio-guia.webm",
+  "largura": 880,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.49,
+  "originY": 0.9653,
+  "topo": 0.0389,
+  "pes": [
+    [
+      0.0989,
+      0.9653
+    ],
+    [
+      0.8812,
+      0.9472
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "raio-guia",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/kewoth/raio-guia.webp",
+  "sha256Imagem": "6afccf046b539a683a1bc41968f9897d34a104dbc2a15019da76b5e533ef6461",
+  "sha256PNG": "5f15e66e93722818840ac84d87e3f59cc871798313a9cdf3c9273db137389544",
+  "movimento": "Pressão da palma e do tronco à frente, sem deslocar os pés.",
+  "nota": "Somente asset; sem cadastro ou integração no jogo. Sem efeitos mágicos ou projéteis. Conferir âncoras na integração."
+}

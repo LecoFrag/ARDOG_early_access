@@ -1,0 +1,63 @@
+{
+  "id": "imp",
+  "nome": "Imp",
+  "lado": "inimigo",
+  "porte": "pequeno",
+  "alturaBatalha": 235,
+  "referenciaDnd": {
+    "nome": "Imp",
+    "tamanho": "Tiny",
+    "nd": 1
+  },
+  "poses": {
+    "idle": {
+      "arquivo": "idle.webp",
+      "originX": 0.515,
+      "originY": 0.882,
+      "pes": [
+        [
+          0.2,
+          0.827
+        ],
+        [
+          0.83,
+          0.937
+        ]
+      ]
+    },
+    "hurt": {
+      "arquivo": "hurt.webp",
+      "originX": 0.515,
+      "originY": 0.882,
+      "pes": [
+        [
+          0.2,
+          0.827
+        ],
+        [
+          0.83,
+          0.937
+        ]
+      ]
+    },
+    "attack": {
+      "arquivo": "attack.webp",
+      "originX": 0.655,
+      "originY": 0.9475,
+      "pes": [
+        [
+          0.41,
+          0.922
+        ],
+        [
+          0.9,
+          0.973
+        ]
+      ]
+    }
+  },
+  "retratos": {
+    "face": "face.webp"
+  },
+  "notas": "Espera no chão com asas recolhidas. Sem voo ou batidas amplas de asas. Medidas visuais aproximadas para futura integração."
+}

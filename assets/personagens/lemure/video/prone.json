@@ -1,0 +1,28 @@
+{
+  "id": "lemure",
+  "arquivo": "prone.webm",
+  "original": "original/prone.webm",
+  "largura": 720,
+  "altura": 328,
+  "fps": 24,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.4625,
+  "originY": 0.9573,
+  "topo": 0.0396,
+  "pes": [
+    [
+      0.4625,
+      0.9573
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "prone",
+  "elevacaoCena": 0,
+  "origem": "Animacao procedural por malha, a partir do PNG transparente; sem geracao de video por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/lemure/png/prone.png",
+  "sha256Imagem": "283296b5dd0d667e4dd320d6b68206df3fb94f549bd267e6d11e6520d82bfd41",
+  "movimento": "Respiracao discreta e microdeslocamento da cabeca; apoios, armas caidas e asas de voo ficam fixos.",
+  "nota": "Asset isolado, sem integracao. Calibrar a escala da pose baixa e conferir apoios antes de cadastrar no jogo. Os pontos em pes representam apoios da pose derrubada, nao apenas solas."
+}

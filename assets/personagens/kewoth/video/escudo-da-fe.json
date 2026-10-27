@@ -1,0 +1,32 @@
+{
+  "id": "kewoth-escudo-da-fe",
+  "arquivo": "escudo-da-fe.webm",
+  "original": "original/escudo-da-fe.webm",
+  "largura": 478,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.5293,
+  "originY": 0.9639,
+  "topo": 0.0347,
+  "pes": [
+    [
+      0.2406,
+      0.9639
+    ],
+    [
+      0.818,
+      0.9389
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "escudo-da-fe",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/kewoth/escudo-da-fe.webp",
+  "sha256Imagem": "548458ef803f68570bfe06f45e2cae0550e6c3747d6dd232793ab47a01db7b46",
+  "sha256PNG": "116d7ed74901f08e760f3ff5fe52df7f92aac1665001dbf2cc1d6669acfcf1f5",
+  "movimento": "Prece e respiração discretas, escudo junto ao peito.",
+  "nota": "Somente asset; sem cadastro ou integração no jogo. Sem efeitos mágicos ou projéteis. Conferir âncoras na integração."
+}

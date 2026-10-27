@@ -1,0 +1,25 @@
+{
+  "id": "adao",
+  "arquivo": "espera.webm",
+  "original": "original/espera.webm",
+  "largura": 386,
+  "altura": 672,
+  "fps": 24.0,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.4819,
+  "originY": 0.9881,
+  "topo": 0.0104,
+  "pes": [
+    [
+      0.1256,
+      0.9479
+    ],
+    [
+      0.8381,
+      0.9881
+    ]
+  ],
+  "nota": "Gerado por scripts/preparar-videos-herois.py a partir do original com fundo verde. Ver docs/arte/VIDEOS-HEROIS.md."
+}

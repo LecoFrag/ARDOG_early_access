@@ -1,0 +1,32 @@
+{
+  "id": "hildred-veneno",
+  "arquivo": "hildred-veneno.webm",
+  "original": "original/hildred-veneno.webm",
+  "largura": 544,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.5225,
+  "originY": 0.9639,
+  "topo": 0.0361,
+  "pes": [
+    [
+      0.1939,
+      0.9639
+    ],
+    [
+      0.8511,
+      0.8903
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "hildred-veneno",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/hildred/poison-spray.webp",
+  "sha256Imagem": "b05133c90aed20bf2e945a58dbebe69e312b0235b333250d8d73df4bcdd70aa0",
+  "sha256PNG": "3497819a15e7c332cd4a05238446c22e2e56717c0f4e081cb6f0a47a176f2831",
+  "movimento": "Pressao da palma aberta a frente, de onde sai a nevoa toxica; cajado firme.",
+  "nota": "Gerado por scripts/preparar-hildred-poses.py. Sem efeitos mágicos ou projéteis: o jogo desenha o efeito por cima."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "adao-sussurros-dissonantes",
+  "arquivo": "sussurros-dissonantes.webm",
+  "original": "original/sussurros-dissonantes.webm",
+  "largura": 500,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.464,
+  "originY": 0.9639,
+  "topo": 0.0375,
+  "pes": [
+    [
+      0.114,
+      0.9639
+    ],
+    [
+      0.814,
+      0.9222
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "sussurros-dissonantes",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/adao/sussurros-dissonantes.webp",
+  "sha256Imagem": "be62e32c16084388945faa1683ab947eb91e9340862948eacce843ca64cec1d3",
+  "sha256PNG": "54f23fc0d6614d9a5053a3bb8559f1ca93efeb356afaf03ec88f5625c0c1d24e",
+  "movimento": "Inclinação concentrada sobre o alaúde; instrumento e mãos movem juntos.",
+  "nota": "Somente asset; sem cadastro ou integração no jogo. Sem efeitos mágicos ou projéteis. Conferir âncoras na integração."
+}

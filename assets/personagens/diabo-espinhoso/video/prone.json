@@ -1,0 +1,36 @@
+{
+  "id": "diabo-espinhoso",
+  "arquivo": "prone.webm",
+  "original": "original/prone.webm",
+  "largura": 718,
+  "altura": 518,
+  "fps": 24,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.3953,
+  "originY": 0.971,
+  "topo": 0.0251,
+  "pes": [
+    [
+      0.156,
+      0.8591
+    ],
+    [
+      0.3503,
+      0.971
+    ],
+    [
+      0.6797,
+      0.888
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "prone",
+  "elevacaoCena": 0,
+  "origem": "Animacao procedural por malha, a partir do PNG transparente; sem geracao de video por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/diabo-espinhoso/png/prone.png",
+  "sha256Imagem": "5c35a4a3da9be70ce7120e90d86689ad113b59675a98dfad057e1640de8c841e",
+  "movimento": "Respiracao discreta e microdeslocamento da cabeca; apoios, armas caidas e asas de voo ficam fixos.",
+  "nota": "Asset isolado, sem integracao. Calibrar a escala da pose baixa e conferir apoios antes de cadastrar no jogo. Os pontos em pes representam apoios da pose derrubada, nao apenas solas."
+}

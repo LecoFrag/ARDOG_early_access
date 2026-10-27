@@ -1,0 +1,20 @@
+{
+  "id": "rheagon-nivel-1",
+  "nome": "Rheagon — estudo de nível 1",
+  "lado": "heroi",
+  "porte": "normal",
+  "alturaBatalha": 501,
+  "aprovado": false,
+  "calibracao": "Estimativas visuais iniciais. Não usar na batalha antes de conferir no laboratório.",
+  "animacao": "Arte estática para revisão. Malha de espera e testes de movimento pendentes.",
+  "poses": {
+    "idle": {"arquivo":"idle.webp","originX":0.525,"originY":0.93,"pes":[[0.18,0.898],[0.87,0.962]],"largura":1024,"altura":1536},
+    "hurt": {"arquivo":"hurt.webp","originX":0.535,"originY":0.913,"pes":[[0.18,0.891],[0.89,0.935]],"largura":1024,"altura":1536},
+    "attack": {"arquivo":"attack.webp","originX":0.535,"originY":0.9365,"pes":[[0.15,0.957],[0.92,0.916]],"largura":1536,"altura":1024},
+    "shield": {"arquivo":"shield.webp","originX":0.515,"originY":0.879,"pes":[[0.12,0.844],[0.91,0.914]],"largura":1024,"altura":1536},
+    "divine": {"arquivo":"divine.webp","originX":0.53,"originY":0.955,"pes":[[0.15,0.94],[0.91,0.97]],"largura":1312,"altura":1199},
+    "radiant": {"arquivo":"radiant.webp","originX":0.495,"originY":0.905,"pes":[[0.11,0.9],[0.88,0.91]],"largura":1024,"altura":1536}
+  },
+  "retratos": {"face":"face.webp","bust":"bust.webp"},
+  "notas": "Novo conjunto visual, sem substituir nenhuma arte anterior. Golpe de escudo e especiais são apenas estudos de pose, fora da ficha inicial de nível 1. Altura e solas ainda precisam de calibração."
+}

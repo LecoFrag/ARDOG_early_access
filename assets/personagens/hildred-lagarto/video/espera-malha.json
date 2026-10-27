@@ -1,0 +1,40 @@
+{
+  "id": "hildred-lagarto",
+  "arquivo": "espera-malha.webm",
+  "original": "original/espera-malha.webm",
+  "largura": 1080,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 192,
+  "ida": 4.041666666666667,
+  "idaEVolta": true,
+  "originX": 0.63167,
+  "originY": 0.89062,
+  "topo": 0.18262,
+  "pes": [
+    [
+      0.31283,
+      0.83203
+    ],
+    [
+      0.6084,
+      0.78125
+    ],
+    [
+      0.69727,
+      0.89062
+    ],
+    [
+      0.9082,
+      0.82422
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "idle",
+  "origem": "Animação procedural por malha da arte transparente, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/hildred-lagarto/idle.webp",
+  "imagemOriginal": "public/assets/personagens/hildred-lagarto/png/idle.png",
+  "sha256Imagem": "9785b9a364c62e91ebc85e6d69ba190b3f29e43ab770f017500f1feb976e5a61",
+  "movimento": "Respiração pesada, pescoço atento e balanço sinuoso da cauda.",
+  "nota": "Versão anterior, animada por malha (docs/arte/HILDRED-FORMAS-SELVAGENS-ARTES.md), preservada em 20/10/2026 quando o vídeo do usuário passou a ser a espera. "
+}

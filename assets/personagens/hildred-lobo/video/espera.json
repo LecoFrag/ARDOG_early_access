@@ -1,0 +1,25 @@
+{
+  "id": "hildred-lobo",
+  "arquivo": "espera.webm",
+  "original": "original/espera.webm",
+  "largura": 838,
+  "altura": 450,
+  "fps": 24.0,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.5737,
+  "originY": 0.9356,
+  "topo": 0.06,
+  "pes": [
+    [
+      0.2243,
+      0.9311
+    ],
+    [
+      0.923,
+      0.9356
+    ]
+  ],
+  "nota": "Gerado por scripts/preparar-videos-herois.py a partir do original com fundo verde. Ver docs/arte/VIDEOS-HEROIS.md."
+}

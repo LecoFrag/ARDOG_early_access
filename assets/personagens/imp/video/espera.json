@@ -1,0 +1,25 @@
+{
+  "id": "imp",
+  "arquivo": "espera.webm",
+  "original": "original/espera.webm",
+  "largura": 368,
+  "altura": 518,
+  "fps": 24.0,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.8139,
+  "originY": 0.9517,
+  "topo": 0.0232,
+  "pes": [
+    [
+      0.7826,
+      0.9382
+    ],
+    [
+      0.8451,
+      0.9517
+    ]
+  ],
+  "nota": "Gerado por scripts/preparar-videos-herois.py a partir do original com fundo verde. Ver docs/arte/VIDEOS-HEROIS.md."
+}

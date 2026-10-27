@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Laboratório de batalha</title>  <script type="module" crossorigin src="/ARDOG_early_access/assets/laboratorioBatalha-ClNWQPYk.js"></script>
+  <link rel="modulepreload" crossorigin href="/ARDOG_early_access/assets/rheagon-visual-Dod8B_aK.js">
+  <link rel="modulepreload" crossorigin href="/ARDOG_early_access/assets/recompensas-BecvTzXi.js">
+  <link rel="modulepreload" crossorigin href="/ARDOG_early_access/assets/sons-XBMCh3gl.js">
+  <link rel="stylesheet" crossorigin href="/ARDOG_early_access/assets/recompensas-DJMrO_pz.css">
+  <link rel="stylesheet" crossorigin href="/ARDOG_early_access/assets/laboratorioBatalha-a9q1KatW.css">
+</head>
+<body>
+<main id="lab">
+  <aside id="setup" aria-label="Montagem">
+    <header><span class="eyebrow">O juramento da cripta</span><h1>Laboratório de batalha</h1></header>
+    <section>
+      <h2>Cenário</h2>
+      <select id="scenario"></select>
+      <button id="bg-pick" class="ghost">Testar outro arquivo…</button><input id="bg-file" type="file" accept="image/*" hidden>
+      <div class="checks"><label><input type="checkbox" id="v-ambient" checked> Ambiente</label><label><input type="checkbox" id="v-rocks" checked> Pedras</label><label><input type="checkbox" id="v-grid" checked> Vagas</label><label><input type="checkbox" id="v-skeleton"> Esqueleto do cenário</label><label title="Heróis e monstros animados por vídeo (docs/arte/VIDEOS-HEROIS.md). Desmarque para comparar com as imagens paradas."><input type="checkbox" id="v-videos" checked> Personagens em vídeo</label></div>
+    </section>
+    <section>
+      <h2>Heróis <small>à esquerda</small></h2>
+      <div class="slots" id="hero-slots"></div>
+    </section>
+    <section>
+      <h2>Monstros <small>à direita</small></h2>
+      <select id="encounter"><option value="">Encontro pronto…</option></select>
+      <div class="slots" id="foe-slots"></div>
+      <label class="check"><input type="checkbox" id="solo" checked> Sozinho no lado vai para o centro</label>
+    </section>
+    <section>
+      <h2>Formação</h2>
+      <label class="range"><span>Tamanho dos personagens <output id="o-size">65%</output></span><input id="r-size" type="range" min="45" max="85" step="1" value="65"></label>
+      <label class="range"><span>Distância entre fileiras <output id="o-gap">150</output></span><input id="r-gap" type="range" min="80" max="230" step="5" value="150"></label>
+      <label class="range"><span>Altura da linha da frente <output id="o-front">675</output></span><input id="r-front" type="range" min="600" max="740" step="5" value="675"></label>
+      <label class="range"><span>Afastamento do centro <output id="o-spread">0</output></span><input id="r-spread" type="range" min="-120" max="140" step="5" value="0"></label>
+      <label class="range" title="A fileira de baixo está mais perto da câmera; com o mesmo tamanho, parece menor"><span>Fileira de baixo maior (perspectiva) <output id="o-depth">10%</output></span><input id="r-depth" type="range" min="0" max="30" step="1" value="10"></label>
+      <button id="restore" class="ghost">Restaurar padrão (65% · 150)</button>
+    </section>
+    <section>
+      <h2>Tamanhos <small>Rheagon = 1</small></h2>
+      <div class="sizes" id="sizes"></div>
+      <div class="row"><button id="sizes-copy" class="ghost">Copiar tabela</button><button id="sizes-reset" class="ghost">Restaurar tamanhos</button></div>
+    </section>
+    <section>
+      <h2>Regras deste teste</h2>
+      <label class="range" title="docs/batalha/PONTOS-DE-ACAO.md"><span>Turno dos heróis</span>
+        <select id="o-economy"><option value="pontos">3 pontos de ação (cada carta custa 1 a 3)</option><option value="bonus">Ação + ação bônus (D&amp;D)</option><option value="uma">Só uma ação por turno</option></select></label>
+      <p class="muted regra">Qualquer cura levanta um herói caído, com a vida que curar.</p>
+    </section>
+  </aside>
+
+  <section id="stage">
+    <!-- The battle as the game shows it (src/hud.ts, src/style.css): the same HUD, ported in src/laboratorio/hud-real.css. -->
+    <div id="arena">
+      <div id="game"></div>
+      <div id="hud" hidden>
+        <div class="brand"><b>R</b><span>O juramento<br>da cripta</span></div>
+        <nav id="initiative" aria-label="Ordem dos turnos"><div class="round-seal"><small>Rodada</small><b id="round">I</b></div><ol id="turn-order"></ol><span id="turn-name"></span></nav>
+        <div id="turn-banner"><span></span></div>
+        <div id="bars"></div>
+        <section id="dock" aria-live="polite"><div class="portrait"></div><div class="who"><span class="epithet"></span><h1></h1><div class="vital"><div class="life"><i class="chip"></i><i class="fill"></i></div><small></small></div><div class="pontos"></div></div></section>
+        <p id="hint" aria-live="polite"></p>
+        <div id="cards" aria-label="Cartas"></div>
+        <button id="end-turn" title="Encerrar o turno (Enter)">Encerrar turno</button>
+        <div id="intent" aria-live="polite"></div>
+        <div id="inspecao" class="inspecao" hidden></div>
+      </div>
+      <div id="loading">Carregando…</div>
+      <div id="result" hidden><span class="eyebrow">O juramento da cripta</span><h2></h2><p></p><div><button id="again">Batalhar de novo</button><button id="back-setup" class="ghost">Voltar a montar</button></div></div>
+    </div>
+    <p id="aviso"></p>
+  </section>
+
+  <aside id="side">
+    <div id="controls">
+      <button id="start" class="primary">Começar batalha</button>
+      <button id="stop" class="ghost" hidden>Voltar a montar</button>
+      <label>Velocidade <select id="speed"><option value=".5">0,5×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option><option value="0">Sem animação</option></select></label>
+      <label class="check"><input type="checkbox" id="auto"> Heróis no automático</label>
+      <label>Semente <input id="seed" type="number" min="1" placeholder="aleatória"></label>
+      <div class="audio"><label class="check"><input type="checkbox" id="a-sfx" checked> Efeitos</label><label class="check"><input type="checkbox" id="a-music" checked> Música</label><label class="range"><span>Volume <output id="a-vol-o">80%</output></span><input id="a-vol" type="range" min="0" max="100" value="80"></label></div>
+    </div>
+    <nav id="tabs"><button data-tab="sheets" class="on">Fichas</button><button data-tab="log">Registro</button><button data-tab="sim">Simular</button></nav>
+    <div id="tab-sheets" class="tab"></div>
+    <div id="tab-log" class="tab" hidden><ol id="log"></ol></div>
+    <div id="tab-sim" class="tab" hidden>
+      <p>Joga a formação atual várias vezes com o piloto automático nos dois lados e mede o equilíbrio. As escolhas dos heróis seguem regras simples (docs/batalha/LABORATORIO-BATALHA.md), não o jogo ideal.</p>
+      <label>Batalhas <input id="sim-n" type="number" value="1000" min="10" max="20000" step="10"></label>
+      <button id="sim-run" class="primary">Simular</button>
+      <div id="sim-out"></div>
+    </div>
+  </aside>
+</main>
+</body></html>

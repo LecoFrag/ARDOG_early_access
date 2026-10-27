@@ -1,0 +1,202 @@
+[
+  {
+    "arquivo": "anselmo.webp",
+    "largura": 1254,
+    "altura": 1254,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "bruno.webp",
+    "largura": 1254,
+    "altura": 1254,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "dalin-assustado.webp",
+    "largura": 1254,
+    "altura": 1254,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "dalin-mapa-idle.webp",
+    "largura": 1208,
+    "altura": 1302,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "dalin-normal.webp",
+    "largura": 1254,
+    "altura": 1254,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "dalin-serio.webp",
+    "largura": 1254,
+    "altura": 1254,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "dalin-sorriso.webp",
+    "largura": 1254,
+    "altura": 1254,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "dalin-sprites-v2.webp",
+    "largura": 1536,
+    "altura": 1024,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "estudo: fundo residual ou direcoes inconsistentes"
+  },
+  {
+    "arquivo": "dalin-sprites.webp",
+    "largura": 1536,
+    "altura": 1024,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "estudo: fundo residual ou direcoes inconsistentes"
+  },
+  {
+    "arquivo": "edric.webp",
+    "largura": 1254,
+    "altura": 1254,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "festa-bandeirolas.webp",
+    "largura": 1983,
+    "altura": 793,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "festa-mesa-limpa.webp",
+    "largura": 1536,
+    "altura": 1024,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "estudo: fundo residual ou direcoes inconsistentes"
+  },
+  {
+    "arquivo": "festa-mesa-v2.webp",
+    "largura": 1536,
+    "altura": 1024,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "estudo: fundo residual ou direcoes inconsistentes"
+  },
+  {
+    "arquivo": "festa-mesa.webp",
+    "largura": 1536,
+    "altura": 1024,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "estudo: fundo residual ou direcoes inconsistentes"
+  },
+  {
+    "arquivo": "genesis.webp",
+    "largura": 1254,
+    "altura": 1254,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "goblin-adaga-sprites.webp",
+    "largura": 1275,
+    "altura": 1234,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "igreja-interior.webp",
+    "largura": 1254,
+    "altura": 1254,
+    "modo": "RGB",
+    "alpha": false,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "lia.webp",
+    "largura": 1254,
+    "altura": 1254,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "orc-clava-sprites.webp",
+    "largura": 1402,
+    "altura": 1122,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "pipo.webp",
+    "largura": 1254,
+    "altura": 1254,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "portal-aberto.webp",
+    "largura": 1225,
+    "altura": 1284,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "portal-fechando.webp",
+    "largura": 1024,
+    "altura": 1536,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "rheagon.webp",
+    "largura": 1254,
+    "altura": 1254,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "rosa.webp",
+    "largura": 1254,
+    "altura": 1254,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  },
+  {
+    "arquivo": "tomas.webp",
+    "largura": 1254,
+    "altura": 1254,
+    "modo": "RGBA",
+    "alpha": true,
+    "estado": "gerado: validacao de integracao pendente"
+  }
+]

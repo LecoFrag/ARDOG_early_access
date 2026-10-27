@@ -1,0 +1,36 @@
+{
+  "id": "rheagon-nivel-1",
+  "arquivo": "prone.webm",
+  "original": "original/prone.webm",
+  "largura": 720,
+  "altura": 634,
+  "fps": 24,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.607,
+  "originY": 0.9795,
+  "topo": 0.0189,
+  "pes": [
+    [
+      0.2986,
+      0.9211
+    ],
+    [
+      0.7056,
+      0.9795
+    ],
+    [
+      0.8167,
+      0.9732
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "prone",
+  "elevacaoCena": 0,
+  "origem": "Animacao procedural por malha, a partir do PNG transparente; sem geracao de video por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/rheagon-nivel-1/png/prone.png",
+  "sha256Imagem": "00aef4a00277dbcba8403b3da852b3292aa9040f45cb2f238d2062c209f279b4",
+  "movimento": "Respiracao discreta e microdeslocamento da cabeca; apoios, armas caidas e asas de voo ficam fixos.",
+  "nota": "Asset isolado, sem integracao. Calibrar a escala da pose baixa e conferir apoios antes de cadastrar no jogo. Os pontos em pes representam apoios da pose derrubada, nao apenas solas."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "interpor-escudo",
+  "arquivo": "interpor-escudo.webm",
+  "original": "original/interpor-escudo.webm",
+  "largura": 578,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.51,
+  "originY": 0.9639,
+  "topo": 0.0375,
+  "pes": [
+    [
+      0.1453,
+      0.9639
+    ],
+    [
+      0.8746,
+      0.8958
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "interpor-escudo",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/rheagon-tabardo/interpor-escudo.webp",
+  "sha256Imagem": "f27ee79858adb2e5e6e7d425cf87b8ce8d05efd9f82e079b2766b54cc5b9e2e7",
+  "sha256PNG": "3404aec09c025cd373177f8715d10bad0f98cda7af5fa226f925225d7c333b0a",
+  "movimento": "Pressao do tronco e do escudo a frente, com retorno controlado.",
+  "nota": "Gerado por scripts/preparar-rheagon-tabardo-poses.py. Sem efeitos mágicos ou projéteis: o jogo desenha o efeito por cima."
+}

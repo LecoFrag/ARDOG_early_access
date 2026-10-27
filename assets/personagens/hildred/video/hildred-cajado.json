@@ -1,0 +1,32 @@
+{
+  "id": "hildred-cajado",
+  "arquivo": "hildred-cajado.webm",
+  "original": "original/hildred-cajado.webm",
+  "largura": 1104,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.3847,
+  "originY": 0.9597,
+  "topo": 0.0403,
+  "pes": [
+    [
+      0.0838,
+      0.9597
+    ],
+    [
+      0.6857,
+      0.9236
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "hildred-cajado",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/hildred/attack-giro.webp",
+  "sha256Imagem": "2f2279d2b84bde90d7b75dd9013d46425c9c8d12acbb939b6ef8fc5222baa085",
+  "sha256PNG": "26092c29712695215d75ba1b70c641b78b4a428c201deeaec92e2fef2a49b9b8",
+  "movimento": "Estocada: tronco e cajado avancam juntos para a direita, com as duas maos no cajado.",
+  "nota": "Gerado por scripts/preparar-hildred-poses.py. Sem efeitos mágicos ou projéteis: o jogo desenha o efeito por cima."
+}

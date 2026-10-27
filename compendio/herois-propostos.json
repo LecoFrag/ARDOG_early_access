@@ -1,0 +1,206 @@
+{
+  "versao": "0.1",
+  "nota": "Proposta de fichas de nível 1 para Adão (bardo), Kewoth (clérigo protetor), Azrakt (clérigo taumaturgo), Soren (ladino) e Hildred (druida), conferidas com a arte de docs/arte/HEROIS-ASSETS-01.md. Mesmo formato de dados.json, com campos novos lidos pelo laboratório de batalha (docs/batalha/LABORATORIO-BATALHA.md): classe, salvaguardas, mp, furtividade, ataqueFurtivo e, nas ações, tipo, resistencia, metade, dadoFerido, curaDados, efeito, mp, acaoBonus, usos, concentracao, alcance e furtivo. Valores aguardando revisão (docs/batalha/HEROIS-NIVEL-1-PROPOSTA.md). Depende das armas e armaduras de dados.json (adaga, arco-curto, couro, cota-de-malha, escudo-comum) e de monstros-bestiario.json (espada-curta).",
+  "padrao": {
+    "atributos": "Conjunto padrão da D&D 2024 (15, 14, 13, 12, 10, 8) mais +2 e +1 do antecedente.",
+    "pv": "2 × (dado de vida máximo + modificador de Constituição) + 4. É a regra que reproduz Rheagon (28) e Gênesis (20).",
+    "proficiencia": 2,
+    "mp": "MP (Magic Points, docs/batalha/MP.md): a reserva de magia de cada conjurador, cheia no começo de cada batalha. Nível 1: mago 8, clérigo 6, bardo 6; paladino, ladino e monstros não têm. Truques custam 0; magias de 1º círculo, 2 ou 3; Lightning Bolt, 5. Substitui os espaços de magia da D&D.",
+    "cd": "CD das magias = 8 + proficiência + atributo de conjuração. Ataque mágico = proficiência + atributo."
+  },
+  "combatentes": [
+    {
+      "id": "adao", "nome": "Adão", "subtitulo": "Bardo · inspirador", "classe": "bardo", "grupo": "herois", "nivel": 1, "pv": 22, "proficiencia": 2,
+      "atributos": { "for": 8, "des": 15, "con": 13, "int": 10, "sab": 12, "car": 17 },
+      "salvaguardas": ["des", "car"], "mp": 6,
+      "armadura": "couro", "escudo": null, "equipamentos": ["espada-curta", "couro", "alaude"],
+      "resumo": "A voz do grupo. Fere com palavras, ergue aliados caídos e guarda um dado de inspiração para quando alguém errar.",
+      "tracos": [
+        { "id": "inspiracao-bardica", "nome": "Bardic Inspiration", "texto": "Duas vezes por batalha (ajuste de 20/10/2026; pela regra seriam três, o modificador de Carisma), dá a um aliado um d6. Quando o aliado errar um ataque ou falhar numa resistência, rola o d6 e soma; se isso bastar, vira acerto ou sucesso. Ação bônus." },
+        { "id": "conjuracao", "nome": "Spellcasting (Charisma)", "texto": "CD 13, ataque mágico +5. 6 MP por batalha (docs/batalha/MP.md)." }
+      ],
+      "notas": [
+        "Atributos: Carisma 15 + 2 e Destreza 14 + 1 do antecedente; o resto do conjunto padrão.",
+        "PV 22 = 2 × (8 + 1) + 4. CA 13 = couro 11 + Destreza 2.",
+        "A arte mostra espada curta e alaúde. Na D&D 2024, bardos só usam armas simples; a proficiência em espada curta é uma adaptação que antecipa o Colégio da Bravura (nível 3).",
+        "Fica bem na retaguarda: só a espada precisa de corpo a corpo. As magias usam a pose do alaúde."
+      ],
+      "acoes": [
+        { "id": "zombaria-cruel", "nome": "Vicious Mockery", "tipo": "resistencia", "resistencia": "sab", "atributo": "car", "dados": 1, "faces": 6, "tipoDano": "psiquico", "efeito": "enfraquecer", "metade": true, "alcance": "distancia", "alvo": "Um inimigo", "custo": "Uma ação · truque", "nota": "Resistência de Sabedoria CD 13. Falha: 1d6 psíquico e desvantagem no próximo ataque do alvo. Sucesso: metade do dano e nenhuma desvantagem. A metade no sucesso é adaptação local de 22/10/2026; na D&D 2024 quem passa não sofre nada." },
+        { "id": "sussurros-dissonantes", "nome": "Dissonant Whispers", "tipo": "resistencia", "resistencia": "sab", "atributo": "car", "dados": 3, "faces": 6, "tipoDano": "psiquico", "metade": true, "mp": 2, "alcance": "distancia", "alvo": "Um inimigo", "custo": "Uma ação · 2 MP", "nota": "Resistência de Sabedoria CD 13. Falha: 3d6 psíquico; sucesso: metade. Custo de 2 MP desde 22/10/2026. A fuga forçada da regra original não existe no nosso formato de linhas." },
+        { "id": "palavra-curativa", "nome": "Healing Word", "tipo": "cura", "curaDados": [2, 4], "atributo": "car", "mp": 2, "acaoBonus": true, "alvo": "Um aliado", "custo": "Ação bônus · 2 MP", "nota": "Cura 2d4 + 3. Alcança qualquer aliado e levanta quem caiu (D&D 2024)." },
+        { "id": "inspiracao", "nome": "Bardic Inspiration", "tipo": "efeito", "efeito": "inspiracao", "usos": 2, "acaoBonus": true, "alvo": "Outro aliado", "custo": "Ação bônus · 2 usos por batalha", "nota": "O aliado guarda um d6 e o soma automaticamente ao primeiro ataque ou resistência que falhar." },
+        { "id": "espada-curta", "nome": "Shortsword", "item": "espada-curta", "atributo": "des", "proficiente": true, "somaAtributo": true, "alvo": "Um inimigo", "custo": "Uma ação · sem limite de usos", "nota": "1d6 + 2 perfurante, corpo a corpo. Sem maestria: bardos não têm Weapon Mastery." }
+      ]
+    },
+    {
+      "id": "kewoth", "nome": "Kewoth", "subtitulo": "Clérigo · ordem Protetora", "classe": "clerigo", "grupo": "herois", "nivel": 1, "pv": 24, "proficiencia": 2,
+      "atributos": { "for": 16, "des": 10, "con": 14, "int": 8, "sab": 15, "car": 12 },
+      "salvaguardas": ["sab", "car"], "mp": 6,
+      "armadura": "cota-de-malha", "escudo": "escudo-comum", "equipamentos": ["martelo-de-guerra", "cota-de-malha", "escudo-comum", "simbolo-sagrado"],
+      "resumo": "O sacerdote de guerra. Armadura pesada, martelo e escudo na linha da frente; Guiding Bolt para abrir caminho e Shield of Faith para quem estiver apanhando.",
+      "tracos": [
+        { "id": "ordem-protetora", "nome": "Divine Order: Protector", "texto": "Escolha de nível 1 da D&D 2024: treino com armas marciais e armadura pesada. Clérigos não têm Weapon Mastery." },
+        { "id": "conjuracao", "nome": "Spellcasting (Wisdom)", "texto": "CD 12, ataque mágico +4. 6 MP por batalha (docs/batalha/MP.md)." }
+      ],
+      "notas": [
+        "Atributos: Força 15 + 1 e Sabedoria 13 + 2 do antecedente.",
+        "PV 24 = 2 × (8 + 2) + 4. CA 18 = cota de malha 16 + escudo 2, igual a Rheagon.",
+        "O martelo é contundente: dobra contra esqueletos. Com o escudo, usa uma mão (1d8); versátil, daria 1d10 com as duas.",
+        "Feito para a frente (F1 ou F2), ao lado de Rheagon. A arte (cavaleiro de armadura prateada com martelo e escudo) confirma o papel.",
+        "Cure Wounds e Healing Word desde 25/10/2026: os 6 MP agora se dividem entre Guiding Bolt, Shield of Faith e cura."
+      ],
+      "acoes": [
+        { "id": "golpe-martelo", "nome": "Warhammer", "item": "martelo-de-guerra", "atributo": "for", "proficiente": true, "somaAtributo": true, "alvo": "Um inimigo", "custo": "Uma ação · sem limite de usos", "nota": "1d8 + 3 contundente. Corpo a corpo." },
+        { "id": "raio-guia", "nome": "Guiding Bolt", "tipo": "ataque", "atributo": "sab", "proficiente": true, "dados": 4, "faces": 6, "tipoDano": "radiante", "efeito": "guiado", "mp": 3, "alcance": "distancia", "alvo": "Um inimigo", "custo": "Uma ação · 3 MP", "nota": "Ataque mágico +4, 4d6 radiante. Acertando, o próximo ataque contra o alvo tem vantagem (até o fim do próximo turno de Kewoth)." },
+        { "id": "escudo-da-fe", "nome": "Shield of Faith", "tipo": "efeito", "efeito": "escudo-da-fe", "mp": 2, "acaoBonus": true, "concentracao": true, "duracao": 6, "alvo": "Um aliado", "custo": "Ação bônus · 2 MP · concentração · 6 turnos", "nota": "+2 de CA num aliado por 6 turnos de Kewoth (contando o da conjuração), ou até a concentração cair. Uma concentração por vez: lançar de novo, em outro aliado, tira o escudo do primeiro." },
+        { "id": "chama-sagrada", "nome": "Sacred Flame", "tipo": "resistencia", "resistencia": "des", "atributo": "sab", "dados": 1, "faces": 8, "tipoDano": "radiante", "alcance": "distancia", "alvo": "Um inimigo", "custo": "Uma ação · truque", "nota": "Resistência de Destreza CD 12. Falha: 1d8 radiante. Opção para alvos fora do alcance do martelo." },
+        { "id": "curar-ferimentos", "nome": "Cure Wounds", "tipo": "cura", "curaDados": [2, 8], "atributo": "sab", "mp": 3, "alvo": "Um aliado", "custo": "Uma ação · 3 MP", "nota": "Cura 2d8 + 2. Acrescentada em 25/10/2026, a pedido do usuário: o clérigo protetor também cura. Alcança qualquer aliado, como a do Azrakt, e levanta quem caiu." },
+        { "id": "kewoth-palavra-curativa", "nome": "Healing Word", "tipo": "cura", "curaDados": [2, 4], "atributo": "sab", "mp": 2, "acaoBonus": true, "alvo": "Um aliado", "custo": "Ação bônus · 2 MP", "nota": "Cura 2d4 + 2. Acrescentada em 25/10/2026, a pedido do usuário. Carta rápida (1 ponto): sobra a ação para o martelo. Levanta quem caiu." }
+      ]
+    },
+    {
+      "id": "azrakt", "nome": "Azrakt", "subtitulo": "Clérigo · ordem Taumaturga", "classe": "clerigo", "grupo": "herois", "nivel": 1, "pv": 24, "proficiencia": 2,
+      "atributos": { "for": 10, "des": 13, "con": 15, "int": 8, "sab": 17, "car": 12 },
+      "salvaguardas": ["sab", "car"], "mp": 6,
+      "armadura": "couro-batido", "escudo": null, "equipamentos": ["couro-batido", "simbolo-sagrado"],
+      "resumo": "O curandeiro celestial. Dois truques de dano que dispensam rolagem de ataque, a cura mais forte do grupo e a Bless para todos acertarem mais.",
+      "tracos": [
+        { "id": "ordem-taumaturga", "nome": "Divine Order: Thaumaturge", "texto": "Escolha de nível 1 da D&D 2024: um truque a mais (Toll the Dead). O bônus em Arcanismo e Religião não aparece em batalha." },
+        { "id": "conjuracao", "nome": "Spellcasting (Wisdom)", "texto": "CD 13, ataque mágico +5. 6 MP por batalha (docs/batalha/MP.md)." }
+      ],
+      "notas": [
+        "Atributos: Sabedoria 15 + 2 e Constituição 14 + 1 do antecedente.",
+        "PV 24 = 2 × (8 + 2) + 4. CA 13 = couro batido 12 (sob as vestes) + Destreza 1. A arte não mostra escudo; com um, a CA seria 15.",
+        "Os truques usam resistência: o alvo escondido não impõe desvantagem a eles.",
+        "Bless e um segundo efeito de concentração não convivem: lançar outro encerra o anterior. Desde 25/10/2026 a escolha é entre Bless e Spiritual Weapon.", "Conjurador da retaguarda (B1 ou B2): a arte é um elfo celestial em pose de conjuração."
+      ],
+      "acoes": [
+        { "id": "chama-sagrada", "nome": "Sacred Flame", "tipo": "resistencia", "resistencia": "des", "atributo": "sab", "dados": 1, "faces": 8, "tipoDano": "radiante", "alcance": "distancia", "alvo": "Um inimigo", "custo": "Uma ação · truque", "nota": "Resistência de Destreza CD 13. Falha: 1d8 radiante. Ignora cobertura." },
+        { "id": "dobre-funebre", "nome": "Toll the Dead", "tipo": "resistencia", "resistencia": "sab", "atributo": "sab", "dados": 1, "faces": 8, "dadoFerido": 12, "tipoDano": "necrotico", "alcance": "distancia", "alvo": "Um inimigo", "custo": "Uma ação · truque", "nota": "Resistência de Sabedoria CD 13. Falha: 1d8 necrótico, ou 1d12 se o alvo já estiver ferido." },
+        { "id": "curar-ferimentos", "nome": "Cure Wounds", "tipo": "cura", "curaDados": [2, 8], "atributo": "sab", "mp": 3, "alvo": "Um aliado", "custo": "Uma ação · 3 MP", "nota": "Cura 2d8 + 3. Na D&D é toque; aqui alcança qualquer aliado, como a Lay on Hands. Levanta quem caiu." },
+        { "id": "bencao", "nome": "Bless", "tipo": "efeito", "efeito": "bencao", "mp": 3, "concentracao": true, "duracao": 10, "alvo": "Todos os aliados", "custo": "Uma ação · 3 MP · concentração · 10 turnos", "nota": "Todos os aliados de pé somam 1d4 a cada ataque e resistência por 10 turnos de Azrakt (contando o da conjuração), ou até a concentração cair. Na D&D são até três; aqui o grupo nunca passa de quatro (22/10/2026)." },
+        { "id": "arma-espiritual", "nome": "Spiritual Weapon", "tipo": "efeito", "efeito": "arma-espiritual", "atributo": "sab", "dados": 1, "faces": 8, "tipoDano": "energia", "mp": 3, "pontos": 2, "concentracao": true, "duracao": 10, "alcance": "distancia", "alvo": "Um inimigo", "custo": "2 pontos · 3 MP · concentração · 10 turnos; depois 1 ponto", "nota": "Spiritual Weapon da D&D 2024 (magia de 2º círculo, concentração), trazida ao nível 1 em 25/10/2026, a pedido do usuário. Azrakt invoca uma arma de luz estelar, que golpeia na hora: ataque mágico +5, 1d8 + 3 de energia (Force), contra qualquer linha (ela voa). Nos turnos seguintes, enquanto durar a concentração (10 turnos dele, contando o da invocação), a mesma carta faz a arma golpear de novo por 1 ponto e sem MP; sobram 2 pontos para um truque. Concentração: compete com o Bless." }
+      ]
+    },
+    {
+      "id": "soren", "nome": "Soren", "subtitulo": "Ladino · lâmina nas sombras", "classe": "ladino", "grupo": "herois", "nivel": 1, "pv": 24, "proficiencia": 2,
+      "atributos": { "for": 8, "des": 17, "con": 14, "int": 12, "sab": 14, "car": 10 },
+      "salvaguardas": ["des", "int"], "furtividade": 7, "ataqueFurtivo": [1, 6],
+      "armadura": "couro", "escudo": null, "equipamentos": ["cimitarra", "arco-curto", "couro"],
+      "resumo": "O golpe certeiro. Pouca defesa, mas cada brecha vira dano extra: Sneak Attack quando tem vantagem ou quando um aliado ocupa o alvo.",
+      "tracos": [
+        { "id": "ataque-furtivo", "nome": "Sneak Attack", "texto": "Uma vez por turno, +1d6 num acerto com a cimitarra ou o arco, se tiver vantagem, ou se o alvo estiver na linha da frente inimiga com outro herói vivo na nossa linha da frente. Nunca com desvantagem." },
+        { "id": "maestria", "nome": "Weapon Mastery", "texto": "Ladinos têm o recurso desde o nível 1, com dois tipos de arma. Arco curto: Vex (depois de acertar, vantagem no próximo ataque contra o mesmo alvo), o que alimenta o Sneak Attack. Cimitarra: Nick (um ataque extra com uma segunda arma leve), ainda não modelado porque Soren luta com uma lâmina só." },
+        { "id": "especialista", "nome": "Expertise", "texto": "Furtividade +7 (proficiência dobrada). Percepção passiva 14." }
+      ],
+      "notas": [
+        "Atributos: Destreza 15 + 2 e Sabedoria 13 + 1 do antecedente.",
+        "PV 24 = 2 × (8 + 2) + 4. CA 14 = couro 11 + Destreza 3.",
+        "A Ação Ardilosa (esconder-se como ação bônus) é do nível 2 na D&D 2024; aqui Soren já a tem no nível 1 (25/10/2026): esconder-se custa 1 ponto.",
+        "Reestruturado em 25/10/2026, a pedido do usuário: Steady Aim saiu (dava a mesma vantagem do Hide), Hide passou a 1 ponto e entrou a Cunning Strike. O turno típico é esconder-se (1) e atirar (2).",
+        "Bom em B2 ou B1: o arco alcança tudo e a retaguarda dá cobertura para se esconder. A arte mostra cimitarra de aço comum."
+      ],
+      "acoes": [
+        { "id": "cimitarra", "nome": "Scimitar", "item": "cimitarra", "atributo": "des", "proficiente": true, "somaAtributo": true, "furtivo": true, "alvo": "Um inimigo", "custo": "Uma ação · sem limite de usos", "nota": "1d6 + 3 cortante. Corpo a corpo." },
+        { "id": "arco-curto", "nome": "Shortbow", "item": "arco-curto", "atributo": "des", "proficiente": true, "somaAtributo": true, "furtivo": true, "alvo": "Um inimigo", "custo": "Uma ação · sem limite de usos", "nota": "1d6 + 3 perfurante, Vex. Alcança qualquer linha." },
+        { "id": "esconder", "nome": "Hide", "tipo": "esconder", "acaoBonus": true, "pontos": 1, "alvo": "Ele mesmo", "custo": "Ação bônus · 1 ponto (Ação Ardilosa)", "nota": "Ação Ardilosa (Cunning Action, D&D 2024 nível 2, trazida ao nível 1 em 25/10/2026). Precisa de cobertura (retaguarda com aliado vivo à frente). Furtividade +7 contra CD 15. Escondido: próximo ataque com vantagem (e Sneak Attack); ataques contra ele com desvantagem; os monstros preferem outro alvo." },
+        { "id": "golpe-ardiloso", "nome": "Cunning Strike", "item": "arco-curto", "atributo": "des", "proficiente": true, "somaAtributo": true, "efeito": "derrubar-ardiloso", "alvo": "Um inimigo", "custo": "Uma ação · sem limite de usos", "nota": "Cunning Strike da D&D 2024 (nível 5, trazido ao nível 1 em 25/10/2026), opção Trip: um tiro de arco (1d6 + 3) que troca o d6 do Sneak Attack por uma rasteira. Acertando, o alvo faz resistência de Destreza CD 13; se falhar, fica Derrubado até o fim do próximo turno dele: ataca com desvantagem e os golpes corpo a corpo contra ele têm vantagem (à distância, desvantagem). Voadores e criaturas grandes não caem. O usuário pediu veneno, mas os diabos dos primeiros combates são imunes; a rasteira cumpre o mesmo papel de proteger um aliado." }
+      ]
+    },
+    {
+      "id": "hildred", "nome": "Hildred", "subtitulo": "Druida · guardião da floresta", "classe": "druida", "grupo": "herois", "nivel": 1, "pv": 24, "proficiencia": 2,
+      "atributos": { "for": 12, "des": 14, "con": 14, "int": 10, "sab": 17, "car": 8 },
+      "salvaguardas": ["int", "sab"], "mp": 6,
+      "armadura": "couro", "escudo": null, "equipamentos": ["cajado", "couro", "foco-druidico"],
+      "resumo": "O elfo da floresta que segura a linha inimiga. Prende fileiras inteiras em raízes, envenena de longe e levanta quem cai.",
+      "tracos": [
+        { "id": "conjuracao", "nome": "Spellcasting (Wisdom)", "texto": "CD 13, ataque mágico +5. 6 MP por batalha (docs/batalha/MP.md)." },
+        { "id": "forma-selvagem", "nome": "Wild Shape", "texto": "Uma vez por batalha, como ação bônus, vira Wolf, Giant Lizard ou Giant Venomous Snake (feras de CR 1/4, sem voo). Na D&D 2024 é do nível 2; aqui Hildred já tem no nível 1. A forma tem vida própria: quando ela acaba, Hildred volta com a vida de antes." },
+        { "id": "druidico", "nome": "Druidic", "texto": "Conhece a língua secreta dos druidas. Sem efeito em batalha." }
+      ],
+      "notas": [
+        "Atributos: Sabedoria 15 + 2 e Constituição 13 + 1 do antecedente (ainda a definir); o resto do conjunto padrão.",
+        "PV 24 = 2 × (8 + 2) + 4. CA 13 = couro 11 + Destreza 2. MP 6, como clérigo e bardo.",
+        "Cajado normal: 1d6+1 contundente com Força. Shillelagh troca para 1d8+3 com Sabedoria; o cajado do Gênesis não muda. Druidas não têm Weapon Mastery.",
+        "Wild Shape já está disponível no nível 1 por adaptação local. O círculo (nível 3) fica para depois. Só o cajado precisa de corpo a corpo.",
+        "Shillelagh: 1 PA, 0 MP, 1 uso por batalha, sem concentração. Durante 10 turnos dele (incluindo o da ativação), Quarterstaff usa SAB: acerto +5, dano 1d8+3 contundente. Sem o encanto: FOR, acerto +3, 1d6+1. Termina ao virar fera ou encerrar a batalha.",
+        "Entangle cria a condição Contido (docs/personagens/PERSONAGEM-HILDRED.md): adaptação de Restrained às vagas."
+      ],
+      "acoes": [
+        { "id": "hildred-cajado", "nome": "Quarterstaff", "item": "cajado", "atributo": "for", "proficiente": true, "somaAtributo": true, "dados": 1, "faces": 6, "alvo": "Um inimigo", "custo": "2 pontos · sem limite de usos", "nota": "Normal: acerto +3 e 1d6+1 contundente, com Força. Com Shillelagh ativo: acerto +5 e 1d8+3, com Sabedoria. A saída contra quem é imune a veneno." },
+        { "id": "hildred-shillelagh", "nome": "Shillelagh", "tipo": "efeito", "efeito": "shillelagh", "atributo": "sab", "usos": 1, "acaoBonus": true, "pontos": 1, "mp": 0, "duracao": 10, "alvo": "Ele mesmo", "custo": "1 ponto · 0 MP · 1 uso por batalha", "nota": "Truque de transmutação, sem rolagem nem concentração. Encanta o cajado por 10 turnos de Hildred, incluindo este e contando turnos perdidos: d8 no lugar de d6 e Sabedoria no acerto e no dano (acerto +5, dano 1d8+3 contundente). Não causa dano ao ativar. Termina ao virar fera ou encerrar a batalha; voltar à forma élfica não recupera o uso. Adaptação local de Shillelagh da D&D 2014; ver docs/personagens/HILDRED-SHILLELAGH.md." },
+        { "id": "hildred-veneno", "nome": "Poison Spray", "tipo": "ataque", "atributo": "sab", "proficiente": true, "dados": 1, "faces": 12, "tipoDano": "veneno", "alcance": "distancia", "alvo": "Um inimigo", "custo": "Uma ação · truque", "nota": "Ataque mágico +5, 1d12 de veneno contra qualquer linha (D&D 2024). Não envenena nem atinge área." },
+        { "id": "hildred-palavra-curativa", "nome": "Healing Word", "tipo": "cura", "curaDados": [2, 4], "atributo": "sab", "mp": 2, "acaoBonus": true, "alvo": "Um aliado", "custo": "Ação bônus · 2 MP", "nota": "Cura 2d4 + 3. Alcança qualquer aliado ou ele mesmo e levanta quem caiu." },
+        { "id": "hildred-enredar", "nome": "Entangle", "tipo": "resistencia", "resistencia": "for", "atributo": "sab", "efeito": "contido", "area": "linha", "concentracao": true, "mp": 2, "pontos": 2, "alcance": "distancia", "alvo": "Uma linha de inimigos", "custo": "2 pontos · 2 MP · concentração", "nota": "Cada inimigo da linha faz resistência de Força CD 13. Falha: Contido por 3 turnos dele (ataca com desvantagem, é atacado com vantagem, desvantagem em resistências de Destreza). As raízes só soltam depois desses 3 turnos ou se Hildred perder a concentração. Sem dano. Custo ajustado pela simulação de 20/10/2026 (docs/batalha/BALANCO-HILDRED.md) e levado a 2 pontos em 22/10/2026." },
+        { "id": "forma-lobo", "nome": "Wild Shape: Wolf", "tipo": "forma", "forma": "hildred-lobo", "usos": 1, "acaoBonus": true, "alvo": "Ele mesmo", "custo": "Ação bônus · 1 Wild Shape por batalha", "nota": "Ação bônus. Hildred assume a forma da fera: vida, CA, atributos físicos e cartas dela; mantém INT, SAB, CAR, MP e a concentração. Não conjura magias na forma. Se a vida da forma chegar a 0, volta com a vida que tinha antes; o dano que sobra se perde. Um Wild Shape por batalha, em qualquer das três formas. Ver docs/personagens/HILDRED-FORMAS-SELVAGENS.md." },
+        { "id": "forma-lagarto", "nome": "Wild Shape: Giant Lizard", "tipo": "forma", "forma": "hildred-lagarto", "usos": 1, "acaoBonus": true, "alvo": "Ele mesmo", "custo": "Ação bônus · 1 Wild Shape por batalha", "nota": "Ação bônus. Hildred assume a forma da fera: vida, CA, atributos físicos e cartas dela; mantém INT, SAB, CAR, MP e a concentração. Não conjura magias na forma. Se a vida da forma chegar a 0, volta com a vida que tinha antes; o dano que sobra se perde. Um Wild Shape por batalha, em qualquer das três formas. Ver docs/personagens/HILDRED-FORMAS-SELVAGENS.md." },
+        { "id": "forma-serpente", "nome": "Wild Shape: Giant Snake", "tipo": "forma", "forma": "hildred-serpente", "usos": 1, "acaoBonus": true, "alvo": "Ele mesmo", "custo": "Ação bônus · 1 Wild Shape por batalha", "nota": "Ação bônus. Hildred assume a forma da fera: vida, CA, atributos físicos e cartas dela; mantém INT, SAB, CAR, MP e a concentração. Não conjura magias na forma. Se a vida da forma chegar a 0, volta com a vida que tinha antes; o dano que sobra se perde. Um Wild Shape por batalha, em qualquer das três formas. Ver docs/personagens/HILDRED-FORMAS-SELVAGENS.md." }
+      ]
+    },
+    {
+      "id": "hildred-lobo", "nome": "Wolf", "subtitulo": "Forma selvagem de Hildred · fera média", "classe": "forma", "forma": "hildred", "grupo": "herois", "nivel": null, "pv": 11, "proficiencia": 2,
+      "atributos": { "for":  14,  "des":  15,  "con":  12,  "int":  10,  "sab":  17,  "car":  8 },
+      "salvaguardas": ["int", "sab"],
+      "armadura": "pelagem-de-lobo", "escudo": null, "equipamentos": ["pelagem-de-lobo"],
+      "resumo": "Rápido e em bando: derruba quem morde e ataca melhor com um aliado na linha da frente.",
+      "tracos": [{ "id": "taticas-de-matilha", "nome": "Pack Tactics", "texto": "Vantagem no ataque quando outro aliado vivo está na linha da frente e o alvo também." }],
+      "notas": ["Wolf da D&D 2024 (Monster Manual 2024), CR 1/4: CA 12, 11 PV, Bite +4 1d6 + 2.", "INT, SAB e CAR são os de Hildred, como manda o Wild Shape."],
+      "acoes": [
+        { "id": "mordida-lobo", "nome": "Bite", "tipo": "ataque", "item": "arma-natural", "atributo": "des", "proficiente": true, "somaAtributo": true, "dados": 1, "faces": 6, "tipoDano": "perfurante", "efeito": "derrubar-mordida", "alcance": "corpo-a-corpo", "alvo": "Um inimigo", "custo": "Uma ação", "nota": "+4 para acertar, 1d6 + 2 perfurante. Acertando, o alvo Médio ou menor fica Derrubado, sem resistência (D&D 2024). O troll, grande, não cai." }
+      ]
+    },
+    {
+      "id": "hildred-lagarto", "nome": "Giant Lizard", "subtitulo": "Forma selvagem de Hildred · fera grande", "classe": "forma", "forma": "hildred", "grupo": "herois", "nivel": null, "pv": 19, "proficiencia": 2,
+      "atributos": { "for":  15,  "des":  12,  "con":  13,  "int":  10,  "sab":  17,  "car":  8 },
+      "salvaguardas": ["int", "sab"],
+      "armadura": "escamas-de-lagarto", "escudo": null, "equipamentos": ["escamas-de-lagarto"],
+      "resumo": "Pesado e resistente: a forma com mais vida, para segurar a frente.",
+      "tracos": [{ "id": "escalada-aranha", "nome": "Spider Climb", "texto": "Escala paredes e tetos sem teste. Sem efeito nas vagas da batalha." }],
+      "notas": ["Giant Lizard da D&D 2024 (Monster Manual 2024), CR 1/4: CA 12, 19 PV, Bite +4 1d8 + 2.", "INT, SAB e CAR são os de Hildred, como manda o Wild Shape."],
+      "acoes": [
+        { "id": "mordida-lagarto", "nome": "Bite", "tipo": "ataque", "item": "arma-natural", "atributo": "for", "proficiente": true, "somaAtributo": true, "dados": 1, "faces": 8, "tipoDano": "perfurante", "alcance": "corpo-a-corpo", "alvo": "Um inimigo", "custo": "Uma ação", "nota": "+4 para acertar, 1d8 + 2 perfurante." }
+      ]
+    },
+    {
+      "id": "hildred-serpente", "nome": "Giant Venomous Snake", "subtitulo": "Forma selvagem de Hildred · fera média", "classe": "forma", "forma": "hildred", "grupo": "herois", "nivel": null, "pv": 11, "proficiencia": 2,
+      "atributos": { "for":  10,  "des":  18,  "con":  13,  "int":  10,  "sab":  17,  "car":  8 },
+      "salvaguardas": ["int", "sab"],
+      "armadura": "escamas-de-serpente", "escudo": null, "equipamentos": ["escamas-de-serpente"],
+      "resumo": "Rápida e venenosa: a mordida que mais dói, com alcance longo, mas pouca vida.",
+      "tracos": [],
+      "notas": ["Giant Venomous Snake da D&D 2024 (Monster Manual 2024), CR 1/4: CA 14, 11 PV, Bite +6 (3 m) 1d4 + 4 perfurante + 1d8 veneno.", "INT, SAB e CAR são os de Hildred, como manda o Wild Shape."],
+      "acoes": [
+        { "id": "mordida-serpente", "nome": "Bite", "tipo": "ataque", "item": "arma-natural", "atributo": "des", "proficiente": true, "somaAtributo": true, "dados": 1, "faces": 4, "tipoDano": "perfurante", "danoExtra": [1, 8, "veneno"], "resistenciaExtra": "con", "alcance": "haste", "alvo": "Um inimigo", "custo": "Uma ação", "nota": "+6 para acertar, alcance de 3 m: 1d4 + 4 perfurante mais 1d8 de veneno. O alvo acertado faz resistência de Constituição CD 11 (8 + proficiência + Constituição): passando, sofre metade do veneno (Giant Poisonous Snake da D&D 2014)." }
+      ]
+    }
+  ],
+  "equipamentos": [
+    { "id": "pelagem-de-lobo", "nome": "Pelagem de lobo", "categoria": "Armadura natural", "caBase": 12, "somaDes": false, "resumo": "Pelo grosso e couro do lobo." },
+    { "id": "escamas-de-lagarto", "nome": "Escamas de lagarto", "categoria": "Armadura natural", "caBase": 12, "somaDes": false, "resumo": "Couro escamoso do lagarto gigante." },
+    { "id": "escamas-de-serpente", "nome": "Escamas de serpente", "categoria": "Armadura natural", "caBase": 10, "somaDes": true, "resumo": "Escamas lisas; a agilidade faz o resto (CA 10 + Destreza)." },
+    { "id": "arma-natural", "nome": "Arma natural", "categoria": "Arma natural", "resumo": "Mordida, garras ou presas de uma fera." },
+    { "id": "foco-druidico", "nome": "Foco druídico", "categoria": "Foco de conjuração", "resumo": "Foco das magias de druida: o próprio cajado e a esmeralda do peito.", "nota": "Sem efeito em números." },
+    { "id": "martelo-de-guerra", "nome": "Martelo de guerra", "categoria": "Arma marcial", "dados": 1, "faces": 8, "tipoDano": "contundente", "atributo": "Força", "propriedades": "Versátil: 1d10 com duas mãos", "alcance": "corpo-a-corpo", "resumo": "Martelo de cabeça de aço, de Kewoth.", "nota": "1d8 + Força com uma mão. Maestria Empurrar (D&D 2024) não modelada; de todo modo, clérigos não têm Weapon Mastery." },
+    { "id": "cimitarra", "nome": "Cimitarra", "categoria": "Arma marcial", "dados": 1, "faces": 6, "tipoDano": "cortante", "atributo": "Força ou Destreza", "propriedades": "Acuidade, leve", "alcance": "corpo-a-corpo", "resumo": "Lâmina curva de aço comum, de Soren.", "nota": "1d6 + Destreza. Maestria Ágil (ataque extra com segunda arma leve) não modelada." },
+    { "id": "couro-batido", "nome": "Couro batido", "categoria": "Armadura leve", "caBase": 12, "somaDes": true, "resumo": "Couro endurecido e cravejado de rebites.", "nota": "CA 12 + Destreza." },
+    { "id": "alaude", "nome": "Alaúde", "categoria": "Foco de conjuração", "resumo": "Instrumento de Adão, usado como foco das magias de bardo.", "nota": "Sem efeito em números." },
+    { "id": "simbolo-sagrado", "nome": "Símbolo sagrado", "categoria": "Foco de conjuração", "resumo": "Foco das magias de clérigo.", "nota": "Sem efeito em números." }
+  ],
+  "habilidades": [
+    { "id": "hildred-veneno", "nome": "Poison Spray", "categoria": "Truque de necromancia (druida)", "formula": "Ataque mágico. 1d12 de veneno.", "origem": "D&D 2024", "url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#PoisonSpray" },
+    { "id": "hildred-enredar", "nome": "Entangle", "categoria": "Magia de 1º círculo (druida), concentração", "formula": "Resistência de Força em cada inimigo de uma linha. Falha: Contido (Restrained adaptado) por 3 turnos, sem fuga.", "origem": "D&D 2024, área e saída adaptadas às vagas", "url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Entangle" },
+    { "id": "zombaria-cruel", "nome": "Vicious Mockery", "categoria": "Truque de encantamento (bardo)", "formula": "Resistência de Sabedoria. Falha: 1d6 psíquico e desvantagem no próximo ataque.", "origem": "D&D 2024", "url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#ViciousMockery" },
+    { "id": "sussurros-dissonantes", "nome": "Dissonant Whispers", "categoria": "Magia de 1º círculo (bardo)", "formula": "Resistência de Sabedoria. Falha: 3d6 psíquico; sucesso: metade.", "origem": "D&D 2024, sem a fuga forçada", "url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#DissonantWhispers" },
+    { "id": "palavra-curativa", "nome": "Healing Word", "categoria": "Magia de 1º círculo (bardo, clérigo)", "formula": "Ação bônus. Cura 2d4 + atributo de conjuração.", "origem": "D&D 2024", "url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#HealingWord" },
+    { "id": "inspiracao", "nome": "Bardic Inspiration", "categoria": "Recurso de bardo", "formula": "Ação bônus. O aliado soma 1d6 ao primeiro ataque ou resistência que falhar.", "origem": "D&D 2024, usos por batalha em vez de descanso", "url": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes#Bard" },
+    { "id": "chama-sagrada", "nome": "Sacred Flame", "categoria": "Truque de evocação (clérigo)", "formula": "Resistência de Destreza. Falha: 1d8 radiante.", "origem": "D&D 2024", "url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#SacredFlame" },
+    { "id": "dobre-funebre", "nome": "Toll the Dead", "categoria": "Truque de necromancia (clérigo)", "formula": "Resistência de Sabedoria. Falha: 1d8 necrótico, ou 1d12 se o alvo estiver ferido.", "origem": "D&D 2024", "url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#TolltheDead" },
+    { "id": "curar-ferimentos", "nome": "Cure Wounds", "categoria": "Magia de 1º círculo (clérigo)", "formula": "Cura 2d8 + atributo de conjuração.", "origem": "D&D 2024, alcance ampliado", "url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#CureWounds" },
+    { "id": "bencao", "nome": "Bless", "categoria": "Magia de 1º círculo (clérigo), concentração", "formula": "Até três aliados somam 1d4 a ataques e resistências.", "origem": "D&D 2024", "url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Bless" },
+    { "id": "raio-guia", "nome": "Guiding Bolt", "categoria": "Magia de 1º círculo (clérigo)", "formula": "Ataque mágico. 4d6 radiante; o próximo ataque contra o alvo tem vantagem.", "origem": "D&D 2024", "url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#GuidingBolt" },
+    { "id": "escudo-da-fe", "nome": "Shield of Faith", "categoria": "Magia de 1º círculo (clérigo), concentração", "formula": "Ação bônus. +2 de CA num aliado.", "origem": "D&D 2024", "url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#ShieldofFaith" },
+    { "id": "ataque-furtivo", "nome": "Sneak Attack", "categoria": "Recurso de ladino", "formula": "+1d6 uma vez por turno, com vantagem ou com aliado ocupando o alvo.", "origem": "D&D 2024, adaptado às linhas", "url": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes#Rogue" },
+    { "id": "esconder", "nome": "Hide", "categoria": "Ação comum", "formula": "Furtividade contra CD 15, com cobertura.", "origem": "D&D 2024 (Esconder), cobertura como no combate v1", "url": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#HideAction" }
+  ]
+}

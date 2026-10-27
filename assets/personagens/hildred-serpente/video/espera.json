@@ -1,0 +1,25 @@
+{
+  "id": "hildred-serpente",
+  "arquivo": "espera.webm",
+  "original": "original/espera.webm",
+  "largura": 808,
+  "altura": 460,
+  "fps": 24.0,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.5439,
+  "originY": 0.9826,
+  "topo": 0.0913,
+  "pes": [
+    [
+      0.3589,
+      0.9826
+    ],
+    [
+      0.729,
+      0.9826
+    ]
+  ],
+  "nota": "Gerado por scripts/preparar-videos-herois.py a partir do original com fundo verde. Ver docs/arte/VIDEOS-HEROIS.md."
+}

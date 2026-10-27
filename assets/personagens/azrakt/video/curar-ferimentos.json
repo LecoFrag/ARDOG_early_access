@@ -1,0 +1,32 @@
+{
+  "id": "azrakt-curar-ferimentos",
+  "arquivo": "curar-ferimentos.webm",
+  "original": "original/curar-ferimentos.webm",
+  "largura": 494,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.4692,
+  "originY": 0.9639,
+  "topo": 0.0361,
+  "pes": [
+    [
+      0.2399,
+      0.9639
+    ],
+    [
+      0.6984,
+      0.9333
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "curar-ferimentos",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/azrakt/curar-ferimentos.webp",
+  "sha256Imagem": "cad22ad3005d059e6376fd1d28277fd935dcecd3a7e668d2d1a452b5c240c38a",
+  "sha256PNG": "3d45683df83e209c0de823559579b23c99dace9eb904e8a935ba1a34512c3b41",
+  "movimento": "Oferta das mãos à frente e respiração suave.",
+  "nota": "Somente asset; sem cadastro ou integração no jogo. Sem efeitos mágicos ou projéteis. Conferir âncoras na integração."
+}

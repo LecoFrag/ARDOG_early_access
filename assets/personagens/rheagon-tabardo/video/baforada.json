@@ -1,0 +1,32 @@
+{
+  "id": "baforada",
+  "arquivo": "baforada.webm",
+  "original": "original/baforada.webm",
+  "largura": 1010,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.602,
+  "originY": 0.9653,
+  "topo": 0.0389,
+  "pes": [
+    [
+      0.3149,
+      0.9653
+    ],
+    [
+      0.8891,
+      0.9361
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "baforada",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/rheagon-tabardo/baforada.webp",
+  "sha256Imagem": "cf59b49972914e4ae4274366fe34ae5e0bfe8ab3f4f34abda3520bb87c0d0acb",
+  "sha256PNG": "3fb4eeee547e52c782e82ce1f06b822a2b7fa0a955ca1ac445d94eeecebbec56",
+  "movimento": "Inclinacao para a baforada e retorno; mandibula e dentes preservados.",
+  "nota": "Gerado por scripts/preparar-rheagon-tabardo-poses.py. Sem efeitos mágicos ou projéteis: o jogo desenha o efeito por cima."
+}

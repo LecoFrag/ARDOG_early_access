@@ -1,0 +1,60 @@
+{
+  "id": "soren",
+  "nome": "Soren",
+  "lado": "heroi",
+  "porte": "normal",
+  "alturaBatalha": 470,
+  "poses": {
+    "idle": {
+      "arquivo": "idle.webp",
+      "originX": 0.5125,
+      "originY": 0.9345,
+      "pes": [
+        [
+          0.215,
+          0.95
+        ],
+        [
+          0.81,
+          0.919
+        ]
+      ]
+    },
+    "hurt": {
+      "arquivo": "hurt.webp",
+      "originX": 0.51,
+      "originY": 0.929,
+      "pes": [
+        [
+          0.21,
+          0.943
+        ],
+        [
+          0.81,
+          0.915
+        ]
+      ]
+    },
+    "attack": {
+      "arquivo": "attack.webp",
+      "alturaBatalha": 375,
+      "originX": 0.455,
+      "originY": 0.958,
+      "pes": [
+        [
+          0.175,
+          0.975
+        ],
+        [
+          0.735,
+          0.941
+        ]
+      ]
+    }
+  },
+  "retratos": {
+    "face": "face.webp",
+    "bust": "bust.webp"
+  },
+  "notas": "Pacote independente. Espera animada por malha; demais poses estáticas. Apoios conferidos visualmente e aproximados pelas solas; ajuste fino na futura integração."
+}

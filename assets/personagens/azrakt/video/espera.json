@@ -1,0 +1,25 @@
+{
+  "id": "azrakt",
+  "arquivo": "espera.webm",
+  "original": "original/espera.webm",
+  "largura": 404,
+  "altura": 598,
+  "fps": 24.0,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.5068,
+  "originY": 0.9883,
+  "topo": 0.0117,
+  "pes": [
+    [
+      0.2017,
+      0.9883
+    ],
+    [
+      0.8119,
+      0.9582
+    ]
+  ],
+  "nota": "Gerado por scripts/preparar-videos-herois.py a partir do original com fundo verde. Ver docs/arte/VIDEOS-HEROIS.md."
+}

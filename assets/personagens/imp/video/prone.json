@@ -1,0 +1,36 @@
+{
+  "id": "imp",
+  "arquivo": "prone.webm",
+  "original": "original/prone.webm",
+  "largura": 720,
+  "altura": 516,
+  "fps": 24,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.4801,
+  "originY": 0.9729,
+  "topo": 0.0252,
+  "pes": [
+    [
+      0.2153,
+      0.7364
+    ],
+    [
+      0.4035,
+      0.7946
+    ],
+    [
+      0.8215,
+      0.9729
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "prone",
+  "elevacaoCena": 0,
+  "origem": "Animacao procedural por malha, a partir do PNG transparente; sem geracao de video por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/imp/png/prone.png",
+  "sha256Imagem": "f6910d2721f2e4ff9475e762eb1b68851e20ed2dc25971f7b58eb0d19a347606",
+  "movimento": "Respiracao discreta e microdeslocamento da cabeca; apoios, armas caidas e asas de voo ficam fixos.",
+  "nota": "Asset isolado, sem integracao. Calibrar a escala da pose baixa e conferir apoios antes de cadastrar no jogo. Os pontos em pes representam apoios da pose derrubada, nao apenas solas."
+}

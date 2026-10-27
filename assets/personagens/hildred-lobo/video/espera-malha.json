@@ -1,0 +1,40 @@
+{
+  "id": "hildred-lobo",
+  "arquivo": "espera-malha.webm",
+  "original": "original/espera-malha.webm",
+  "largura": 1080,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 192,
+  "ida": 4.041666666666667,
+  "idaEVolta": true,
+  "originX": 0.5778,
+  "originY": 0.89941,
+  "topo": 0.13086,
+  "pes": [
+    [
+      0.20443,
+      0.83887
+    ],
+    [
+      0.50098,
+      0.7959
+    ],
+    [
+      0.70312,
+      0.89941
+    ],
+    [
+      0.90267,
+      0.85059
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "idle",
+  "origem": "Animação procedural por malha da arte transparente, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/hildred-lobo/idle.webp",
+  "imagemOriginal": "public/assets/personagens/hildred-lobo/png/idle.png",
+  "sha256Imagem": "8f4a1c5b26675643f0d641b39f7fa7760cbba755076a9d8e95bac74f9f62a47e",
+  "movimento": "Respiração no tórax, vigilância da cabeça, orelhas e cauda em ritmos diferentes.",
+  "nota": "Versão anterior, animada por malha (docs/arte/HILDRED-FORMAS-SELVAGENS-ARTES.md), preservada em 20/10/2026 quando o vídeo do usuário passou a ser a espera. "
+}

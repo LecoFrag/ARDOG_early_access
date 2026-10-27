@@ -1,0 +1,32 @@
+{
+  "id": "rheagon-nivel-1-imposicao-das-maos",
+  "arquivo": "imposicao-das-maos.webm",
+  "original": "original/imposicao-das-maos.webm",
+  "largura": 488,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.5292,
+  "originY": 0.9653,
+  "topo": 0.0347,
+  "pes": [
+    [
+      0.2982,
+      0.9639
+    ],
+    [
+      0.7602,
+      0.9653
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "imposicao-das-maos",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/rheagon-nivel-1/imposicao-das-maos.webp",
+  "sha256Imagem": "f5ab91d58c63e6d42a0fbe75c2d121c4a96352f6b781ab270c63e901a71e3ffd",
+  "sha256PNG": "7304971f7238164b71c802cd8d7883685aa56a78422c26966a0fead31151c1a7",
+  "movimento": "Gesto de cura suave, elevação do tórax e capa discreta; escudo acompanha a mão.",
+  "nota": "Somente asset; sem cadastro ou integração no jogo. Sem efeitos mágicos ou projéteis. Conferir âncoras na integração."
+}

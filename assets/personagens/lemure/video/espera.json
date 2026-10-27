@@ -1,0 +1,25 @@
+{
+  "id": "lemure",
+  "arquivo": "espera.webm",
+  "original": "original/espera.webm",
+  "largura": 384,
+  "altura": 456,
+  "fps": 24.0,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.5456,
+  "originY": 0.9846,
+  "topo": 0.0329,
+  "pes": [
+    [
+      0.3281,
+      0.9846
+    ],
+    [
+      0.763,
+      0.9846
+    ]
+  ],
+  "nota": "Gerado por scripts/preparar-videos-herois.py a partir do original com fundo verde. Ver docs/arte/VIDEOS-HEROIS.md."
+}

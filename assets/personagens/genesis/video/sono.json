@@ -1,0 +1,32 @@
+{
+  "id": "genesis-sono",
+  "arquivo": "sono.webm",
+  "original": "original/sono.webm",
+  "largura": 472,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.4567,
+  "originY": 0.9653,
+  "topo": 0.0347,
+  "pes": [
+    [
+      0.1665,
+      0.9528
+    ],
+    [
+      0.7468,
+      0.9653
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "sono",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/genesis/sono.webp",
+  "sha256Imagem": "e5542ce97647e8566d07b91aecec0515a19d21439344d0e1e699df2486142d9d",
+  "sha256PNG": "35035aefb53c872027f528dbb25714db0303b72fceed25c632658eede2341964",
+  "movimento": "Gesto de sono sustentado com movimento suave dos ombros e da túnica.",
+  "nota": "Somente asset; sem cadastro ou integração no jogo. Sem efeitos mágicos ou projéteis. Conferir âncoras na integração."
+}

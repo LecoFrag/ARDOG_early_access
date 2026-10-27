@@ -1,0 +1,25 @@
+{
+  "id": "goblin-arqueiro",
+  "arquivo": "espera.webm",
+  "original": "original/espera.webm",
+  "largura": 404,
+  "altura": 492,
+  "fps": 24.0,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.4938,
+  "originY": 0.9858,
+  "topo": 0.0183,
+  "pes": [
+    [
+      0.229,
+      0.9533
+    ],
+    [
+      0.7587,
+      0.9858
+    ]
+  ],
+  "nota": "Gerado por scripts/preparar-videos-herois.py a partir do original com fundo verde. Ver docs/arte/VIDEOS-HEROIS.md."
+}

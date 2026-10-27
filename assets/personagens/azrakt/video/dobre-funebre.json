@@ -1,0 +1,32 @@
+{
+  "id": "azrakt-dobre-funebre",
+  "arquivo": "dobre-funebre.webm",
+  "original": "original/dobre-funebre.webm",
+  "largura": 472,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.4889,
+  "originY": 0.9653,
+  "topo": 0.0347,
+  "pes": [
+    [
+      0.2956,
+      0.9653
+    ],
+    [
+      0.6822,
+      0.9431
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "dobre-funebre",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/azrakt/dobre-funebre.webp",
+  "sha256Imagem": "62f0a582a01defd98e37aca65ed3d57dad35f3db8fd22dccd1650892343fee8a",
+  "sha256PNG": "f5a8ebf3ef287283f3d816ed27ae70059713c9ff15f4d0ccec22cb776d84787e",
+  "movimento": "Pressão descendente do gesto de sino e balanço sutil do manto.",
+  "nota": "Somente asset; sem cadastro ou integração no jogo. Sem efeitos mágicos ou projéteis. Conferir âncoras na integração."
+}

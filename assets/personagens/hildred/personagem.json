@@ -1,0 +1,70 @@
+{
+  "id": "hildred",
+  "nome": "Hildred",
+  "lado": "heroi",
+  "porte": "normal",
+  "alturaBatalha": 470,
+  "poses": {
+    "idle": {
+      "arquivo": "idle.webp",
+      "originX": 0.522,
+      "originY": 0.9596,
+      "pes": [
+        [
+          0.1938,
+          0.9596
+        ],
+        [
+          0.8501,
+          0.8997
+        ]
+      ]
+    },
+    "hurt": {
+      "arquivo": "hurt.webp",
+      "originX": 0.5305,
+      "originY": 0.9551,
+      "pes": [
+        [
+          0.1753,
+          0.9551
+        ],
+        [
+          0.8857,
+          0.9004
+        ]
+      ]
+    },
+    "attack": {
+      "arquivo": "attack-giro.webp",
+      "alturaBatalha": 390,
+      "originX": 0.3865,
+      "originY": 0.9551,
+      "pes": [
+        [
+          0.0791,
+          0.9551
+        ],
+        [
+          0.694,
+          0.9199
+        ]
+      ]
+    }
+  },
+  "poseCaida": {
+    "arquivo": "prone.webp",
+    "video": "video/prone.webm"
+  },
+  "poseDasCartas": {
+    "hildred-cajado": "attack-giro.webp",
+    "hildred-veneno": "poison-spray.webp",
+    "hildred-palavra-curativa": "healing-word.webp",
+    "hildred-enredar": "entangle.webp"
+  },
+  "retratos": {
+    "face": "face.webp",
+    "bust": "bust.webp"
+  },
+  "notas": "Espera em vídeo (video/espera.webm, scripts/preparar-videos-herois.py com recorte só nas bordas, para não apagar a roupa verde). Poses das cartas em vídeo por malha (scripts/preparar-hildred-poses.py). Pés medidos pelas solas da imagem; ver docs/personagens/PERSONAGEM-HILDRED.md. Golpe do Quarterstaff desde 25/10/2026: a estocada attack-giro.webp (horizontal, alturaBatalha 390 para manter cabeça e tronco do tamanho da espera); a pose antiga attack.webp e o vídeo hildred-cajado-v1 ficam guardados."
+}

@@ -1,0 +1,12 @@
+{
+  "arquivo": "critico-grito.webm",
+  "original": "original/critico-grito.webm",
+  "inicio": 0.45,
+  "fim": 4.35,
+  "largura": 1162,
+  "altura": 660,
+  "quadros": 94,
+  "duracao": 3.9,
+  "som": true,
+  "nota": "Gerado por scripts/preparar-video-critico.py a partir do original com fundo verde. Ver docs/batalha/CRITICO-EPICO.md."
+}

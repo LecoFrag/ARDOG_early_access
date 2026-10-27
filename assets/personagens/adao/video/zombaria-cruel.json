@@ -1,0 +1,32 @@
+{
+  "id": "adao-zombaria-cruel",
+  "arquivo": "zombaria-cruel.webm",
+  "original": "original/zombaria-cruel.webm",
+  "largura": 494,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.5972,
+  "originY": 0.9639,
+  "topo": 0.0375,
+  "pes": [
+    [
+      0.3563,
+      0.9
+    ],
+    [
+      0.8381,
+      0.9639
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "zombaria-cruel",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/adao/zombaria-cruel.webp",
+  "sha256Imagem": "7dfdb67b253309b48013c8933996e8be3b7a4a22598787f388a6d42dd0c88596",
+  "sha256PNG": "6bb8820a12508d8c90bee991c1f8012c013435c8e2f82deaca8cbd3b6a6854d9",
+  "movimento": "Balanço provocador do tronco e da mão que aponta.",
+  "nota": "Somente asset; sem cadastro ou integração no jogo. Sem efeitos mágicos ou projéteis. Conferir âncoras na integração."
+}

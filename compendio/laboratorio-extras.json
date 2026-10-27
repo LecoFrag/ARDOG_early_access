@@ -1,0 +1,141 @@
+{
+  "versao": "0.1",
+  "nota": "Ações de teste acrescentadas a fichas existentes só no laboratório de batalha (docs/batalha/LABORATORIO-BATALHA.md). Nada aqui altera dados.json nem o combate v1. Campos: os mesmos de herois-propostos.json, mais area ('linha' ou 'coluna'), desvantagem (motivo) e choque (chance de 0 a 1). \"fichas\" acrescenta campos às fichas. O MP (docs/batalha/MP.md) fica nas próprias fichas: \"mp\" na ficha é a reserva, \"mp\" na ação é o custo. Habilidades novas de 19/10/2026 em docs/batalha/HABILIDADES-NOVAS.md.",
+  "complementos": {
+    "genesis": [
+      {
+        "id": "relampago",
+        "nome": "Lightning Bolt",
+        "tipo": "resistencia",
+        "resistencia": "des",
+        "atributo": "int",
+        "dados": 4,
+        "faces": 6,
+        "tipoDano": "eletrico",
+        "metade": true,
+        "area": "coluna",
+        "choque": 0.25,
+        "mp": 5,
+        "alcance": "distancia",
+        "alvo": "Uma fileira inteira, da frente até a retaguarda (F1 e B1 ou F2 e B2)",
+        "custo": "Uma ação · 5 MP",
+        "nota": "Lightning Bolt da D&D 2024 (magia de 3º círculo: 8d6 elétrico numa linha de 30 m, resistência de Destreza para metade). Adaptado ao nível 1: 4d6, por 5 dos 8 MP do Gênesis (só dá para lançar um por batalha), contra todos os inimigos da fileira escolhida: o raio entra pela frente e atravessa até a retaguarda (F1 e B1 ou F2 e B2), a pedido do usuário em 26/10/2026; antes pegava a linha da frente ou a retaguarda inteira. Um dano rolado para todos; cada alvo faz a própria resistência (CD 13). Quem falha tem 25% de chance de ficar em choque e perder o próximo turno."
+      },
+      {
+        "id": "sono",
+        "nome": "Sleep",
+        "tipo": "resistencia",
+        "resistencia": "sab",
+        "atributo": "int",
+        "dados": 0,
+        "faces": 0,
+        "tipoDano": "",
+        "efeito": "sono",
+        "area": "linha",
+        "mp": 3,
+        "concentracao": true,
+        "alcance": "distancia",
+        "alvo": "Uma linha inteira de inimigos",
+        "custo": "Uma ação · 3 MP · concentração",
+        "nota": "Sleep da D&D 2024 (magia de 1º círculo, concentração). Adaptado: cada inimigo da linha escolhida faz uma resistência de Sabedoria (CD 8 + Inteligência + proficiência = 13). Quem falha adormece: perde os turnos e é atacado com vantagem. Acorda ao sofrer dano, quando Gênesis perde a concentração ou ao passar numa nova resistência no fim de cada turno perdido."
+      },
+      {
+        "id": "magic-missile",
+        "nome": "Magic Missile",
+        "tipo": "ataque",
+        "atributo": "int",
+        "dados": 1,
+        "faces": 4,
+        "bonusDano": 1,
+        "tipoDano": "energia",
+        "dardos": 3,
+        "mp": 2,
+        "pontos": 3,
+        "alcance": "distancia",
+        "alvo": "Um inimigo (os dardos que sobrarem vão para outro)",
+        "custo": "3 pontos · 2 MP",
+        "nota": "Magic Missile da D&D 2024 (magia de 1º círculo): três dardos de energia (Force) que nunca erram, 1d4 + 1 cada, sem rolagem de ataque nem resistência. Pedido do usuário em 25/10/2026, para Gênesis ter dano contra os diabos, imunes a fogo. Todos os dardos vão no alvo escolhido; se ele cair, os que sobram voam para o inimigo vivo com menos vida. Cada dardo é um dano separado (concentração testa a cada um)."
+      },
+      {
+        "id": "mage-armor",
+        "nome": "Mage Armor",
+        "tipo": "efeito",
+        "efeito": "armadura-arcana",
+        "usos": 1,
+        "acaoBonus": true,
+        "pontos": 1,
+        "duracao": 10,
+        "alcance": "distancia",
+        "alvo": "Ele mesmo",
+        "custo": "1 ponto · truque · 1 uso por batalha · 10 turnos",
+        "nota": "Mage Armor (na D&D 2024, magia de 1º círculo sem concentração), tratada como truque a pedido do usuário em 26/10/2026: não gasta MP e só pode ser usada uma vez por batalha; depois a carta fica apagada. A CA de Gênesis passa a 13 + Destreza (12 → 15) por 10 turnos dele, contando o da conjuração (na D&D, 8 horas). Sem concentração. Só nele mesmo: os outros heróis usam armadura. Custa 1 ponto, como uma carta rápida: sobram 2 pontos para o Fire Bolt ou o Quarterstaff."
+      }
+    ],
+    "goblin-arqueiro": [
+      {
+        "id": "disparo-em-linha",
+        "nome": "Volley",
+        "item": "arco-curto",
+        "atributo": "des",
+        "proficiente": true,
+        "somaAtributo": true,
+        "area": "linha",
+        "desvantagem": "disparo em linha",
+        "alvo": "Todos os heróis de uma linha",
+        "custo": "Uma ação",
+        "nota": "Uma flecha para cada herói da linha escolhida, todas com desvantagem. O arqueiro só troca o tiro único por este quando a conta compensa (dois alvos fáceis de acertar)."
+      }
+    ],
+    "rheagon": [
+      {
+        "id": "marca-do-cacador",
+        "nome": "Hunter's Mark",
+        "tipo": "efeito",
+        "efeito": "marca-do-cacador",
+        "acaoBonus": true,
+        "pontos": 1,
+        "mp": 2,
+        "concentracao": true,
+        "duracao": 10,
+        "alcance": "distancia",
+        "alvo": "Um inimigo",
+        "custo": "1 ponto · 2 MP · concentração · 10 turnos",
+        "nota": "Hunter's Mark (D&D 2024, magia de 1º círculo, concentração), no lugar do Shield Bash desde 22/10/2026. Rheagon marca um inimigo de qualquer linha: cada ataque dele que acertar a presa soma 1d6 de dano de energia (Force), dobrado no crítico. Dura 10 turnos de Rheagon, contando o da conjuração, ou até a concentração cair. Se a presa cair, a mesma carta passa a marca para outro inimigo por 1 ponto, sem MP e sem nova concentração (na D&D, uma ação bônus)."
+      },
+      {
+        "id": "baforada",
+        "nome": "Breath Weapon",
+        "tipo": "resistencia",
+        "resistencia": "des",
+        "atributo": "con",
+        "dados": 2,
+        "faces": 6,
+        "tipoDano": "fogo",
+        "metade": true,
+        "area": "todos",
+        "queimar": 0.25,
+        "usos": 1,
+        "alcance": "distancia",
+        "alvo": "Todos os inimigos",
+        "custo": "Uma ação · 1 uso por batalha",
+        "nota": "Sopro de draconato dourado (D&D 2024: 1d10 no nível 1, resistência de Destreza, metade se passar). Adaptado: 2d6 de fogo (desde 22/10/2026; antes 1d6) em todos os inimigos, nas quatro vagas, CD 8 + Constituição + proficiência = 12. Quem falha tem 25% de chance de pegar fogo (1d4 por 3 turnos). Uma vez por batalha."
+      },
+      {
+        "id": "interpor-escudo",
+        "nome": "Interpose Shield",
+        "tipo": "efeito",
+        "efeito": "interpor",
+        "acaoBonus": true,
+        "pontos": 2,
+        "precisaEscudo": true,
+        "alvo": "Um aliado ou ele mesmo",
+        "custo": "2 pontos · sem limite de usos",
+        "nota": "Rheagon ergue o escudo diante de um aliado (ou de si): o próximo ataque contra ele, até o começo do próximo turno de Rheagon, tem desvantagem. Inspirado no estilo de luta Protection e no Shield Master da D&D 2024, como ação bônus em vez de reação. Custa 2 pontos de ação desde 22/10/2026. Precisa do escudo."
+      }
+    ]
+  },
+  "fichas": {
+    "rheagon": { "mp": 4 }
+  },
+  "ajustes": {}
+}

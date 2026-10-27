@@ -1,0 +1,25 @@
+{
+  "id": "rheagon",
+  "arquivo": "espera.webm",
+  "original": "original/espera.webm",
+  "largura": 402,
+  "altura": 590,
+  "fps": 24.0,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.5019,
+  "originY": 0.9898,
+  "topo": 0.0136,
+  "pes": [
+    [
+      0.1679,
+      0.9559
+    ],
+    [
+      0.8358,
+      0.9898
+    ]
+  ],
+  "nota": "Gerado por scripts/preparar-videos-herois.py a partir do original com fundo verde. Ver docs/arte/VIDEOS-HEROIS.md."
+}

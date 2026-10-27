@@ -1,0 +1,36 @@
+{
+  "id": "hildred",
+  "arquivo": "prone.webm",
+  "original": "original/prone.webm",
+  "largura": 716,
+  "altura": 628,
+  "fps": 24,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.5552,
+  "originY": 0.9204,
+  "topo": 0.0191,
+  "pes": [
+    [
+      0.1082,
+      0.9204
+    ],
+    [
+      0.6341,
+      0.8185
+    ],
+    [
+      0.9232,
+      0.8599
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "prone",
+  "elevacaoCena": 0,
+  "origem": "Animacao procedural por malha, a partir do PNG transparente; sem geracao de video por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/hildred/png/prone.png",
+  "sha256Imagem": "162801d30739c0fd2bafc695aba91dd0c6bada00378031fb410067c9ab9726a5",
+  "movimento": "Respiracao discreta e microdeslocamento da cabeca; apoios, armas caidas e asas de voo ficam fixos.",
+  "nota": "Asset isolado, sem integracao. Calibrar a escala da pose baixa e conferir apoios antes de cadastrar no jogo. Os pontos em pes representam apoios da pose derrubada, nao apenas solas."
+}

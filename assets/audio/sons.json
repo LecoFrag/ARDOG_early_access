@@ -1,0 +1,841 @@
+{
+ "versao": 1,
+ "nota": "Sons da batalha (docs/batalha/AUDIO-BATALHA.md): primeira rodada por scripts/preparar-sons.py, gravações realistas por scripts/preparar-sons-realistas.py (sfx/real/). \"anterior\" guarda os arquivos da primeira rodada. Créditos em docs/batalha/CREDITOS-AUDIO.md.",
+ "sons": {
+  "ui-carta": {
+   "arquivos": [
+    "sfx/visceral-v1/ui-carta.ogg"
+   ],
+   "volume": 0.5,
+   "antes_visceral_v1": [
+    "sfx/ui-carta.ogg"
+   ]
+  },
+  "ui-cancelar": {
+   "arquivos": [
+    "sfx/visceral-v1/ui-cancelar.ogg"
+   ],
+   "volume": 0.45,
+   "antes_visceral_v1": [
+    "sfx/ui-cancelar.ogg"
+   ]
+  },
+  "ui-turno": {
+   "arquivos": [
+    "sfx/visceral-v1/ui-turno.ogg"
+   ],
+   "volume": 0.55,
+   "antes_visceral_v1": [
+    "sfx/ui-turno.ogg"
+   ]
+  },
+  "ui-invalido": {
+   "arquivos": [
+    "sfx/ui-invalido.ogg"
+   ],
+   "volume": 0.5
+  },
+  "golpe-leve": {
+   "arquivos": [
+    "sfx/golpe-leve-1.ogg",
+    "sfx/golpe-leve-2.ogg",
+    "sfx/golpe-leve-3.ogg"
+   ],
+   "volume": 0.6
+  },
+  "golpe-pesado": {
+   "arquivos": [
+    "sfx/golpe-pesado-1.ogg",
+    "sfx/golpe-pesado-2.ogg",
+    "sfx/golpe-pesado-3.ogg"
+   ],
+   "volume": 0.7
+  },
+  "erro": {
+   "arquivos": [
+    "sfx/erro-1.ogg",
+    "sfx/erro-2.ogg"
+   ],
+   "volume": 0.55
+  },
+  "acerto-corte": {
+   "arquivos": [
+    "sfx/real/acerto-corte-1.ogg",
+    "sfx/real/acerto-corte-2.ogg"
+   ],
+   "volume": 0.8,
+   "anterior": [
+    "sfx/acerto-corte-1.ogg",
+    "sfx/acerto-corte-2.ogg",
+    "sfx/acerto-corte-3.ogg"
+   ]
+  },
+  "acerto-perfura": {
+   "arquivos": [
+    "sfx/real/acerto-perfura-1.ogg",
+    "sfx/real/acerto-perfura-2.ogg",
+    "sfx/real/acerto-perfura-3.ogg"
+   ],
+   "volume": 0.75,
+   "anterior": [
+    "sfx/acerto-perfura-1.ogg",
+    "sfx/acerto-perfura-2.ogg",
+    "sfx/acerto-perfura-3.ogg"
+   ]
+  },
+  "acerto-impacto": {
+   "arquivos": [
+    "sfx/real/acerto-impacto-1.ogg",
+    "sfx/real/acerto-impacto-2.ogg",
+    "sfx/real/acerto-impacto-3.ogg",
+    "sfx/real/acerto-impacto-4.ogg"
+   ],
+   "volume": 0.8,
+   "anterior": [
+    "sfx/acerto-impacto-1.ogg",
+    "sfx/acerto-impacto-2.ogg",
+    "sfx/acerto-impacto-3.ogg",
+    "sfx/acerto-impacto-4.ogg"
+   ]
+  },
+  "acerto-magia": {
+   "arquivos": [
+    "sfx/visceral-v1/acerto-magia.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/acerto-magia.ogg"
+   ]
+  },
+  "critico": {
+   "arquivos": [
+    "sfx/critico-1.ogg",
+    "sfx/visceral-v1/critico-2.ogg"
+   ],
+   "volume": 0.85,
+   "antes_visceral_v1": [
+    "sfx/critico-1.ogg",
+    "sfx/critico-2.ogg"
+   ]
+  },
+  "escudo": {
+   "arquivos": [
+    "sfx/visceral-v1/escudo-1.ogg",
+    "sfx/visceral-v1/escudo-2.ogg",
+    "sfx/visceral-v1/escudo-3.ogg"
+   ],
+   "volume": 0.7,
+   "anterior": [
+    "sfx/escudo-1.ogg",
+    "sfx/escudo-2.ogg"
+   ],
+   "antes_visceral_v1": [
+    "sfx/real/escudo-1.ogg",
+    "sfx/real/escudo-2.ogg",
+    "sfx/real/escudo-3.ogg"
+   ]
+  },
+  "queda": {
+   "arquivos": [
+    "sfx/visceral-v1/queda-1.ogg",
+    "sfx/visceral-v1/queda-2.ogg"
+   ],
+   "volume": 0.7,
+   "antes_visceral_v1": [
+    "sfx/queda-1.ogg",
+    "sfx/queda-2.ogg"
+   ]
+  },
+  "arco": {
+   "arquivos": [
+    "sfx/visceral-v1/arco-1.ogg",
+    "sfx/visceral-v1/arco-2.ogg"
+   ],
+   "volume": 0.7,
+   "antes_visceral_v1": [
+    "sfx/arco-1.ogg",
+    "sfx/arco-2.ogg"
+   ]
+  },
+  "conjurar": {
+   "arquivos": [
+    "sfx/visceral-v1/conjurar.ogg"
+   ],
+   "volume": 0.55,
+   "antes_visceral_v1": [
+    "sfx/conjurar.ogg"
+   ]
+  },
+  "fogo-lancar": {
+   "arquivos": [
+    "sfx/real/fogo-lancar-1.ogg",
+    "sfx/real/fogo-lancar-2.ogg"
+   ],
+   "volume": 0.75,
+   "anterior": [
+    "sfx/fogo-lancar-1.ogg",
+    "sfx/fogo-lancar-2.ogg"
+   ]
+  },
+  "fogo-explosao": {
+   "arquivos": [
+    "sfx/fogo-explosao.ogg"
+   ],
+   "volume": 0.8
+  },
+  "queimadura": {
+   "arquivos": [
+    "sfx/real/queimadura.ogg"
+   ],
+   "volume": 0.55,
+   "anterior": [
+    "sfx/queimadura.ogg"
+   ]
+  },
+  "raio-carga": {
+   "arquivos": [
+    "sfx/visceral-v1/raio-carga-1.ogg",
+    "sfx/visceral-v1/raio-carga-2.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/raio-carga-1.ogg",
+    "sfx/raio-carga-2.ogg"
+   ]
+  },
+  "trovao": {
+   "arquivos": [
+    "sfx/trovao-1.ogg",
+    "sfx/trovao-2.ogg"
+   ],
+   "volume": 0.9
+  },
+  "choque": {
+   "arquivos": [
+    "sfx/visceral-v1/choque-1.ogg",
+    "sfx/visceral-v1/choque-2.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/choque-1.ogg",
+    "sfx/choque-2.ogg"
+   ]
+  },
+  "radiante": {
+   "arquivos": [
+    "sfx/visceral-v1/radiante.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/radiante.ogg"
+   ]
+  },
+  "necrotico": {
+   "arquivos": [
+    "sfx/visceral-v1/necrotico.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/necrotico.ogg"
+   ]
+  },
+  "zombaria": {
+   "arquivos": [
+    "sfx/visceral-v1/zombaria.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/zombaria.ogg"
+   ]
+  },
+  "sussurros": {
+   "arquivos": [
+    "sfx/visceral-v1/sussurros-1.ogg",
+    "sfx/visceral-v1/sussurros-2.ogg"
+   ],
+   "volume": 0.55,
+   "antes_visceral_v1": [
+    "sfx/sussurros-1.ogg",
+    "sfx/sussurros-2.ogg"
+   ]
+  },
+  "cura": {
+   "arquivos": [
+    "sfx/visceral-v1/cura.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/cura.ogg"
+   ]
+  },
+  "bencao": {
+   "arquivos": [
+    "sfx/visceral-v1/bencao.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/bencao.ogg"
+   ]
+  },
+  "escudo-fe": {
+   "arquivos": [
+    "sfx/visceral-v1/escudo-fe.ogg"
+   ],
+   "volume": 0.55,
+   "antes_visceral_v1": [
+    "sfx/escudo-fe.ogg"
+   ]
+  },
+  "inspiracao": {
+   "arquivos": [
+    "sfx/visceral-v1/inspiracao.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/inspiracao.ogg"
+   ]
+  },
+  "esconder": {
+   "arquivos": [
+    "sfx/visceral-v1/esconder.ogg"
+   ],
+   "volume": 0.5,
+   "antes_visceral_v1": [
+    "sfx/esconder.ogg"
+   ]
+  },
+  "invisivel": {
+   "arquivos": [
+    "sfx/visceral-v1/invisivel.ogg"
+   ],
+   "volume": 0.55,
+   "antes_visceral_v1": [
+    "sfx/invisivel.ogg"
+   ]
+  },
+  "regenerar": {
+   "arquivos": [
+    "sfx/visceral-v1/regenerar.ogg"
+   ],
+   "volume": 0.55,
+   "antes_visceral_v1": [
+    "sfx/regenerar.ogg"
+   ]
+  },
+  "recompor": {
+   "arquivos": [
+    "sfx/visceral-v1/recompor-1.ogg",
+    "sfx/visceral-v1/recompor-2.ogg"
+   ],
+   "volume": 0.65,
+   "antes_visceral_v1": [
+    "sfx/recompor-1.ogg",
+    "sfx/recompor-2.ogg"
+   ]
+  },
+  "vitoria": {
+   "arquivos": [
+    "sfx/visceral-v1/vitoria.ogg"
+   ],
+   "volume": 0.7,
+   "antes_visceral_v1": [
+    "sfx/vitoria.ogg"
+   ]
+  },
+  "derrota": {
+   "arquivos": [
+    "sfx/visceral-v1/derrota.ogg"
+   ],
+   "volume": 0.7,
+   "antes_visceral_v1": [
+    "sfx/derrota.ogg"
+   ]
+  },
+  "heroi-dor": {
+   "arquivos": [
+    "sfx/heroi-dor-1.ogg",
+    "sfx/heroi-dor-2.ogg",
+    "sfx/heroi-dor-3.ogg",
+    "sfx/heroi-dor-4.ogg"
+   ],
+   "volume": 0.7
+  },
+  "heroi-morte": {
+   "arquivos": [
+    "sfx/heroi-morte.ogg"
+   ],
+   "volume": 0.75
+  },
+  "goblin-ataque": {
+   "arquivos": [
+    "sfx/goblin-ataque-1.ogg",
+    "sfx/goblin-ataque-2.ogg"
+   ],
+   "volume": 0.6
+  },
+  "goblin-dor": {
+   "arquivos": [
+    "sfx/goblin-dor-1.ogg",
+    "sfx/goblin-dor-2.ogg"
+   ],
+   "volume": 0.6
+  },
+  "goblin-morte": {
+   "arquivos": [
+    "sfx/goblin-morte.ogg"
+   ],
+   "volume": 0.65
+  },
+  "orc-ataque": {
+   "arquivos": [
+    "sfx/orc-ataque-1.ogg",
+    "sfx/orc-ataque-2.ogg"
+   ],
+   "volume": 0.75
+  },
+  "orc-dor": {
+   "arquivos": [
+    "sfx/orc-dor-1.ogg",
+    "sfx/orc-dor-2.ogg"
+   ],
+   "volume": 0.7
+  },
+  "orc-morte": {
+   "arquivos": [
+    "sfx/orc-morte.ogg"
+   ],
+   "volume": 0.75
+  },
+  "troll-ataque": {
+   "arquivos": [
+    "sfx/visceral-v1/troll-ataque-1.ogg",
+    "sfx/visceral-v1/troll-ataque-2.ogg",
+    "sfx/visceral-v1/troll-ataque-3.ogg"
+   ],
+   "volume": 0.85,
+   "antes_visceral_v1": [
+    "sfx/troll-ataque-1.ogg",
+    "sfx/troll-ataque-2.ogg"
+   ]
+  },
+  "troll-dor": {
+   "arquivos": [
+    "sfx/visceral-v1/troll-dor-1.ogg",
+    "sfx/visceral-v1/troll-dor-2.ogg"
+   ],
+   "volume": 0.75,
+   "antes_visceral_v1": [
+    "sfx/troll-dor-1.ogg",
+    "sfx/troll-dor-2.ogg"
+   ]
+  },
+  "troll-morte": {
+   "arquivos": [
+    "sfx/visceral-v1/troll-morte.ogg"
+   ],
+   "volume": 0.85,
+   "antes_visceral_v1": [
+    "sfx/troll-morte.ogg"
+   ]
+  },
+  "esqueleto-ataque": {
+   "arquivos": [
+    "sfx/visceral-v1/esqueleto-ataque-1.ogg",
+    "sfx/visceral-v1/esqueleto-ataque-2.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/esqueleto-ataque-1.ogg",
+    "sfx/esqueleto-ataque-2.ogg"
+   ]
+  },
+  "esqueleto-dor": {
+   "arquivos": [
+    "sfx/visceral-v1/esqueleto-dor-1.ogg",
+    "sfx/visceral-v1/esqueleto-dor-2.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/esqueleto-dor-1.ogg",
+    "sfx/esqueleto-dor-2.ogg"
+   ]
+  },
+  "esqueleto-morte": {
+   "arquivos": [
+    "sfx/visceral-v1/esqueleto-morte-1.ogg",
+    "sfx/visceral-v1/esqueleto-morte-2.ogg"
+   ],
+   "volume": 0.7,
+   "antes_visceral_v1": [
+    "sfx/esqueleto-morte-1.ogg",
+    "sfx/esqueleto-morte-2.ogg"
+   ]
+  },
+  "sentinela-ataque": {
+   "arquivos": [
+    "sfx/visceral-v1/sentinela-ataque.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/sentinela-ataque.ogg"
+   ]
+  },
+  "sentinela-dor": {
+   "arquivos": [
+    "sfx/visceral-v1/sentinela-dor-1.ogg",
+    "sfx/visceral-v1/sentinela-dor-2.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/sentinela-dor-1.ogg",
+    "sfx/sentinela-dor-2.ogg"
+   ]
+  },
+  "sentinela-morte": {
+   "arquivos": [
+    "sfx/visceral-v1/sentinela-morte.ogg"
+   ],
+   "volume": 0.7,
+   "antes_visceral_v1": [
+    "sfx/sentinela-morte.ogg"
+   ]
+  },
+  "lemure-ataque": {
+   "arquivos": [
+    "sfx/visceral-v1/lemure-ataque-1.ogg",
+    "sfx/visceral-v1/lemure-ataque-2.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/lemure-ataque-1.ogg",
+    "sfx/lemure-ataque-2.ogg"
+   ]
+  },
+  "lemure-dor": {
+   "arquivos": [
+    "sfx/visceral-v1/lemure-dor-1.ogg",
+    "sfx/visceral-v1/lemure-dor-2.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/lemure-dor-1.ogg",
+    "sfx/lemure-dor-2.ogg"
+   ]
+  },
+  "lemure-morte": {
+   "arquivos": [
+    "sfx/visceral-v1/lemure-morte-1.ogg",
+    "sfx/visceral-v1/lemure-morte-2.ogg"
+   ],
+   "volume": 0.65,
+   "antes_visceral_v1": [
+    "sfx/lemure-morte-1.ogg",
+    "sfx/lemure-morte-2.ogg"
+   ]
+  },
+  "imp-ataque": {
+   "arquivos": [
+    "sfx/visceral-v1/imp-ataque-1.ogg",
+    "sfx/visceral-v1/imp-ataque-2.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/imp-ataque-1.ogg",
+    "sfx/imp-ataque-2.ogg"
+   ]
+  },
+  "imp-dor": {
+   "arquivos": [
+    "sfx/visceral-v1/imp-dor.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/imp-dor.ogg"
+   ]
+  },
+  "imp-morte": {
+   "arquivos": [
+    "sfx/visceral-v1/imp-morte.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/imp-morte.ogg"
+   ]
+  },
+  "imp-risada": {
+   "arquivos": [
+    "sfx/imp-risada.ogg"
+   ],
+   "volume": 0.55
+  },
+  "diabo-ataque": {
+   "arquivos": [
+    "sfx/diabo-ataque-1.ogg",
+    "sfx/diabo-ataque-2.ogg"
+   ],
+   "volume": 0.75
+  },
+  "diabo-dor": {
+   "arquivos": [
+    "sfx/diabo-dor-1.ogg",
+    "sfx/diabo-dor-2.ogg"
+   ],
+   "volume": 0.65
+  },
+  "diabo-morte": {
+   "arquivos": [
+    "sfx/diabo-morte.ogg"
+   ],
+   "volume": 0.75
+  },
+  "batida-porta": {
+   "arquivos": [
+    "sfx/visceral-v1/batida-porta-1.ogg",
+    "sfx/visceral-v1/batida-porta-2.ogg"
+   ],
+   "volume": 0.85,
+   "antes_visceral_v1": [
+    "sfx/batida-porta-1.ogg",
+    "sfx/batida-porta-2.ogg"
+   ]
+  },
+  "porta-abrir": {
+   "arquivos": [
+    "sfx/visceral-v1/porta-abrir.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/porta-abrir.ogg"
+   ]
+  },
+  "porta-fechar": {
+   "arquivos": [
+    "sfx/visceral-v1/porta-fechar.ogg"
+   ],
+   "volume": 0.6,
+   "antes_visceral_v1": [
+    "sfx/porta-fechar.ogg"
+   ]
+  },
+  "passos": {
+   "arquivos": [
+    "sfx/visceral-v1/passos-1.ogg",
+    "sfx/visceral-v1/passos-2.ogg",
+    "sfx/visceral-v1/passos-3.ogg",
+    "sfx/visceral-v1/passos-4.ogg"
+   ],
+   "volume": 0.45,
+   "antes_visceral_v1": [
+    "sfx/passos-1.ogg",
+    "sfx/passos-2.ogg",
+    "sfx/passos-3.ogg",
+    "sfx/passos-4.ogg"
+   ]
+  },
+  "sininho": {
+   "arquivos": [
+    "sfx/visceral-v1/sininho.ogg"
+   ],
+   "volume": 0.4,
+   "antes_visceral_v1": [
+    "sfx/sininho.ogg"
+   ]
+  },
+  "pagina": {
+   "arquivos": [
+    "sfx/visceral-v1/pagina.ogg"
+   ],
+   "volume": 0.25,
+   "antes_visceral_v1": [
+    "sfx/pagina.ogg"
+   ]
+  },
+  "voz-sombria": {
+   "arquivos": [
+    "sfx/voz-sombria-1.ogg",
+    "sfx/voz-sombria-2.ogg"
+   ],
+   "volume": 0.9
+  },
+  "espada-armadura": {
+   "arquivos": [
+    "sfx/real/espada-armadura-1.ogg",
+    "sfx/real/espada-armadura-2.ogg"
+   ],
+   "volume": 0.6
+  },
+  "fogo-acender": {
+   "arquivos": [
+    "sfx/real/fogo-acender-1.ogg",
+    "sfx/real/fogo-acender-2.ogg"
+   ],
+   "volume": 0.75
+  },
+  "fogo-impacto": {
+   "arquivos": [
+    "sfx/real/fogo-impacto-1.ogg",
+    "sfx/real/fogo-impacto-2.ogg"
+   ],
+   "volume": 0.8
+  },
+  "multidao-panico": {
+   "arquivos": [
+    "sfx/visceral-v1/multidao-panico.ogg"
+   ],
+   "volume": 0.6
+  },
+  "portal-fechar": {
+   "arquivos": [
+    "sfx/visceral-v1/portal-fechar.ogg"
+   ],
+   "volume": 0.65
+  },
+  "acesso-bloqueado": {
+   "arquivos": [
+    "sfx/visceral-v1/acesso-bloqueado.ogg"
+   ],
+   "volume": 0.4
+  },
+  "encontro-monstro": {
+   "arquivos": [
+    "sfx/visceral-v1/encontro-monstro.ogg"
+   ],
+   "volume": 0.7
+  },
+  "sino-templo": {
+   "arquivos": [
+    "sfx/visceral-v1/sino-templo.ogg"
+   ],
+   "volume": 0.8
+  },
+  "vharzul-ataque": {
+   "arquivos": [
+    "sfx/chefes/vharzul-ataque-1.ogg",
+    "sfx/chefes/vharzul-ataque-2.ogg"
+   ],
+   "volume": 0.8,
+   "origem": [
+    "Large Fantasy Creature Roar · DavidDumaisAudio · pixabay.com/sound-effects/film-special-effects-large-fantasy-creature-roar-195714/",
+    "Monster Growl · Universfield · pixabay.com/sound-effects/horror-monster-growl-140377/"
+   ]
+  },
+  "vharzul-dor": {
+   "arquivos": [
+    "sfx/chefes/vharzul-dor.ogg"
+   ],
+   "volume": 0.7,
+   "origem": [
+    "Dragon Hurt · freesound_community · pixabay.com/sound-effects/horror-dragon-hurt-47161/"
+   ]
+  },
+  "vharzul-morte": {
+   "arquivos": [
+    "sfx/chefes/vharzul-morte.ogg"
+   ],
+   "volume": 0.8,
+   "origem": [
+    "Demonic Roar · freesound_community · pixabay.com/sound-effects/horror-demonic-roar-40349/"
+   ]
+  },
+  "vharzul-glaive": {
+   "arquivos": [
+    "sfx/chefes/vharzul-glaive.ogg"
+   ],
+   "volume": 0.75,
+   "origem": [
+    "Heavy greatsword slash in the air (1) · Yodguard · pixabay.com/sound-effects/heavy-greatsword-slash-in-the-air-1-450242/"
+   ]
+  },
+  "vharzul-barba": {
+   "arquivos": [
+    "sfx/chefes/vharzul-barba.ogg"
+   ],
+   "volume": 0.7,
+   "origem": [
+    "Fast Tail Whip Attack (1) · Yodguard · pixabay.com/sound-effects/film-special-effects-fast-tail-whip-attack-1-482523/"
+   ]
+  },
+  "iskarion-ataque": {
+   "arquivos": [
+    "sfx/chefes/iskarion-ataque.ogg"
+   ],
+   "volume": 0.75,
+   "origem": [
+    "Oni Demon Voice - Demonic Laughter 2 - No AI · PhatPhrogStudio · pixabay.com/sound-effects/horror-oni-demon-voice-demonic-laughter-2-no-ai-479320/"
+   ]
+  },
+  "iskarion-comando": {
+   "arquivos": [
+    "sfx/chefes/iskarion-comando.ogg"
+   ],
+   "volume": 0.85,
+   "origem": [
+    "Demon Voice - Smell Flesh - No AI · PhatPhrogStudio · pixabay.com/sound-effects/horror-demon-voice-smell-flesh-no-ai-479322/"
+   ]
+  },
+  "iskarion-dor": {
+   "arquivos": [
+    "sfx/chefes/iskarion-dor.ogg"
+   ],
+   "volume": 0.7,
+   "origem": [
+    "Male Grunting In Pain · freesound_community · pixabay.com/sound-effects/people-male-grunting-in-pain-45746/"
+   ]
+  },
+  "iskarion-morte": {
+   "arquivos": [
+    "sfx/chefes/iskarion-morte.ogg"
+   ],
+   "volume": 0.75,
+   "origem": [
+    "Male Death Scream · Universfield · pixabay.com/sound-effects/people-male-death-scream-123078/"
+   ]
+  },
+  "iskarion-raio": {
+   "arquivos": [
+    "sfx/chefes/iskarion-raio.ogg"
+   ],
+   "volume": 0.75,
+   "origem": [
+    "Fireball Whoosh 2 · floraphonic · pixabay.com/sound-effects/film-special-effects-fireball-whoosh-2-179126/"
+   ]
+  }
+ },
+ "musicas": {
+  "batalha": {
+   "arquivo": "musica/batalha.ogg",
+   "volume": 0.45,
+   "loop": true
+  },
+  "phandalim": {
+   "arquivo": "musica/phandalim-exploracao.mp3",
+   "volume": 0.35,
+   "loop": true,
+   "original": "Bulette Take the Liar [DfH4hh0pPHI].mp3"
+  },
+  "templo": {
+   "arquivo": "musica/templo-oghma.mp3",
+   "volume": 0.4,
+   "loop": true,
+   "original": "FM_St. Andral's Church (Hopeful Choir & Organ).mp3"
+  },
+  "perigo": {
+   "arquivo": "musica/perigo-exploracao.mp3",
+   "volume": 0.45,
+   "loop": true,
+   "original": "FM_Death House (Dark Exploration Music).mp3"
+  },
+  "combate": {
+   "arquivo": "musica/combate.mp3",
+   "volume": 0.4,
+   "loop": true,
+   "original": "FM_Encounter in Barovia (Combat Music).mp3"
+  },
+  "vitoria": {
+   "arquivo": "musica/vitoria.ogg",
+   "volume": 0.3,
+   "loop": true,
+   "original": "Victory_music.flac (temp_leandro/, 24/10/2026)"
+  }
+ }
+}

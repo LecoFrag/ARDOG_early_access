@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 400">
+  <!-- Provisional bust of Fenn, acolyte of Oghma (PROLOGO.md), until public/assets/prologo/fenn-<humor>.png exist.
+       A young man lit from below by his lantern; the blank scroll of Oghma on his robe. -->
+  <defs>
+    <radialGradient id="fundo" cx="50%" cy="35%" r="75%"><stop offset="0" stop-color="#3a4552"/><stop offset="1" stop-color="#11161c"/></radialGradient>
+    <radialGradient id="lanterna" cx="18%" cy="88%" r="60%"><stop offset="0" stop-color="#ffd38a" stop-opacity=".85"/><stop offset=".5" stop-color="#e8913a" stop-opacity=".25"/><stop offset="1" stop-color="#e8913a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="manto" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6d7f93"/><stop offset="1" stop-color="#2c3644"/></linearGradient>
+    <linearGradient id="pele" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#f2c08a"/><stop offset="1" stop-color="#8c6448"/></linearGradient>
+  </defs>
+  <rect width="340" height="400" fill="url(#fundo)"/>
+  <path d="M30 400 C 44 318, 96 290, 140 282 L 200 282 C 244 290, 296 318, 310 400 Z" fill="url(#manto)"/>
+  <path d="M136 282 L 170 330 L 204 282" fill="none" stroke="#1f2833" stroke-width="6"/>
+  <g transform="translate(150 336)"><rect width="40" height="28" rx="4" fill="#efe6cf"/><rect x="-5" y="-3" width="9" height="34" rx="4" fill="#d9cdb0"/><rect x="36" y="-3" width="9" height="34" rx="4" fill="#d9cdb0"/></g>
+  <rect x="150" y="236" width="40" height="52" fill="url(#pele)"/>
+  <ellipse cx="170" cy="190" rx="54" ry="66" fill="url(#pele)"/>
+  <path d="M114 182 C 108 120, 146 104, 172 106 C 206 106, 236 124, 228 186 C 222 160, 214 146, 196 140 C 186 156, 150 150, 132 146 C 124 156, 118 168, 114 182 Z" fill="#6b4529"/>
+  <ellipse cx="150" cy="194" rx="7" ry="5" fill="#2a1d15"/><ellipse cx="192" cy="194" rx="7" ry="5" fill="#2a1d15"/>
+  <path d="M154 230 C 164 236, 178 236, 188 230" fill="none" stroke="#5d3a28" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#b9784f" fill-opacity=".6"><circle cx="140" cy="212" r="2"/><circle cx="148" cy="216" r="2"/><circle cx="196" cy="214" r="2"/><circle cx="203" cy="210" r="2"/></g>
+  <rect width="340" height="400" fill="url(#lanterna)"/>
+  <circle cx="58" cy="360" r="20" fill="#ffd38a"/><rect x="44" y="330" width="28" height="8" rx="2" fill="#2a1d14"/>
+</svg>

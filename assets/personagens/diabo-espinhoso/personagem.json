@@ -1,0 +1,78 @@
+{
+  "id": "diabo-espinhoso",
+  "nome": "Diabo espinhoso",
+  "lado": "inimigo",
+  "porte": "pequeno",
+  "alturaBatalha": 300,
+  "referenciaDnd": {
+    "nome": "Spined Devil",
+    "tamanho": "Small",
+    "nd": 2
+  },
+  "poses": {
+    "idle": {
+      "arquivo": "idle.webp",
+      "originX": 0.57,
+      "originY": 0.8995,
+      "pes": [
+        [
+          0.29,
+          0.856
+        ],
+        [
+          0.85,
+          0.943
+        ]
+      ]
+    },
+    "hurt": {
+      "arquivo": "hurt.webp",
+      "originX": 0.57,
+      "originY": 0.89,
+      "pes": [
+        [
+          0.29,
+          0.856
+        ],
+        [
+          0.85,
+          0.924
+        ]
+      ]
+    },
+    "attack": {
+      "arquivo": "attack.webp",
+      "originX": 0.615,
+      "originY": 0.938,
+      "pes": [
+        [
+          0.38,
+          0.902
+        ],
+        [
+          0.85,
+          0.974
+        ]
+      ]
+    },
+    "attack-espinhos": {
+      "arquivo": "attack-espinhos.webp",
+      "originX": 0.63,
+      "originY": 0.929,
+      "pes": [
+        [
+          0.33,
+          0.958
+        ],
+        [
+          0.93,
+          0.9
+        ]
+      ]
+    }
+  },
+  "retratos": {
+    "face": "face.webp"
+  },
+  "notas": "Espera no chão com asas recolhidas. Sem voo ou batidas amplas de asas. Medidas visuais aproximadas para futura integração."
+}

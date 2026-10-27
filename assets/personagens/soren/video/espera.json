@@ -1,0 +1,25 @@
+{
+  "id": "soren",
+  "arquivo": "espera.webm",
+  "original": "original/espera.webm",
+  "largura": 394,
+  "altura": 600,
+  "fps": 24.0,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.4626,
+  "originY": 0.9883,
+  "topo": 0.015,
+  "pes": [
+    [
+      0.1256,
+      0.9883
+    ],
+    [
+      0.7995,
+      0.9483
+    ]
+  ],
+  "nota": "Gerado por scripts/preparar-videos-herois.py a partir do original com fundo verde. Ver docs/arte/VIDEOS-HEROIS.md."
+}

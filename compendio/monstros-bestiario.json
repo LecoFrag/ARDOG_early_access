@@ -1,0 +1,60 @@
+{
+  "versao": "0.1",
+  "nota": "Fichas de combate dos monstros do bestiário (esqueleto, orc, troll) e da sentinela da cripta, no mesmo formato de dados.json. Originais do nosso jogo, inspiradas no sistema d20 (D&D 2024); não reproduzem blocos oficiais. Valores provisórios para o combate v1 (docs/batalha/COMBATE-V1.md). Campos novos: subtitulo, resumo, defesas, tracos e xp.",
+  "equipamentos": [
+    { "id": "espada-curta", "nome": "Espada curta", "categoria": "Arma marcial", "dados": 1, "faces": 6, "tipoDano": "perfurante", "atributo": "Força ou Destreza", "propriedades": "Acuidade, leve", "alcance": "corpo-a-corpo", "maestria": "importunar" },
+    { "id": "clava-grande", "nome": "Clava grande", "categoria": "Arma simples", "dados": 1, "faces": 8, "tipoDano": "contundente", "atributo": "Força", "propriedades": "Duas mãos", "alcance": "corpo-a-corpo" },
+    { "id": "clava-de-troll", "nome": "Clava de troll", "categoria": "Arma natural", "dados": 2, "faces": 6, "tipoDano": "contundente", "atributo": "Força", "propriedades": "Alcance: o braço longo do troll chega à retaguarda", "alcance": "haste" },
+    { "id": "retalhos-de-armadura", "nome": "Retalhos de armadura", "categoria": "Armadura leve", "caBase": 11, "somaDes": true },
+    { "id": "gibao-de-peles", "nome": "Gibão de peles", "categoria": "Armadura média", "caBase": 12, "somaDes": true, "limiteDes": 2 },
+    { "id": "couro-de-troll", "nome": "Couro de troll", "categoria": "Armadura natural", "caBase": 12, "somaDes": true }
+  ],
+  "combatentes": [
+    {
+      "id": "esqueleto-maltrapilho", "nome": "Skeleton", "subtitulo": "Morto-vivo · médio", "grupo": "monstros", "nivel": null, "xp": 50,
+      "pv": 16, "proficiencia": 2, "imagem": "/ARDOG_early_access/assets/personagens/esqueleto-maltrapilho/idle.webp",
+      "atributos": { "for": 10, "des": 14, "con": 15, "int": 6, "sab": 8, "car": 5 },
+      "armadura": "retalhos-de-armadura", "escudo": null, "equipamentos": ["espada-curta", "retalhos-de-armadura"],
+      "resumo": "Ossos presos por magia antiga e trapos de uma armadura que já não protege muito. Os golpes cortantes passam pelas costelas; uma clava o despedaça.",
+      "defesas": { "vulneravel": ["contundente"], "resistente": [], "imune": ["veneno"] },
+      "tracos": [{ "id": "morto-vivo", "nome": "Undead", "texto": "Não respira, não sangra e não pode ser envenenado." }],
+      "acoes": [{ "id": "espada-curta", "nome": "Shortsword", "item": "espada-curta", "atributo": "des", "proficiente": true, "somaAtributo": true, "alvo": "Um herói", "custo": "Uma ação" }]
+    },
+    {
+      "id": "orc-clava", "nome": "Orc", "subtitulo": "Humanoide · médio", "grupo": "monstros", "nivel": null, "xp": 100,
+      "pv": 22, "proficiencia": 2, "imagem": "/ARDOG_early_access/assets/personagens/orc-clava/idle.webp",
+      "atributos": { "for": 16, "des": 12, "con": 16, "int": 7, "sab": 11, "car": 10 },
+      "armadura": "gibao-de-peles", "escudo": null, "equipamentos": ["clava-grande", "gibao-de-peles"],
+      "resumo": "Forte e impaciente. Abre a luta numa investida e bate com uma clava cravejada de ferro.",
+      "defesas": { "vulneravel": [], "resistente": [], "imune": [] },
+      "tracos": [{ "id": "agressivo", "nome": "Aggressive", "texto": "O primeiro ataque do orc na batalha tem vantagem." }],
+      "acoes": [{ "id": "clava-grande", "nome": "Greatclub", "item": "clava-grande", "atributo": "for", "proficiente": true, "somaAtributo": true, "alvo": "Um herói", "custo": "Uma ação" }]
+    },
+    {
+      "id": "troll-clava", "nome": "Troll", "subtitulo": "Gigante · colosso", "grupo": "monstros", "nivel": null, "xp": 700,
+      "pv": 45, "proficiencia": 2, "imagem": "/ARDOG_early_access/assets/personagens/troll-clava/idle.webp",
+      "atributos": { "for": 18, "des": 13, "con": 20, "int": 7, "sab": 9, "car": 7 },
+      "armadura": "couro-de-troll", "escudo": null, "equipamentos": ["clava-de-troll", "couro-de-troll"],
+      "resumo": "Enorme e quase impossível de cansar: as feridas fecham diante dos olhos. Só o fogo impede a carne de voltar.",
+      "defesas": { "vulneravel": [], "resistente": [], "imune": [] },
+      "tracos": [
+        { "id": "regeneracao", "nome": "Regeneration", "texto": "Recupera 5 PV no início do turno, se não sofreu dano de fogo desde o turno anterior. Não volta dos 0 PV." },
+        { "id": "colosso", "nome": "Colosso", "texto": "Ocupa uma linha inteira. Por enquanto, enfrente-o sozinho." }
+      ],
+      "acoes": [{ "id": "clava-de-troll", "nome": "Troll Club", "item": "clava-de-troll", "atributo": "for", "proficiente": true, "somaAtributo": true, "alvo": "Um herói, em qualquer linha", "custo": "Uma ação" }]
+    },
+    {
+      "id": "sentinela", "nome": "Sentinel", "subtitulo": "Morto-vivo · guardião", "grupo": "monstros", "nivel": null, "xp": 200,
+      "pv": 26, "proficiencia": 2, "imagem": "/ARDOG_early_access/assets/sentinel-idle.webp",
+      "atributos": { "for": 15, "des": 11, "con": 16, "int": 6, "sab": 10, "car": 5 },
+      "armadura": "cota-de-malha", "escudo": null, "equipamentos": ["espada-longa", "cota-de-malha"],
+      "resumo": "Cavaleiro esquecido que ainda guarda a cripta. A armadura velha desvia lâminas e flechas; magia e pancadas funcionam melhor.",
+      "defesas": { "vulneravel": [], "resistente": ["perfurante"], "imune": ["veneno"] },
+      "tracos": [
+        { "id": "inabalavel", "nome": "Steadfast", "texto": "Não pode ser derrubado." },
+        { "id": "morto-vivo", "nome": "Undead", "texto": "Não respira, não sangra e não pode ser envenenado." }
+      ],
+      "acoes": [{ "id": "espada-longa", "nome": "Longsword", "item": "espada-longa", "atributo": "for", "proficiente": true, "somaAtributo": true, "alvo": "Um herói", "custo": "Uma ação" }]
+    }
+  ]
+}

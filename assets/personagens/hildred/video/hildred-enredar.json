@@ -1,0 +1,32 @@
+{
+  "id": "hildred-enredar",
+  "arquivo": "hildred-enredar.webm",
+  "original": "original/hildred-enredar.webm",
+  "largura": 498,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.5472,
+  "originY": 0.9653,
+  "topo": 0.0347,
+  "pes": [
+    [
+      0.2229,
+      0.9653
+    ],
+    [
+      0.8715,
+      0.8944
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "hildred-enredar",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/hildred/entangle.webp",
+  "sha256Imagem": "c812b81d0a3539fb441e41c5cad2dcffd75da603a4874e744cca2c212c457cb3",
+  "sha256PNG": "ed058c2754e1113e3a246a4d8c15a82dda8427775c2cff23ee22400be7806802",
+  "movimento": "Pressao descendente da mao sobre o chao, chamando as raizes; capa em leve balanco.",
+  "nota": "Gerado por scripts/preparar-hildred-poses.py. Sem efeitos mágicos ou projéteis: o jogo desenha o efeito por cima."
+}

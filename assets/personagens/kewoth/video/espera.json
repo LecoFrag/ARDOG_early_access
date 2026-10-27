@@ -1,0 +1,25 @@
+{
+  "id": "kewoth",
+  "arquivo": "espera.webm",
+  "original": "original/espera.webm",
+  "largura": 402,
+  "altura": 570,
+  "fps": 24.0,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.5317,
+  "originY": 0.9895,
+  "topo": 0.014,
+  "pes": [
+    [
+      0.1704,
+      0.9895
+    ],
+    [
+      0.893,
+      0.9596
+    ]
+  ],
+  "nota": "Gerado por scripts/preparar-videos-herois.py a partir do original com fundo verde. Ver docs/arte/VIDEOS-HEROIS.md."
+}

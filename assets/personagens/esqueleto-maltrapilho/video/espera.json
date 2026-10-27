@@ -1,0 +1,25 @@
+{
+  "id": "esqueleto-maltrapilho",
+  "arquivo": "espera.webm",
+  "original": "original/espera.webm",
+  "largura": 398,
+  "altura": 504,
+  "fps": 24.0,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.6501,
+  "originY": 0.9881,
+  "topo": 0.0278,
+  "pes": [
+    [
+      0.3957,
+      0.9147
+    ],
+    [
+      0.9045,
+      0.9881
+    ]
+  ],
+  "nota": "Gerado por scripts/preparar-videos-herois.py a partir do original com fundo verde. Ver docs/arte/VIDEOS-HEROIS.md."
+}

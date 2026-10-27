@@ -1,0 +1,64 @@
+{
+  "id": "goblin-arqueiro",
+  "nome": "Goblin arqueiro",
+  "lado": "inimigo",
+  "porte": "pequeno",
+  "alturaBatalha": 268,
+  "poses": {
+    "idle": {
+      "arquivo": "idle.webp",
+      "originX": 0.505,
+      "originY": 0.9425,
+      "pes": [
+        [
+          0.23,
+          0.927
+        ],
+        [
+          0.78,
+          0.958
+        ]
+      ],
+      "largura": 1067,
+      "altura": 1474,
+      "alturaBatalha": 268
+    },
+    "hurt": {
+      "arquivo": "hurt.webp",
+      "originX": 0.505,
+      "originY": 0.9245,
+      "pes": [
+        [
+          0.23,
+          0.908
+        ],
+        [
+          0.78,
+          0.941
+        ]
+      ],
+      "largura": 1067,
+      "altura": 1474,
+      "alturaBatalha": 268
+    },
+    "attack": {
+      "arquivo": "attack.webp",
+      "originX": 0.5750000000000001,
+      "originY": 0.9265000000000001,
+      "pes": [
+        [
+          0.23,
+          0.931
+        ],
+        [
+          0.92,
+          0.922
+        ]
+      ],
+      "largura": 1067,
+      "altura": 1474,
+      "alturaBatalha": 268
+    }
+  },
+  "notas": "Coordenadas iniciais das solas medidas visualmente. Resolução nativa preservada: retratos 1067 × 1474. Espera animada, dano e ataque estáticos."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "hildred-cajado",
+  "arquivo": "hildred-cajado-v1.webm",
+  "original": "original/hildred-cajado-v1.webm",
+  "largura": 562,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.5193,
+  "originY": 0.9639,
+  "topo": 0.0361,
+  "pes": [
+    [
+      0.1601,
+      0.9639
+    ],
+    [
+      0.8785,
+      0.8694
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "hildred-cajado",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/hildred/attack.webp",
+  "sha256Imagem": "860736c6dae8906ea477c7460356a1942b00decea048e0646ef99f134b427049",
+  "sha256PNG": "925253df2a976191056546232f1ad2a23ede5f7404eef527e296cb39a37aa2e4",
+  "movimento": "Impulso curto do tronco e do cajado, que acompanha as duas maos.",
+  "nota": "Gerado por scripts/preparar-hildred-poses.py. Sem efeitos mágicos ou projéteis: o jogo desenha o efeito por cima.",
+  "substituido": "25/10/2026: guardado com este nome quando a estocada (attack-giro.webp) virou a pose do Quarterstaff, a pedido do usuário. Sem uso no jogo."
+}

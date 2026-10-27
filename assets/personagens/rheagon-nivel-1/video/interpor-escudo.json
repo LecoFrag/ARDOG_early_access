@@ -1,0 +1,32 @@
+{
+  "id": "rheagon-nivel-1-interpor-escudo",
+  "arquivo": "interpor-escudo.webm",
+  "original": "original/interpor-escudo.webm",
+  "largura": 542,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.499,
+  "originY": 0.9639,
+  "topo": 0.0361,
+  "pes": [
+    [
+      0.1199,
+      0.9153
+    ],
+    [
+      0.8782,
+      0.9639
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "interpor-escudo",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/rheagon-nivel-1/interpor-escudo.webp",
+  "sha256Imagem": "93f2b87881b383b01bbcc8681c01f0b19b090f0820427bc13f5bafba75ca05c7",
+  "sha256PNG": "9181aa7303bc55c3904388c104f6745db2c9100f94785f20efd7e42de7afe7bb",
+  "movimento": "Pressão do tronco e do escudo à frente, com retorno controlado.",
+  "nota": "Somente asset; sem cadastro ou integração no jogo. Sem efeitos mágicos ou projéteis. Conferir âncoras na integração."
+}

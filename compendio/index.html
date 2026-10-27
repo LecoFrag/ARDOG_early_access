@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14191b">
+  <title>Compêndio · O juramento da cripta</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <header class="masthead"><a class="brand" href="#herois/rheagon"><span class="seal" aria-hidden="true">✦</span><span>O JURAMENTO DA CRIPTA<small>COMPÊNDIO DE CAMPANHA</small></span></a><span class="edition">CADERNO I <b>Nível 1</b></span></header>
+  <main>
+    <section class="intro"><div><p class="eyebrow">ARQUIVO DE CRIAÇÃO · VERSÃO 0.1</p><h1>Toda aventura começa<br>com uma ficha.</h1><p>Heróis, criaturas e equipamentos. Uma base para decidir juntos como será a primeira batalha.</p></div><aside class="goal"><span>ALVO DO PRIMEIRO TESTE</span><strong>04 <em>rodadas</em></strong><p>Dois heróis × dois goblins<br><b>Valores em experimentação</b></p></aside></section>
+    <div class="notice"><span aria-hidden="true">◇</span><p><strong>Este é um estudo separado do jogo.</strong> As fichas e a nova arte são propostas. Suas sugestões ficam neste navegador; exporte uma cópia para compartilhar e preservar.</p></div>
+    <nav id="tabs" class="tabs" aria-label="Seções do compêndio"></nav>
+    <div id="workspace" class="workspace"><aside class="catalog"><label for="search">Encontrar neste capítulo</label><input id="search" type="search" placeholder="Nome, arma, habilidade…" autocomplete="off"><p id="count" class="muted"></p><div id="list"></div></aside><article id="detail" aria-live="polite"></article></div>
+    <section id="special" hidden></section>
+    <section class="feedback-drawer"><div><p class="eyebrow">SUAS ANOTAÇÕES</p><h2>O próximo ajuste começa aqui.</h2><p id="notes-count">Nenhuma sugestão registrada.</p></div><div class="feedback-actions"><button id="show-notes" class="button secondary">Ver sugestões</button><button id="export" class="button">Exportar sugestões</button><button id="share-text" class="button secondary">Texto para compartilhar</button><label class="button secondary" for="import">Importar arquivo</label><input id="import" type="file" accept="application/json,.json" hidden></div><div id="notes-list" hidden></div><label id="share-label" hidden>Copie este texto e envie na conversa<textarea id="share-output" readonly rows="7" aria-label="Texto das sugestões para compartilhar"></textarea></label><p id="storage-status" role="status"></p></section>
+  </main>
+  <footer><span>UM MUNDO EM CONSTRUÇÃO</span><p>Referência: D&D, regras revisadas de 2024. Adaptações e decisões locais identificadas nas fichas e na aba Regras de combate. O combate v1 da batalha (/?combate=v1) usa este cadastro.</p></footer>
+  <dialog id="art-dialog"><button id="close-art" class="button secondary">Fechar imagem</button><img id="large-art" alt=""><p id="art-caption"></p></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

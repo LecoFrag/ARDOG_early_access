@@ -1,0 +1,26 @@
+{
+  "versao": "1",
+  "nota": "Pose caída (prone) de cada personagem: docs/batalha/POSE-CAIDA.md. 'proporcao' é a altura visível da pose caída dividida pela altura visível da pose em pé do mesmo personagem. Foi calibrada em 19/10/2026 comparando as duas lado a lado, pelo tamanho da cabeça e do corpo. As chaves são as pastas em public/assets/personagens/.",
+  "proporcao": {
+    "barbazu-carcereiro": 0.82,
+    "arauto-rubro": 0.62,
+    "hildred": 0.55,
+    "rheagon-tabardo": 0.7,
+    "rheagon-nivel-1": 0.7,
+    "rheagon-original": 0.7,
+    "genesis": 0.46,
+    "adao": 0.62,
+    "kewoth": 0.7,
+    "azrakt": 0.56,
+    "soren": 0.58,
+    "sentinela": 0.65,
+    "goblin-adaga": 0.75,
+    "goblin-arqueiro": 0.75,
+    "esqueleto-maltrapilho": 0.55,
+    "orc-clava": 0.58,
+    "troll-clava": 0.8,
+    "lemure": 0.55,
+    "imp": 0.65,
+    "diabo-espinhoso": 0.68
+  }
+}

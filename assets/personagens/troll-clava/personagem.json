@@ -1,0 +1,64 @@
+{
+  "id": "troll-clava",
+  "nome": "Troll com clava",
+  "lado": "inimigo",
+  "porte": "colosso",
+  "alturaBatalha": 892,
+  "poses": {
+    "idle": {
+      "arquivo": "idle.webp",
+      "originX": 0.615,
+      "originY": 0.9205,
+      "pes": [
+        [
+          0.38,
+          0.889
+        ],
+        [
+          0.85,
+          0.952
+        ]
+      ],
+      "largura": 1067,
+      "altura": 1474,
+      "alturaBatalha": 892
+    },
+    "hurt": {
+      "arquivo": "hurt.webp",
+      "originX": 0.615,
+      "originY": 0.901,
+      "pes": [
+        [
+          0.38,
+          0.87
+        ],
+        [
+          0.85,
+          0.932
+        ]
+      ],
+      "largura": 1067,
+      "altura": 1474,
+      "alturaBatalha": 892
+    },
+    "attack": {
+      "arquivo": "attack.webp",
+      "originX": 0.655,
+      "originY": 0.9279999999999999,
+      "pes": [
+        [
+          0.44,
+          0.909
+        ],
+        [
+          0.87,
+          0.947
+        ]
+      ],
+      "largura": 1536,
+      "altura": 1024,
+      "alturaBatalha": 619.6797829036635
+    }
+  },
+  "notas": "Coordenadas iniciais das solas medidas visualmente. Resolução nativa preservada: retratos 1067 × 1474. Espera animada, dano e ataque estáticos."
+}

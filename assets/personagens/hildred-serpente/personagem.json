@@ -1,0 +1,29 @@
+{
+  "id": "hildred-serpente",
+  "nome": "Serpente venenosa gigante — forma de Hildred",
+  "lado": "heroi",
+  "porte": "normal",
+  "alturaBatalha": 350,
+  "poses": {
+    "idle": {
+      "arquivo": "idle.webp",
+      "originX": 0.58767,
+      "originY": 0.96289,
+      "pes": [
+        [
+          0.43587,
+          0.95898
+        ],
+        [
+          0.5485,
+          0.96289
+        ],
+        [
+          0.77865,
+          0.94141
+        ]
+      ]
+    }
+  },
+  "notas": "Escala inicial para estudo; conferir na formação antes de integrar. Só a espera foi gerada nesta etapa. Vídeo em video/espera.webm; movimento alternativo em src/personagens/hildred-serpente-idle.ts."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rheagon-nivel-1-baforada",
+  "arquivo": "baforada.webm",
+  "original": "original/baforada.webm",
+  "largura": 1014,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.5808,
+  "originY": 0.9611,
+  "topo": 0.0389,
+  "pes": [
+    [
+      0.2623,
+      0.9611
+    ],
+    [
+      0.8994,
+      0.9597
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "baforada",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/rheagon-nivel-1/baforada.webp",
+  "sha256Imagem": "ec3cd6a681a973d3605b63d585e097d2912ef4f1282eff9947aa92872bdd682d",
+  "sha256PNG": "96c6b202a464a9b3c4e616c25e467fbdac9b26b101f56a24673953022dfe7cc6",
+  "movimento": "Inclinação para a baforada e retorno; mandíbula e dentes preservados.",
+  "nota": "Somente asset; sem cadastro ou integração no jogo. Sem efeitos mágicos ou projéteis. Conferir âncoras na integração."
+}

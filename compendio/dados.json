@@ -1,0 +1,75 @@
+{
+  "versao": "0.1",
+  "referencia": "D&D revisado de 2024; adaptações locais para o protótipo",
+  "atributos": { "for":"Força", "des":"Destreza", "con":"Constituição", "int":"Inteligência", "sab":"Sabedoria", "car":"Carisma" },
+  "combatentes": [
+    {
+      "id":"rheagon", "nome":"Rheagon", "subtitulo":"Paladino · draconato dourado", "grupo":"herois", "nivel":1, "pv":28, "proficiencia":2,
+      "imagem":"/ARDOG_early_access/assets/personagens/rheagon-tabardo/idle.webp", "original":"/ARDOG_early_access/assets/rheagon-idle.webp",
+      "atributos":{"for":16,"des":10,"con":14,"int":10,"sab":12,"car":14},
+      "armadura":"cota-de-malha", "escudo":"escudo-comum", "equipamentos":["espada-longa","cota-de-malha","escudo-comum"],
+      "resumo":"A linha de frente do grupo. Espada, escudo e uma pequena reserva de cura para sustentar a primeira aventura.",
+      "tracos":[{"id":"maestria","nome":"Weapon Mastery","texto":"Usa a maestria da arma em cada acerto. Com a espada longa: Sap (o alvo tem desvantagem no próximo ataque). Na D&D 2024, paladinos têm esse recurso desde o nível 1."},{"id":"protecao","nome":"Protection","texto":"Com escudo e na linha da frente, uma vez por rodada, um ataque contra Gênesis sai com desvantagem. Estilo de luta da D&D 2024 (uma reação), aplicado automaticamente."}],
+      "notas":["Todos os atributos, os 28 PV e o conjunto inicial de equipamentos estão em teste.","A cota de malha tem CA 16; o escudo acrescenta 2. A Destreza não é somada à CA dessa armadura.","A nova arte está em uso na batalha, com animação de espera (docs/arte/RHEAGON-VISUAL.md). A arte dourada anterior volta com ?rheagon=original.","Na formação, Rheagon fica na frente (F1): protege Gênesis do Goblin Warrior, mas não do arco."],
+      "acoes":[
+        {"id":"espadada","nome":"Longsword","item":"espada-longa","atributo":"for","proficiente":true,"somaAtributo":true,"alvo":"Um inimigo","custo":"Uma ação · sem limite de usos","nota":"Uso com uma mão, mantendo o escudo equipado."},
+        {"id":"imposicao-das-maos","nome":"Lay on Hands","cura":8,"alvo":"O próprio Rheagon ou um aliado","custo":"Uma ação · 1 uso por batalha","nota":"Adaptação local: cura até 8 PV, sem ultrapassar o máximo. Para este teste, pode alcançar qualquer aliado da formação. Levanta um aliado caído com a vida curada (regra de 19/10/2026: qualquer cura levanta quem caiu)."}
+      ]
+    },
+    {
+      "id":"genesis","nome":"Gênesis","subtitulo":"Mago · conjurador", "grupo":"herois","nivel":1,"pv":20,"proficiencia":2,"mp":8,
+      "imagem":"/ARDOG_early_access/assets/genesis-idle.webp", "atributos":{"for":10,"des":14,"con":14,"int":16,"sab":12,"car":10},
+      "armadura":null,"escudo":null,"equipamentos":["cajado","vestes"],
+      "resumo":"O poder à distância do grupo. Fire Bolt pode ser usado a cada turno; o cajado oferece uma alternativa física.",
+      "notas":["Atributos e 20 PV são propostas para o primeiro teste.","Sem armadura mágica: CA = 10 + 2 de Destreza. As vestes não concedem bônus.","Cajado com uma mão nesta ficha; com duas mãos, o dado seria d8. Ambas as modalidades usam Força.","Cajado e Fire Bolt são um recorte de habilidades para o protótipo, não a ficha completa de um mago de D&D.","Sem razão situacional para o cajado, Fire Bolt tende a ser a melhor escolha. Exceção: o cajado é contundente e dobra contra esqueletos.","Gênesis fica atrás (B1). O cajado só alcança a linha da frente inimiga; o Fire Bolt alcança qualquer linha.","Magos não têm Weapon Mastery: o cajado não usa a maestria Topple."],
+      "acoes":[
+        {"id":"golpe-cajado","nome":"Quarterstaff","item":"cajado","atributo":"for","proficiente":true,"somaAtributo":true,"alvo":"Um inimigo","custo":"Uma ação · sem limite de usos","nota":"Golpe físico com uma mão. Não usa Inteligência."},
+        {"id":"fire-bolt","nome":"Fire Bolt","habilidade":"fire-bolt","dados":1,"faces":10,"tipoDano":"fogo","atributo":"int","proficiente":true,"somaAtributo":false,"alvo":"Um inimigo","custo":"Uma ação · truque, sem limite de usos","nota":"A Inteligência aumenta o acerto, mas não o dano. Truque: não custa MP. Alcança qualquer linha. 10% dos acertos põem fogo no alvo: 1d4 de fogo no início de cada turno dele, por 3 turnos."}
+      ]
+    },
+    {
+      "id":"goblin-adaga","nome":"Goblin Warrior","subtitulo":"Saqueador · pequeno", "grupo":"monstros","nivel":null,"pv":18,"proficiencia":2,"xp":50,
+      "imagem":"/ARDOG_early_access/assets/personagens/goblin-adaga/idle.webp", "atributos":{"for":8,"des":14,"con":10,"int":10,"sab":8,"car":8},
+      "armadura":"couro","escudo":null,"equipamentos":["adaga","couro"],
+      "resumo":"Um inimigo ágil e pouco resistente, equipado com adaga e proteção leve.",
+      "tracos":[{"id":"fuga-agil","nome":"Nimble Escape","texto":"Depois de atacar, se estiver atrás de um aliado vivo (cobertura), tenta se esconder: Furtividade +6 contra CD 15. Escondido, ataca com vantagem e é atacado com desvantagem, até atacar de novo."}],
+      "defesas":{"vulneravel":[],"resistente":[],"imune":[]},
+      "notas":["Ficha original do nosso jogo, inspirada no sistema d20; não reproduz o bloco oficial de um goblin.","PV 18, atributos e equipamentos são candidatos de balanceamento. A batalha atual ainda usa seus próprios números.","CA = 11 do couro + 2 de Destreza. A adaga permite usar Destreza no acerto e no dano.","A proteção de couro é uma hipótese mecânica; o traje da arte existente ainda precisa ser revisado.","XP 50, dividido entre os heróis, e espólios definidos no combate v1. Ataca quem está na frente. Na linha da frente não tem cobertura, então não consegue se esconder."],
+      "acoes":[{"id":"adaga","nome":"Dagger","item":"adaga","atributo":"des","proficiente":true,"somaAtributo":true,"alvo":"Um herói","custo":"Uma ação · sem limite de usos","nota":"Dano perfurante; sem veneno neste teste."}]
+    },
+    {
+      "id":"goblin-arqueiro","nome":"Goblin Archer","subtitulo":"Flecheiro · pequeno", "grupo":"monstros","nivel":null,"pv":16,"proficiencia":2,"xp":50,
+      "imagem":"/ARDOG_early_access/assets/personagens/goblin-arqueiro/idle.webp", "atributos":{"for":8,"des":14,"con":10,"int":10,"sab":8,"car":8},
+      "armadura":"couro","escudo":null,"equipamentos":["arco-curto","couro"],
+      "resumo":"Menos resistente que o saqueador, mas capaz de pressionar o grupo com ataques à distância.",
+      "tracos":[{"id":"fuga-agil","nome":"Nimble Escape","texto":"Depois de atacar, se estiver atrás de um aliado vivo (cobertura), tenta se esconder: Furtividade +6 contra CD 15. Escondido, ataca com vantagem e é atacado com desvantagem, até atacar de novo."}],
+      "defesas":{"vulneravel":[],"resistente":[],"imune":[]},
+      "notas":["Ficha original do nosso jogo: PV 16, atributos e equipamentos provisórios.","CA = 11 do couro + 2 de Destreza. Arco curto usa Destreza para acerto e dano.","A arte existente é preservada; o arco ilustrado no catálogo é uma proposta de equipamento.","Munição não é consumida neste teste. XP 50 e espólios definidos no combate v1.","Escolhe o herói de menor CA (Gênesis). Fica atrás do Goblin Warrior e se esconde com frequência enquanto ele estiver de pé."],
+      "acoes":[{"id":"flecha","nome":"Shortbow","item":"arco-curto","atributo":"des","proficiente":true,"somaAtributo":true,"alvo":"Um herói","custo":"Uma ação · sem limite de usos neste teste","nota":"Alcança qualquer linha. A Protection de Rheagon impõe desvantagem a um disparo por rodada contra Gênesis. Monstros não têm Weapon Mastery: o arco não usa Vex."}]
+    }
+  ],
+  "equipamentos": [
+    {"id":"espada-longa","nome":"Espada longa","categoria":"Arma marcial","imagem":"/ARDOG_early_access/assets/compendio-nivel-1/espada-longa.webp","dados":1,"faces":8,"tipoDano":"cortante","atributo":"Força","propriedades":"Versátil: 1d10 com duas mãos","alcance":"corpo-a-corpo","maestria":"enfraquecer","resumo":"Uma espada de aço comum, com guarda simples e cabo de couro. Sem bônus mágico.","nota":"Dano da arma: 1d8. Nas mãos de Rheagon: 1d8 + 3. Usar duas mãos exige abrir mão do escudo. Corpo a corpo: alcança a linha da frente, ou quem está atrás se ninguém estiver na frente. Maestria Sap (só para quem tem Weapon Mastery): o alvo atingido tem desvantagem no próximo ataque."},
+    {"id":"cajado","nome":"Cajado","categoria":"Arma simples","imagem":"/ARDOG_early_access/assets/compendio-nivel-1/cajado.webp","dados":1,"faces":6,"tipoDano":"contundente","atributo":"Força","propriedades":"Versátil: 1d8 com duas mãos","alcance":"corpo-a-corpo","maestria":"derrubar","resumo":"Um bastão de madeira resistente, sem cristal ou encantamento.","nota":"Uma mão: 1d6 + Força. Duas mãos: 1d8 + Força. Com Força 10, Gênesis não acrescenta dano. Maestria Topple (só para quem tem Weapon Mastery): o alvo faz resistência de Constituição, CD 8 + proficiência + Força, ou cai."},
+    {"id":"adaga","nome":"Adaga","categoria":"Arma simples","imagem":"/ARDOG_early_access/assets/compendio-nivel-1/adaga.webp","dados":1,"faces":4,"tipoDano":"perfurante","atributo":"Força ou Destreza","propriedades":"Acuidade, leve, arremesso","alcance":"corpo-a-corpo","resumo":"Uma lâmina curta e gasta. O goblin utiliza Destreza para manejá-la.","nota":"Nesta etapa, somente ataque corpo a corpo. Arremesso e combate com duas armas não implementados."},
+    {"id":"arco-curto","nome":"Arco curto","categoria":"Arma simples à distância","imagem":"/ARDOG_early_access/assets/compendio-nivel-1/arco-curto.webp","dados":1,"faces":6,"tipoDano":"perfurante","atributo":"Destreza","propriedades":"Duas mãos, munição","alcance":"distancia","maestria":"importunar","resumo":"Arco de madeira simples, usado pelo Goblin Archer.","nota":"Sem limite de flechas no primeiro teste. À distância: alcança qualquer linha. Maestria Vex (só para quem tem Weapon Mastery): depois de acertar, o próximo ataque contra o mesmo alvo tem vantagem."},
+    {"id":"cota-de-malha","nome":"Cota de malha","categoria":"Armadura pesada","caBase":16,"somaDes":false,"resumo":"Proteção feita de anéis de aço sobre roupa acolchoada.","nota":"CA 16, sem somar Destreza. Com o escudo comum: CA 18. Arte individual da armadura ainda pendente; pode ser vista na proposta visual de Rheagon."},
+    {"id":"escudo-comum","nome":"Escudo comum","categoria":"Escudo","bonusCA":2,"resumo":"Madeira reforçada por aro e broquel central de ferro. Sem efeito mágico.","nota":"Acrescenta +2 à CA e ocupa uma mão. Aparência proposta na nova arte de Rheagon; ilustração individual pendente."},
+    {"id":"couro","nome":"Armadura de couro","categoria":"Armadura leve","caBase":11,"somaDes":true,"resumo":"Proteção leve proposta para os dois goblins.","nota":"CA 11 + modificador de Destreza. Conferência visual com os trajes dos goblins ainda pendente."},
+    {"id":"vestes","nome":"Vestes de mago","categoria":"Vestuário","resumo":"Roupas comuns, sem proteção mágica.","nota":"Não altera a CA: Gênesis utiliza 10 + Destreza. Mage Armor não faz parte da ficha inicial."}
+  ],
+  "habilidades": [
+    {"id":"fire-bolt","nome":"Fire Bolt","categoria":"Truque de evocação","resumo":"Um projétil de fogo contra um alvo. Disponível para Gênesis no nível 1.","formula":"Acerto: 1d20 + Inteligência + proficiência. Dano: 1d10 de fogo. Queimadura: 10% dos acertos, 1d4 de fogo no início de cada turno do alvo, por 3 turnos.","custo":"Uma ação; sem espaços de magia ou mana.","origem":"Regra de referência","nota":"Dano sem bônus de Inteligência. Aumentos dos níveis futuros não estão habilitados neste estudo. A queimadura é uma adaptação local (na D&D 2024 o Fire Bolt só incendeia objetos). O fogo também impede a Regeneration do troll.","url":"https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#FireBolt"},
+    {"id":"imposicao-das-maos","nome":"Lay on Hands","categoria":"Habilidade de paladino","resumo":"Uma cura pequena para sustentar o grupo durante o primeiro combate.","formula":"Restaura até 8 PV, sem exceder os PV máximos.","custo":"Uma ação; uma vez por batalha. Também levanta um aliado caído.","origem":"Adaptação local provisória","nota":"Na referência de 2024, é uma ação bônus com reserva de 5 × nível de paladino, renovada após descanso longo. Nosso recorte troca reserva e descanso por um uso de 8 PV por batalha e consome a ação do turno.","url":"https://www.dndbeyond.com/sources/dnd/br-2024/character-classes#Paladin"}
+  ],
+  "poses": [
+    {"id":"idle","nome":"Espera","arquivo":"idle.webp","nota":"Proposta visual de nível 1"},
+    {"id":"hurt","nome":"Recebendo dano","arquivo":"hurt.webp","nota":"Pose estática de reação"},
+    {"id":"attack","nome":"Golpe de espada","arquivo":"attack.webp","nota":"Ataque básico de nível 1"},
+    {"id":"shield","nome":"Golpe de escudo","arquivo":"shield.webp","nota":"Somente estudo de arte; habilidade fora da ficha inicial"},
+    {"id":"divine","nome":"Canalização divina","arquivo":"divine.webp","nota":"Somente estudo de arte; especial fora da ficha inicial"},
+    {"id":"radiant","nome":"Postura radiante","arquivo":"radiant.webp","nota":"Somente estudo de arte; especial fora da ficha inicial"},
+    {"id":"face","nome":"Retrato","arquivo":"face.webp","nota":"Estudo para medalhão"},
+    {"id":"bust","nome":"Busto","arquivo":"bust.webp","nota":"Estudo para abertura; sem integração"}
+  ]
+}

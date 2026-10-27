@@ -1,0 +1,13 @@
+{
+ "id":"imp","nome":"Imp em voo","lado":"inimigo","porte":"pequeno",
+ "alturaBatalha":300,"elevacaoCena":55,"locomocao":"voo",
+ "referenciaDnd":{"nome":"Imp","tamanho":"Tiny","nd":1},
+ "poses":{
+  "idle":{"arquivo":"idle-voo.webp","originX":0.5,"originY":0.95,"pes":[]},
+  "hurt":{"arquivo":"hurt-voo.webp","originX":0.5,"originY":0.95,"pes":[]},
+  "attack":{"arquivo":"attack-voo.webp","originX":0.58,"originY":0.94,"alturaBatalha":235,"pes":[]}
+ },
+ "retratos":{"face":"face.webp"},
+ "animacao":{"classe":"ImpVooIdle","arquivo":"src/personagens/imp-voo-idle.ts"},
+ "notas":"Versão recomendada: imp suspenso. pes vazio porque não há contato com o chão. elevacaoCena em pixels da cena lógica, além da flutuação da malha. Originais terrestres preservados."
+}

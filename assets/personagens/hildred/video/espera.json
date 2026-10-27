@@ -1,0 +1,25 @@
+{
+  "id": "hildred",
+  "arquivo": "espera.webm",
+  "original": "original/espera.webm",
+  "largura": 404,
+  "altura": 598,
+  "fps": 24.0,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.5248,
+  "originY": 0.99,
+  "topo": 0.0184,
+  "pes": [
+    [
+      0.1795,
+      0.99
+    ],
+    [
+      0.87,
+      0.9314
+    ]
+  ],
+  "nota": "Gerado por scripts/preparar-videos-herois.py a partir do original com fundo verde. Ver docs/arte/VIDEOS-HEROIS.md."
+}

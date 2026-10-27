@@ -1,0 +1,1921 @@
+{
+  "data": "2026-10-23",
+  "fontes": [
+    {
+      "nome": "makigai_maimai-paper-245786.mp3",
+      "sha256": "2720ad9a7f2d4ab1964605e5d02164c61b6342f96957d28f7c82b16acb6459b9"
+    },
+    {
+      "nome": "freesound_community-paper-40894.mp3",
+      "sha256": "02c57ed70ffbd057b78c40ac3d1e6fcdaba6ffae7c93d79085258426e101a746"
+    },
+    {
+      "nome": "bell-ring-123742.mp3",
+      "sha256": "9417bd153e91385fa46fe2ae0ea1b3ca3e625795f0dda788d90e7b001167c310"
+    },
+    {
+      "nome": "rescopicsound-elemental-magic-spell-impact-outgoing-228342.mp3",
+      "sha256": "02ab5c0879fe6ed60ee4b458bc500341ef1e385cd311bd86c00de165b94c1dc6"
+    },
+    {
+      "nome": "dragon-studio-gooey-slime-monster-504037.mp3",
+      "sha256": "23ddb6fd38e3e4a81330b0294ac37621262589c02a3dc2ed48a2b02b3160cc97"
+    },
+    {
+      "nome": "club_hit.mp3",
+      "sha256": "2a9dcabad3c1af2ddef7be482f722cdf4f450540c73f3908df9962491b3dc459"
+    },
+    {
+      "nome": "heavy-body-fall-352446.mp3",
+      "sha256": "e25f1d65bb665d448241a36d2fe748ee5d68927f40a92318d281e0f9f453a997"
+    },
+    {
+      "nome": "shield_guard.mp3",
+      "sha256": "dc7872b0e7a3cc666b5fe9fd55b31b8ead30f2195e005688c6cddb6b2e9aaaf9"
+    },
+    {
+      "nome": "bow-sound-596323.mp3",
+      "sha256": "673f504c05b1663e3fae4c5dd5fe0f7b70058802687b4fe9948eb85de2f9d336"
+    },
+    {
+      "nome": "universfield-spell-casting-229208.mp3",
+      "sha256": "bf80bf4cea90123e4aae83efdec812dcc8442c19d2017cc0871e81e4bfe272b5"
+    },
+    {
+      "nome": "virtual_vibes-electric-spark-404229.mp3",
+      "sha256": "8311034d9a55a11eb5a96fc10ae755d5e6c07b18830141b2b53e22a89b86ed61"
+    },
+    {
+      "nome": "dragon-studio-holy-spell-cast-450460.mp3",
+      "sha256": "7827a9ecaeae030b4dfa5d0b5ee85b71805337486de7d22e3602165e24ebd11c"
+    },
+    {
+      "nome": "universfield-magic-twinkle-244951.mp3",
+      "sha256": "d527b2abe7dcdcce7f0a9145b98d6545060367f89260e5b4384799a554e2f35d"
+    },
+    {
+      "nome": "creepy-church-bell-33827.mp3",
+      "sha256": "32d9df97e86f9e1f56660d41837283a57de651dc430f5669de4a4ce82368e939"
+    },
+    {
+      "nome": "freesound_community-ghostly-whispers-6085.mp3",
+      "sha256": "1d05d2673c716c770291fbcaf0ae728603d676af4b64bfc1cf8f0e715f08c960"
+    },
+    {
+      "nome": "zombaria.ogg.mp3",
+      "sha256": "8104786e14e6c6ac15b076f5d50e699ce230ef1e0a78b6dba32804c68fd68e2e"
+    },
+    {
+      "nome": "healing.mp3",
+      "sha256": "c2ac41c1b294d5b682c83f1f6a7cf26a39f71e3951bfe2416d76cfd8671665b9"
+    },
+    {
+      "nome": "yodguard-wind-magic-5-378630.mp3",
+      "sha256": "89942d6189ebbb95e4d67517b09121723bc9e4e89e950b4283cd6ada571fda3a"
+    },
+    {
+      "nome": "voicebosch-monster-grunts-174559.mp3",
+      "sha256": "3af6db789377052a2b834e69888588f59003a482c9b33598b7f8a4ca43d2bb9f"
+    },
+    {
+      "nome": "universfield-level-up-fanfare-151765.mp3",
+      "sha256": "f43a92d3a74ae72c3e3d1de15b8d840c998c786e9bbdf77bc658786379d041f5"
+    },
+    {
+      "nome": "phatphrogstudio-defeat-outros-game-sounds-collection-477823.mp3",
+      "sha256": "c512841ed9f2691f2ad925d1cb0b3d816bcd2918c47f5580e990bdfda0f2dc35"
+    },
+    {
+      "nome": "troll_different_roars-100312.mp3",
+      "sha256": "799f88857a072218fbebbd666a1441ff0bfeb5ad0259a21e228b4a6b6d4d2c76"
+    },
+    {
+      "nome": "freesound_community-rattling-bones-105394.mp3",
+      "sha256": "68262eda1e18233f606ee140557f2009bd1ca3a26f76bfc0b49a421f2ec28d70"
+    },
+    {
+      "nome": "freesound_community-metal-chain-7056.mp3",
+      "sha256": "3b9bac1f4e2e7e5fc06048d5574752866227ddd3982f066024acbec8a3c24439"
+    },
+    {
+      "nome": "53439420-flying-monster-screech-02-461220.mp3",
+      "sha256": "be5eabf3fb36d89f8bec80a02da2801dd1cca5414aaccb98df5a3bbfe39639c3"
+    },
+    {
+      "nome": "freesound_community-wood-door-knock-106669.mp3",
+      "sha256": "14fdb59ebc3fda0b89c6bedd40de2507f107f9ed86ba2813c9d0bfa4c378b6a3"
+    },
+    {
+      "nome": "freesound_community-door-open-and-close-with-a-creak-102380.mp3",
+      "sha256": "5d7b02f22eed9df5332f4a268f24eabc9f80a204dfb7de47f949fc56d55aeeae"
+    },
+    {
+      "nome": "freesound_community-indoor-footsteps-6385.mp3",
+      "sha256": "fee6076afebf6af062eec02cc7feb60a94886443d6b5c0b58460c16f14ed6c7e"
+    },
+    {
+      "nome": "freesound_community-crowdpanic-6442.mp3",
+      "sha256": "5a17a08100ea09990d88c180d35724b591eb497a53da68c10970c3b6459ec2a4"
+    },
+    {
+      "nome": "soumages-magic-spell-333896.mp3",
+      "sha256": "797c65f7fb3b29b3ca087b36e12a839cf91456be675e223bd5da01220f6b07ce"
+    },
+    {
+      "nome": "monster-growl-390285.mp3",
+      "sha256": "9c81427103b749bb9c5013ec77098dad67619252a0671a4b4a512f58163bd5d0"
+    }
+  ],
+  "arquivos": [
+    {
+      "arquivo": "sfx/visceral-v1/ui-carta.ogg",
+      "camadas": [
+        {
+          "fonte": "makigai_maimai-paper-245786.mp3",
+          "inicio": 0.42,
+          "fim": 1.1,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.701,
+      "pico_db": -5.18,
+      "sha256": "4f260718c83af04fb388bf5c28e32fcb8a280ee2bde8491af51b709c73597c0b"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/ui-cancelar.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-paper-40894.mp3",
+          "inicio": 0.85,
+          "fim": 1.7,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.847,
+      "pico_db": -4.94,
+      "sha256": "3d3f22944e0f246a9d00510d5ef26f210d61cf0e361d575eb0324d10e3b73c05"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/ui-turno.ogg",
+      "camadas": [
+        {
+          "fonte": "bell-ring-123742.mp3",
+          "inicio": 0.12,
+          "fim": 1.75,
+          "ganho": 0.8,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.596,
+      "pico_db": -5.04,
+      "sha256": "36b82b9d0fdd584f30d1471c5f3893e6369f3c55b0081ded9e87089628a9ed9e"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/pagina.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-paper-40894.mp3",
+          "inicio": 1.96,
+          "fim": 3.5,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.54,
+      "pico_db": -5.24,
+      "sha256": "c0f4d2b5588f6ca16ecc0dc48f6f74f28a9dc1a508fee3cb6db3b0d3aafc7224"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/acerto-magia.ogg",
+      "camadas": [
+        {
+          "fonte": "rescopicsound-elemental-magic-spell-impact-outgoing-228342.mp3",
+          "inicio": 0,
+          "fim": 2.1,
+          "ganho": 1,
+          "velocidade": 1
+        },
+        {
+          "fonte": "dragon-studio-gooey-slime-monster-504037.mp3",
+          "inicio": 0,
+          "fim": 0.7,
+          "ganho": 0.3,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 2.092,
+      "pico_db": -4.8,
+      "sha256": "ac2276cc3c8e9ef7541b95563748edaab29b9d793ee03c12097035c878596fb7"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/critico-2.ogg",
+      "camadas": [
+        {
+          "fonte": "club_hit.mp3",
+          "inicio": 0,
+          "fim": 1.25,
+          "ganho": 1,
+          "velocidade": 1
+        },
+        {
+          "fonte": "heavy-body-fall-352446.mp3",
+          "inicio": 0.28,
+          "fim": 1.8,
+          "ganho": 0.5,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.52,
+      "pico_db": -5.15,
+      "sha256": "786550c235f4a110c1d985a6caebf75c63796b952bd6366a015853c29801cba1"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/escudo-1.ogg",
+      "camadas": [
+        {
+          "fonte": "shield_guard.mp3",
+          "inicio": 0,
+          "fim": 0.85,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.817,
+      "pico_db": -4.22,
+      "sha256": "6cad4e79998e70ea545f5676be297c73d50433e245599394d7207dd4d1061b05"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/escudo-2.ogg",
+      "camadas": [
+        {
+          "fonte": "shield_guard.mp3",
+          "inicio": 0,
+          "fim": 0.85,
+          "ganho": 1,
+          "velocidade": 0.95
+        }
+      ],
+      "duracao": 0.859,
+      "pico_db": -4.79,
+      "sha256": "059e54348f551c00e42df42bcf36c21b2a051c20540db63945b4bd72e2e0dfc7"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/escudo-3.ogg",
+      "camadas": [
+        {
+          "fonte": "shield_guard.mp3",
+          "inicio": 0,
+          "fim": 0.85,
+          "ganho": 1,
+          "velocidade": 1.05
+        }
+      ],
+      "duracao": 0.803,
+      "pico_db": -4.86,
+      "sha256": "6e00243ff2c6dba2e653a86d90aa346f40108df7344152515485067e520ad4db"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/queda-1.ogg",
+      "camadas": [
+        {
+          "fonte": "heavy-body-fall-352446.mp3",
+          "inicio": 0.27,
+          "fim": 1.95,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.68,
+      "pico_db": -4.94,
+      "sha256": "e6bb0f356a480bdc28988971010e47211f7d916f6687921af4fa9cc7d08d1f20"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/queda-2.ogg",
+      "camadas": [
+        {
+          "fonte": "heavy-body-fall-352446.mp3",
+          "inicio": 0.27,
+          "fim": 1.95,
+          "ganho": 1,
+          "velocidade": 0.94
+        }
+      ],
+      "duracao": 1.787,
+      "pico_db": -4.89,
+      "sha256": "cfd5f707c042b010b7d78250991381d8d23a3f1567fdd0f3db8cece814f2eca8"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/arco-1.ogg",
+      "camadas": [
+        {
+          "fonte": "bow-sound-596323.mp3",
+          "inicio": 0.1,
+          "fim": 1.2,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.965,
+      "pico_db": -5.04,
+      "sha256": "634b139974c0eec0304d3a4d6fc9641d9296543951133d53f2d27876032cb7e0"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/arco-2.ogg",
+      "camadas": [
+        {
+          "fonte": "bow-sound-596323.mp3",
+          "inicio": 1.55,
+          "fim": 2.45,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.835,
+      "pico_db": -4.93,
+      "sha256": "8f5e84524608107c28668a13f22ba3ab7d8ccf094e1d8add8df5aeb93e1c1a38"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/conjurar.ogg",
+      "camadas": [
+        {
+          "fonte": "universfield-spell-casting-229208.mp3",
+          "inicio": 0.08,
+          "fim": 2.1,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 2.02,
+      "pico_db": -4.99,
+      "sha256": "917dcd1b588fc1ebbdc456941aa5c5542b27720d7b731e4d6c6930d39e05d723"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/raio-carga-1.ogg",
+      "camadas": [
+        {
+          "fonte": "virtual_vibes-electric-spark-404229.mp3",
+          "inicio": 0,
+          "fim": 1.1,
+          "ganho": 0.8,
+          "velocidade": 1
+        },
+        {
+          "fonte": "universfield-spell-casting-229208.mp3",
+          "inicio": 0.1,
+          "fim": 1.2,
+          "ganho": 0.35,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.1,
+      "pico_db": -5.33,
+      "sha256": "1cbc9077b2c5299a42790e0a2d3e75df9aae61f9ab11bfd658e816f4f9b92435"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/raio-carga-2.ogg",
+      "camadas": [
+        {
+          "fonte": "virtual_vibes-electric-spark-404229.mp3",
+          "inicio": 1.8,
+          "fim": 2.9,
+          "ganho": 0.8,
+          "velocidade": 1
+        },
+        {
+          "fonte": "universfield-spell-casting-229208.mp3",
+          "inicio": 0.1,
+          "fim": 1.2,
+          "ganho": 0.35,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.1,
+      "pico_db": -5.38,
+      "sha256": "f82f57f1679d6444c7370253919d9e9631b30ffd144919516cfa06dd92785c40"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/choque-1.ogg",
+      "camadas": [
+        {
+          "fonte": "virtual_vibes-electric-spark-404229.mp3",
+          "inicio": 1.1,
+          "fim": 1.65,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.551,
+      "pico_db": -5.64,
+      "sha256": "7675fd01168bd9cafdc783020fc5dc1fe78044ba0ca5d150989f7f0d4c2f6b28"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/choque-2.ogg",
+      "camadas": [
+        {
+          "fonte": "virtual_vibes-electric-spark-404229.mp3",
+          "inicio": 3.1,
+          "fim": 3.8,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.702,
+      "pico_db": -5.95,
+      "sha256": "c2dfb17448e613425692a7f3a54c63a2d6774e497088d74c77e142eea55c320c"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/radiante.ogg",
+      "camadas": [
+        {
+          "fonte": "dragon-studio-holy-spell-cast-450460.mp3",
+          "inicio": 0,
+          "fim": 2.2,
+          "ganho": 1,
+          "velocidade": 1
+        },
+        {
+          "fonte": "universfield-magic-twinkle-244951.mp3",
+          "inicio": 0.3,
+          "fim": 1.9,
+          "ganho": 0.25,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 2.2,
+      "pico_db": -5.18,
+      "sha256": "1e4d4fed1a7fed4af1a7d7b2b567c601bfd472ca65b92a2e27bf3d971a0948ca"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/necrotico.ogg",
+      "camadas": [
+        {
+          "fonte": "creepy-church-bell-33827.mp3",
+          "inicio": 0.25,
+          "fim": 3.2,
+          "ganho": 1,
+          "velocidade": 1
+        },
+        {
+          "fonte": "freesound_community-ghostly-whispers-6085.mp3",
+          "inicio": 1,
+          "fim": 3,
+          "ganho": 0.3,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 2.939,
+      "pico_db": -4.91,
+      "sha256": "b16c58ff3475b35fe6f4cf0bb043b312d7626984e9039393e6453178adcb5274"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/zombaria.ogg",
+      "camadas": [
+        {
+          "fonte": "zombaria.ogg.mp3",
+          "inicio": 0.94,
+          "fim": 4.104,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 3.164,
+      "pico_db": -5.21,
+      "sha256": "4f8713be39b56fcc70546013867b517e260122ed728637b734803b61db0ff409"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/sussurros-1.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-ghostly-whispers-6085.mp3",
+          "inicio": 0.3,
+          "fim": 2.1,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.8,
+      "pico_db": -5.07,
+      "sha256": "b1ae21f9c95cee46d5f213151fc226dfa0c9042dc5b8ce04d8fe8be356169fc0"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/sussurros-2.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-ghostly-whispers-6085.mp3",
+          "inicio": 5,
+          "fim": 7,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 2.0,
+      "pico_db": -4.97,
+      "sha256": "845215d46d414fbad989a41daa63d23ab98b1cb460671925d8a0a406c0873f77"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/cura.ogg",
+      "camadas": [
+        {
+          "fonte": "healing.mp3",
+          "inicio": 0,
+          "fim": 2.1,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.657,
+      "pico_db": -5.04,
+      "sha256": "cca49404f20d69464eb7af7179aafef28b3da3fdfe9928aefba4a860dd805270"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/bencao.ogg",
+      "camadas": [
+        {
+          "fonte": "dragon-studio-holy-spell-cast-450460.mp3",
+          "inicio": 0.1,
+          "fim": 2.9,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 2.8,
+      "pico_db": -5.07,
+      "sha256": "5369eb2be75d9802c9040b1812ee8e5bb554293f55ccaf41e70a779832ccab1f"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/escudo-fe.ogg",
+      "camadas": [
+        {
+          "fonte": "dragon-studio-holy-spell-cast-450460.mp3",
+          "inicio": 1,
+          "fim": 3.7,
+          "ganho": 1,
+          "velocidade": 1
+        },
+        {
+          "fonte": "shield_guard.mp3",
+          "inicio": 0,
+          "fim": 0.8,
+          "ganho": 0.22,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 2.7,
+      "pico_db": -4.94,
+      "sha256": "adb7e8f8bfb882dd60247eb9d6510bd9a41400ded43656fb9aabe62becfa5bd4"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/inspiracao.ogg",
+      "camadas": [
+        {
+          "fonte": "universfield-magic-twinkle-244951.mp3",
+          "inicio": 0.3,
+          "fim": 2.3,
+          "ganho": 1,
+          "velocidade": 1
+        },
+        {
+          "fonte": "dragon-studio-holy-spell-cast-450460.mp3",
+          "inicio": 0.2,
+          "fim": 1.8,
+          "ganho": 0.3,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.883,
+      "pico_db": -5.17,
+      "sha256": "9d45ecdf119df27bd67346962e3033ba84ef490839e6a0da3107e7ad1ee39436"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/esconder.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-paper-40894.mp3",
+          "inicio": 2,
+          "fim": 2.9,
+          "ganho": 0.8,
+          "velocidade": 1
+        },
+        {
+          "fonte": "yodguard-wind-magic-5-378630.mp3",
+          "inicio": 0.05,
+          "fim": 1.15,
+          "ganho": 0.4,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.1,
+      "pico_db": -4.29,
+      "sha256": "c8d46c5821185bb9056276b667c3e4be5488ff29d75a1bdd9268fc3a21de81fa"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/invisivel.ogg",
+      "camadas": [
+        {
+          "fonte": "yodguard-wind-magic-5-378630.mp3",
+          "inicio": 0.04,
+          "fim": 1.2,
+          "ganho": 1,
+          "velocidade": 1
+        },
+        {
+          "fonte": "universfield-spell-casting-229208.mp3",
+          "inicio": 0.1,
+          "fim": 1.5,
+          "ganho": 0.35,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.4,
+      "pico_db": -4.5,
+      "sha256": "8af151eef406529c834b27c7ad29de938aaca5251cecfbaffa03ca481954c105"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/regenerar.ogg",
+      "camadas": [
+        {
+          "fonte": "dragon-studio-gooey-slime-monster-504037.mp3",
+          "inicio": 0,
+          "fim": 2.4,
+          "ganho": 0.8,
+          "velocidade": 1
+        },
+        {
+          "fonte": "healing.mp3",
+          "inicio": 0,
+          "fim": 1.9,
+          "ganho": 0.35,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 2.395,
+      "pico_db": -4.91,
+      "sha256": "f6e7177d57648e6591a0899772b146078684a5e83a4096a90d1548cb76ce54e6"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/recompor-1.ogg",
+      "camadas": [
+        {
+          "fonte": "dragon-studio-gooey-slime-monster-504037.mp3",
+          "inicio": 0,
+          "fim": 2.4,
+          "ganho": 1,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 16.9,
+          "fim": 18,
+          "ganho": 0.25,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 2.395,
+      "pico_db": -4.88,
+      "sha256": "5749b6f9d67f77b8b92a529a8f630d8763bf681b4115d31a2c2966674a7331f8"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/recompor-2.ogg",
+      "camadas": [
+        {
+          "fonte": "dragon-studio-gooey-slime-monster-504037.mp3",
+          "inicio": 1.25,
+          "fim": 2.5,
+          "ganho": 1,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 19.25,
+          "fim": 20.5,
+          "ganho": 0.3,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.25,
+      "pico_db": -4.85,
+      "sha256": "bc9f0e41b622df90c922ac7333c25dbaed25e55e155ea85fe07059d263d1d3fa"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/vitoria.ogg",
+      "camadas": [
+        {
+          "fonte": "universfield-level-up-fanfare-151765.mp3",
+          "inicio": 0,
+          "fim": 2.95,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 2.508,
+      "pico_db": -4.99,
+      "sha256": "b0f92c4b32904746ed94be8b0337ddeace9acb9644327c365250c3fda64f9d5b"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/derrota.ogg",
+      "camadas": [
+        {
+          "fonte": "phatphrogstudio-defeat-outros-game-sounds-collection-477823.mp3",
+          "inicio": 0.32,
+          "fim": 11.4,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 11.003,
+      "pico_db": -5.04,
+      "sha256": "f4566cd1f5bf0aa6b1d22c530f95ddff35ae01cbc52017edde1fe19ec60e4b0c"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/troll-ataque-1.ogg",
+      "camadas": [
+        {
+          "fonte": "troll_different_roars-100312.mp3",
+          "inicio": 0.02,
+          "fim": 1.3,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.269,
+      "pico_db": -4.81,
+      "sha256": "8ba11930dcd5c26132e145e89a8f19d30fb8d88fe793ae685de3c3f6c14daaf3"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/troll-ataque-2.ogg",
+      "camadas": [
+        {
+          "fonte": "troll_different_roars-100312.mp3",
+          "inicio": 1.85,
+          "fim": 3.2,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.275,
+      "pico_db": -4.79,
+      "sha256": "ff5b1ec21c87b88f2da97e3366f1c07c5d28bebfc5e587e59e2a5fcd4470a45b"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/troll-dor-1.ogg",
+      "camadas": [
+        {
+          "fonte": "troll_different_roars-100312.mp3",
+          "inicio": 3.59,
+          "fim": 4.75,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.132,
+      "pico_db": -5.03,
+      "sha256": "a08f7790fa7c36eebc208361630f9cb4ef9093e98f1502c33c817712971655ae"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/troll-dor-2.ogg",
+      "camadas": [
+        {
+          "fonte": "troll_different_roars-100312.mp3",
+          "inicio": 5.34,
+          "fim": 6.65,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.277,
+      "pico_db": -4.94,
+      "sha256": "dd2e3cd4db5362dc9977b133420980741d84df72acadcf2bd1d5bc7ad7db2a41"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/troll-morte.ogg",
+      "camadas": [
+        {
+          "fonte": "troll_different_roars-100312.mp3",
+          "inicio": 7.07,
+          "fim": 9.05,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.86,
+      "pico_db": -4.91,
+      "sha256": "303d58d5e406a28d1e0de883c0ddeaeec9a025710e11bcc63dcf60923f91042c"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/troll-ataque-3.ogg",
+      "camadas": [
+        {
+          "fonte": "troll_different_roars-100312.mp3",
+          "inicio": 9.37,
+          "fim": 10.5,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.118,
+      "pico_db": -4.93,
+      "sha256": "58cc2280ba4057831bd0fb77367581e060715d2ab94c393e226d52679c3a80e4"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/esqueleto-ataque-1.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-rattling-bones-105394.mp3",
+          "inicio": 0.25,
+          "fim": 1.05,
+          "ganho": 1,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 24.18,
+          "fim": 24.75,
+          "ganho": 0.18,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.797,
+      "pico_db": -4.95,
+      "sha256": "af15a17af79af94786ec62943f332952b9084c9cd9d6ed01aaf21722273c3acf"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/esqueleto-ataque-2.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-rattling-bones-105394.mp3",
+          "inicio": 1.3,
+          "fim": 2.15,
+          "ganho": 1,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 24.18,
+          "fim": 24.75,
+          "ganho": 0.18,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.847,
+      "pico_db": -5.61,
+      "sha256": "99fbe168588a4f19d6ba7a9801ad8c99b79068e5decfedae6e8b76c780bfd23e"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/esqueleto-dor-1.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-rattling-bones-105394.mp3",
+          "inicio": 2.4,
+          "fim": 3.1,
+          "ganho": 1,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 24.18,
+          "fim": 24.75,
+          "ganho": 0.18,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.697,
+      "pico_db": -4.72,
+      "sha256": "4cc94b6162240eb6f86f3500e9d018606cf5797dce23bc7ec90eb1a8fad9a3c9"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/esqueleto-dor-2.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-rattling-bones-105394.mp3",
+          "inicio": 3.2,
+          "fim": 3.95,
+          "ganho": 1,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 24.18,
+          "fim": 24.75,
+          "ganho": 0.18,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.747,
+      "pico_db": -4.84,
+      "sha256": "5a56288429dedda707f9225ab8c2658266a0d2d5736032a30ead6bef02394a37"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/esqueleto-morte-1.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-rattling-bones-105394.mp3",
+          "inicio": 3.9,
+          "fim": 5.5,
+          "ganho": 1,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 24.18,
+          "fim": 24.75,
+          "ganho": 0.18,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.573,
+      "pico_db": -5.14,
+      "sha256": "8004346a0b25da771c7f834bc6690d4acbc425b12fcdb99ad3b6e926867088c2"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/esqueleto-morte-2.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-rattling-bones-105394.mp3",
+          "inicio": 0.3,
+          "fim": 2.3,
+          "ganho": 1,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 24.18,
+          "fim": 24.75,
+          "ganho": 0.18,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 2.0,
+      "pico_db": -5.1,
+      "sha256": "70d4066751a2b38a36ea49dee10e0e06cd5e6778df090fdb47ff0dbacd9ab182"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/sentinela-ataque.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-metal-chain-7056.mp3",
+          "inicio": 1.43,
+          "fim": 2.3,
+          "ganho": 0.85,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 4.13,
+          "fim": 4.97,
+          "ganho": 0.55,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.893,
+      "pico_db": -4.97,
+      "sha256": "67cbe217f5efa5cc1cc468cb02ca584e26d3b2b5671702010fc9bf2561b792e0"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/sentinela-dor-1.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-metal-chain-7056.mp3",
+          "inicio": 3.58,
+          "fim": 4.3,
+          "ganho": 0.85,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 6.16,
+          "fim": 6.9,
+          "ganho": 0.55,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.737,
+      "pico_db": -5.0,
+      "sha256": "ec61372ff28b691196c5b4e99f78fba09c72b99259739bc095114b72ed05ef37"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/sentinela-dor-2.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-metal-chain-7056.mp3",
+          "inicio": 5.27,
+          "fim": 6.2,
+          "ganho": 0.85,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 8.29,
+          "fim": 9.1,
+          "ganho": 0.55,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.927,
+      "pico_db": -5.01,
+      "sha256": "9a271a74ffcc2486746de22c7a5589645e994793625d1b9e02af3f03c596ea42"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/sentinela-morte.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-metal-chain-7056.mp3",
+          "inicio": 17.67,
+          "fim": 18.5,
+          "ganho": 0.85,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 19.27,
+          "fim": 20.5,
+          "ganho": 0.55,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.213,
+      "pico_db": -5.01,
+      "sha256": "0cbfa76b2ea553a9fb300be59cd85c47e0c57a16ea300d420c8c971d36b1767d"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/lemure-ataque-1.ogg",
+      "camadas": [
+        {
+          "fonte": "dragon-studio-gooey-slime-monster-504037.mp3",
+          "inicio": 0,
+          "fim": 0.8,
+          "ganho": 0.8,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 0.33,
+          "fim": 0.9,
+          "ganho": 0.5,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.792,
+      "pico_db": -4.85,
+      "sha256": "a7082361a4020066f29864ef8e4c3db8ae3cc506bb4645bc188c8c1b3d8d4454"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/lemure-ataque-2.ogg",
+      "camadas": [
+        {
+          "fonte": "dragon-studio-gooey-slime-monster-504037.mp3",
+          "inicio": 1.27,
+          "fim": 2.35,
+          "ganho": 0.8,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 2.2,
+          "fim": 2.8,
+          "ganho": 0.5,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.077,
+      "pico_db": -4.95,
+      "sha256": "a9804786e0644de658428ddeaf189e4c278aae04f9490dff091483e91b307f08"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/lemure-dor-1.ogg",
+      "camadas": [
+        {
+          "fonte": "dragon-studio-gooey-slime-monster-504037.mp3",
+          "inicio": 0,
+          "fim": 0.7,
+          "ganho": 0.8,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 10.43,
+          "fim": 11.16,
+          "ganho": 0.5,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.723,
+      "pico_db": -5.0,
+      "sha256": "fd9a8834f15ed5eaa7be31786894f5238da357f3e233569a70d4c9ce781e0320"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/lemure-dor-2.ogg",
+      "camadas": [
+        {
+          "fonte": "dragon-studio-gooey-slime-monster-504037.mp3",
+          "inicio": 1.27,
+          "fim": 2.3,
+          "ganho": 0.8,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 12.4,
+          "fim": 13.24,
+          "ganho": 0.5,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.027,
+      "pico_db": -5.02,
+      "sha256": "1d731a53878709afa422d31df6eef430d4db1e0a679c360031cdf266c4edca4c"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/lemure-morte-1.ogg",
+      "camadas": [
+        {
+          "fonte": "dragon-studio-gooey-slime-monster-504037.mp3",
+          "inicio": 0,
+          "fim": 2.4,
+          "ganho": 0.8,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 14.46,
+          "fim": 15.57,
+          "ganho": 0.5,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 2.395,
+      "pico_db": -4.88,
+      "sha256": "03bdfefe394807f0a4e22f62c7a9869719447050e1f02746ec34a43a189d451f"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/lemure-morte-2.ogg",
+      "camadas": [
+        {
+          "fonte": "dragon-studio-gooey-slime-monster-504037.mp3",
+          "inicio": 1.27,
+          "fim": 2.6,
+          "ganho": 0.8,
+          "velocidade": 1
+        },
+        {
+          "fonte": "voicebosch-monster-grunts-174559.mp3",
+          "inicio": 21.82,
+          "fim": 22.94,
+          "ganho": 0.5,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.124,
+      "pico_db": -4.99,
+      "sha256": "862b1c79c430ecc50a597cd1a9ed85a0c8c2138115abe029e780cce837f4317a"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/imp-ataque-1.ogg",
+      "camadas": [
+        {
+          "fonte": "53439420-flying-monster-screech-02-461220.mp3",
+          "inicio": 0,
+          "fim": 0.7,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.67,
+      "pico_db": -5.09,
+      "sha256": "4fde3916a854099912c78793e875cdc699fb1a250190120f9410c92aae39a11a"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/imp-ataque-2.ogg",
+      "camadas": [
+        {
+          "fonte": "53439420-flying-monster-screech-02-461220.mp3",
+          "inicio": 0.6,
+          "fim": 1.35,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.747,
+      "pico_db": -5.07,
+      "sha256": "8b0b98e15928dd2ec700d83af58591ac46e5a061ed750f2eca61cf39e7e816be"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/imp-dor.ogg",
+      "camadas": [
+        {
+          "fonte": "53439420-flying-monster-screech-02-461220.mp3",
+          "inicio": 0.15,
+          "fim": 0.85,
+          "ganho": 1,
+          "velocidade": 1.06
+        }
+      ],
+      "duracao": 0.657,
+      "pico_db": -5.12,
+      "sha256": "7ed5d0a1062b83917b02b2af5e509333bdcb2aabe959ddeb3806edce09c6bd92"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/imp-morte.ogg",
+      "camadas": [
+        {
+          "fonte": "53439420-flying-monster-screech-02-461220.mp3",
+          "inicio": 0,
+          "fim": 1.72,
+          "ganho": 1,
+          "velocidade": 0.95
+        }
+      ],
+      "duracao": 1.782,
+      "pico_db": -5.07,
+      "sha256": "85b1ddfcfd8aea5468dcf18e94d864c8581c73f6c2bf98d2b368f600ad6a9677"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/batida-porta-1.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-wood-door-knock-106669.mp3",
+          "inicio": 0.11,
+          "fim": 0.45,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.325,
+      "pico_db": -5.15,
+      "sha256": "0bc61db8df07f54fe23626252e4e89987b85b0366656e43e8377740cffde9392"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/batida-porta-2.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-wood-door-knock-106669.mp3",
+          "inicio": 0.47,
+          "fim": 0.88,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.407,
+      "pico_db": -5.02,
+      "sha256": "929fc454ae5566e0dddc7e3f6ab7bc7c865beb4bab9dea82c5c087d8a500cc9d"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/porta-abrir.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-door-open-and-close-with-a-creak-102380.mp3",
+          "inicio": 0,
+          "fim": 2.7,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 2.669,
+      "pico_db": -5.01,
+      "sha256": "ea8d9e886d480228dc2f132b34ec52061c054861da435fb93fd75df3ea37f486"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/porta-fechar.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-door-open-and-close-with-a-creak-102380.mp3",
+          "inicio": 2.7,
+          "fim": 4.2,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.5,
+      "pico_db": -4.92,
+      "sha256": "058621339a9082e706f703499bf25dd347cb9b8ad85ac7530ccd81e388c7b87f"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/passos-1.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-indoor-footsteps-6385.mp3",
+          "inicio": 0.11,
+          "fim": 0.48,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.367,
+      "pico_db": -4.97,
+      "sha256": "8f8b91cf269ae7c8b644d6b63ce9caebcbb4b088bf1c1c3201f03acb17cf3bf1"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/passos-2.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-indoor-footsteps-6385.mp3",
+          "inicio": 0.73,
+          "fim": 1.14,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.407,
+      "pico_db": -4.96,
+      "sha256": "44cfc345f2eec896ab26986a8b2ea1f61f799b9865ccb091256bf20573fdee47"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/passos-3.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-indoor-footsteps-6385.mp3",
+          "inicio": 1.35,
+          "fim": 1.75,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.39,
+      "pico_db": -4.93,
+      "sha256": "3249b6ebce6c341d1189828ec273fa4b68c86220fb5bccbb414794fe7f5d1024"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/passos-4.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-indoor-footsteps-6385.mp3",
+          "inicio": 2.61,
+          "fim": 3,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.387,
+      "pico_db": -5.04,
+      "sha256": "c6ed7906ff475264d8729de74ba612448530539d4fb712c529845094ac8cb88d"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/sininho.ogg",
+      "camadas": [
+        {
+          "fonte": "bell-ring-123742.mp3",
+          "inicio": 0.12,
+          "fim": 2.29,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.602,
+      "pico_db": -5.04,
+      "sha256": "be35270420f3eb9b72a6b7a82c5c3861ddff554bf9492191479e14669930febe"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/multidao-panico.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-crowdpanic-6442.mp3",
+          "inicio": 8,
+          "fim": 15,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 7.0,
+      "pico_db": -4.86,
+      "sha256": "037cc0cfffd8f47c420160af223a6c07120391145118d02f7896f2eb1ff52b17"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/portal-fechar.ogg",
+      "camadas": [
+        {
+          "fonte": "yodguard-wind-magic-5-378630.mp3",
+          "inicio": 0.03,
+          "fim": 1.2,
+          "ganho": 1,
+          "velocidade": 1
+        },
+        {
+          "fonte": "soumages-magic-spell-333896.mp3",
+          "inicio": 0.26,
+          "fim": 2.7,
+          "ganho": 0.7,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 2.44,
+      "pico_db": -5.37,
+      "sha256": "9e3cb74c5427cc0844f05aa2274116ba8160a2f4438e7cf69210f2a8877e5057"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/acesso-bloqueado.ogg",
+      "camadas": [
+        {
+          "fonte": "freesound_community-metal-chain-7056.mp3",
+          "inicio": 7.5,
+          "fim": 8,
+          "ganho": 0.8,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 0.497,
+      "pico_db": -5.29,
+      "sha256": "66cc2d3a8ee8a3380ec8c193e7dd33922c1416482e30df3345ba0ea3300fb145"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/encontro-monstro.ogg",
+      "camadas": [
+        {
+          "fonte": "monster-growl-390285.mp3",
+          "inicio": 0.03,
+          "fim": 1.5,
+          "ganho": 0.8,
+          "velocidade": 1
+        },
+        {
+          "fonte": "club_hit.mp3",
+          "inicio": 0,
+          "fim": 1.2,
+          "ganho": 0.25,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 1.451,
+      "pico_db": -4.79,
+      "sha256": "43499e098d370f91d1d9c272e2620e8beaef0bca0a6e1fe7d2759466c399c98d"
+    },
+    {
+      "arquivo": "sfx/visceral-v1/sino-templo.ogg",
+      "camadas": [
+        {
+          "fonte": "creepy-church-bell-33827.mp3",
+          "inicio": 0.25,
+          "fim": 5.5,
+          "ganho": 1,
+          "velocidade": 1
+        }
+      ],
+      "duracao": 5.211,
+      "pico_db": -4.82,
+      "sha256": "f8c7c84144a2e1b648ca67a20dcb30106f46d53486b93f27acf297e243c0e14c"
+    }
+  ],
+  "trocas": [
+    {
+      "id": "ui-carta",
+      "antes": [
+        "sfx/ui-carta.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/ui-carta.ogg"
+      ]
+    },
+    {
+      "id": "ui-cancelar",
+      "antes": [
+        "sfx/ui-cancelar.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/ui-cancelar.ogg"
+      ]
+    },
+    {
+      "id": "ui-turno",
+      "antes": [
+        "sfx/ui-turno.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/ui-turno.ogg"
+      ]
+    },
+    {
+      "id": "acerto-magia",
+      "antes": [
+        "sfx/acerto-magia.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/acerto-magia.ogg"
+      ]
+    },
+    {
+      "id": "critico",
+      "antes": [
+        "sfx/critico-1.ogg",
+        "sfx/critico-2.ogg"
+      ],
+      "depois": [
+        "sfx/critico-1.ogg",
+        "sfx/visceral-v1/critico-2.ogg"
+      ]
+    },
+    {
+      "id": "escudo",
+      "antes": [
+        "sfx/real/escudo-1.ogg",
+        "sfx/real/escudo-2.ogg",
+        "sfx/real/escudo-3.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/escudo-1.ogg",
+        "sfx/visceral-v1/escudo-2.ogg",
+        "sfx/visceral-v1/escudo-3.ogg"
+      ]
+    },
+    {
+      "id": "queda",
+      "antes": [
+        "sfx/queda-1.ogg",
+        "sfx/queda-2.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/queda-1.ogg",
+        "sfx/visceral-v1/queda-2.ogg"
+      ]
+    },
+    {
+      "id": "arco",
+      "antes": [
+        "sfx/arco-1.ogg",
+        "sfx/arco-2.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/arco-1.ogg",
+        "sfx/visceral-v1/arco-2.ogg"
+      ]
+    },
+    {
+      "id": "conjurar",
+      "antes": [
+        "sfx/conjurar.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/conjurar.ogg"
+      ]
+    },
+    {
+      "id": "raio-carga",
+      "antes": [
+        "sfx/raio-carga-1.ogg",
+        "sfx/raio-carga-2.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/raio-carga-1.ogg",
+        "sfx/visceral-v1/raio-carga-2.ogg"
+      ]
+    },
+    {
+      "id": "choque",
+      "antes": [
+        "sfx/choque-1.ogg",
+        "sfx/choque-2.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/choque-1.ogg",
+        "sfx/visceral-v1/choque-2.ogg"
+      ]
+    },
+    {
+      "id": "radiante",
+      "antes": [
+        "sfx/radiante.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/radiante.ogg"
+      ]
+    },
+    {
+      "id": "necrotico",
+      "antes": [
+        "sfx/necrotico.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/necrotico.ogg"
+      ]
+    },
+    {
+      "id": "zombaria",
+      "antes": [
+        "sfx/zombaria.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/zombaria.ogg"
+      ]
+    },
+    {
+      "id": "sussurros",
+      "antes": [
+        "sfx/sussurros-1.ogg",
+        "sfx/sussurros-2.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/sussurros-1.ogg",
+        "sfx/visceral-v1/sussurros-2.ogg"
+      ]
+    },
+    {
+      "id": "cura",
+      "antes": [
+        "sfx/cura.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/cura.ogg"
+      ]
+    },
+    {
+      "id": "bencao",
+      "antes": [
+        "sfx/bencao.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/bencao.ogg"
+      ]
+    },
+    {
+      "id": "escudo-fe",
+      "antes": [
+        "sfx/escudo-fe.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/escudo-fe.ogg"
+      ]
+    },
+    {
+      "id": "inspiracao",
+      "antes": [
+        "sfx/inspiracao.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/inspiracao.ogg"
+      ]
+    },
+    {
+      "id": "esconder",
+      "antes": [
+        "sfx/esconder.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/esconder.ogg"
+      ]
+    },
+    {
+      "id": "invisivel",
+      "antes": [
+        "sfx/invisivel.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/invisivel.ogg"
+      ]
+    },
+    {
+      "id": "regenerar",
+      "antes": [
+        "sfx/regenerar.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/regenerar.ogg"
+      ]
+    },
+    {
+      "id": "recompor",
+      "antes": [
+        "sfx/recompor-1.ogg",
+        "sfx/recompor-2.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/recompor-1.ogg",
+        "sfx/visceral-v1/recompor-2.ogg"
+      ]
+    },
+    {
+      "id": "vitoria",
+      "antes": [
+        "sfx/vitoria.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/vitoria.ogg"
+      ]
+    },
+    {
+      "id": "derrota",
+      "antes": [
+        "sfx/derrota.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/derrota.ogg"
+      ]
+    },
+    {
+      "id": "troll-ataque",
+      "antes": [
+        "sfx/troll-ataque-1.ogg",
+        "sfx/troll-ataque-2.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/troll-ataque-1.ogg",
+        "sfx/visceral-v1/troll-ataque-2.ogg",
+        "sfx/visceral-v1/troll-ataque-3.ogg"
+      ]
+    },
+    {
+      "id": "troll-dor",
+      "antes": [
+        "sfx/troll-dor-1.ogg",
+        "sfx/troll-dor-2.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/troll-dor-1.ogg",
+        "sfx/visceral-v1/troll-dor-2.ogg"
+      ]
+    },
+    {
+      "id": "troll-morte",
+      "antes": [
+        "sfx/troll-morte.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/troll-morte.ogg"
+      ]
+    },
+    {
+      "id": "esqueleto-ataque",
+      "antes": [
+        "sfx/esqueleto-ataque-1.ogg",
+        "sfx/esqueleto-ataque-2.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/esqueleto-ataque-1.ogg",
+        "sfx/visceral-v1/esqueleto-ataque-2.ogg"
+      ]
+    },
+    {
+      "id": "esqueleto-dor",
+      "antes": [
+        "sfx/esqueleto-dor-1.ogg",
+        "sfx/esqueleto-dor-2.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/esqueleto-dor-1.ogg",
+        "sfx/visceral-v1/esqueleto-dor-2.ogg"
+      ]
+    },
+    {
+      "id": "esqueleto-morte",
+      "antes": [
+        "sfx/esqueleto-morte-1.ogg",
+        "sfx/esqueleto-morte-2.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/esqueleto-morte-1.ogg",
+        "sfx/visceral-v1/esqueleto-morte-2.ogg"
+      ]
+    },
+    {
+      "id": "sentinela-ataque",
+      "antes": [
+        "sfx/sentinela-ataque.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/sentinela-ataque.ogg"
+      ]
+    },
+    {
+      "id": "sentinela-dor",
+      "antes": [
+        "sfx/sentinela-dor-1.ogg",
+        "sfx/sentinela-dor-2.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/sentinela-dor-1.ogg",
+        "sfx/visceral-v1/sentinela-dor-2.ogg"
+      ]
+    },
+    {
+      "id": "sentinela-morte",
+      "antes": [
+        "sfx/sentinela-morte.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/sentinela-morte.ogg"
+      ]
+    },
+    {
+      "id": "lemure-ataque",
+      "antes": [
+        "sfx/lemure-ataque-1.ogg",
+        "sfx/lemure-ataque-2.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/lemure-ataque-1.ogg",
+        "sfx/visceral-v1/lemure-ataque-2.ogg"
+      ]
+    },
+    {
+      "id": "lemure-dor",
+      "antes": [
+        "sfx/lemure-dor-1.ogg",
+        "sfx/lemure-dor-2.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/lemure-dor-1.ogg",
+        "sfx/visceral-v1/lemure-dor-2.ogg"
+      ]
+    },
+    {
+      "id": "lemure-morte",
+      "antes": [
+        "sfx/lemure-morte-1.ogg",
+        "sfx/lemure-morte-2.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/lemure-morte-1.ogg",
+        "sfx/visceral-v1/lemure-morte-2.ogg"
+      ]
+    },
+    {
+      "id": "imp-ataque",
+      "antes": [
+        "sfx/imp-ataque-1.ogg",
+        "sfx/imp-ataque-2.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/imp-ataque-1.ogg",
+        "sfx/visceral-v1/imp-ataque-2.ogg"
+      ]
+    },
+    {
+      "id": "imp-dor",
+      "antes": [
+        "sfx/imp-dor.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/imp-dor.ogg"
+      ]
+    },
+    {
+      "id": "imp-morte",
+      "antes": [
+        "sfx/imp-morte.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/imp-morte.ogg"
+      ]
+    },
+    {
+      "id": "batida-porta",
+      "antes": [
+        "sfx/batida-porta-1.ogg",
+        "sfx/batida-porta-2.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/batida-porta-1.ogg",
+        "sfx/visceral-v1/batida-porta-2.ogg"
+      ]
+    },
+    {
+      "id": "porta-abrir",
+      "antes": [
+        "sfx/porta-abrir.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/porta-abrir.ogg"
+      ]
+    },
+    {
+      "id": "porta-fechar",
+      "antes": [
+        "sfx/porta-fechar.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/porta-fechar.ogg"
+      ]
+    },
+    {
+      "id": "passos",
+      "antes": [
+        "sfx/passos-1.ogg",
+        "sfx/passos-2.ogg",
+        "sfx/passos-3.ogg",
+        "sfx/passos-4.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/passos-1.ogg",
+        "sfx/visceral-v1/passos-2.ogg",
+        "sfx/visceral-v1/passos-3.ogg",
+        "sfx/visceral-v1/passos-4.ogg"
+      ]
+    },
+    {
+      "id": "sininho",
+      "antes": [
+        "sfx/sininho.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/sininho.ogg"
+      ]
+    },
+    {
+      "id": "pagina",
+      "antes": [
+        "sfx/pagina.ogg"
+      ],
+      "depois": [
+        "sfx/visceral-v1/pagina.ogg"
+      ]
+    }
+  ]
+}

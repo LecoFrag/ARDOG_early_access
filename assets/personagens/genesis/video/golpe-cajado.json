@@ -1,0 +1,32 @@
+{
+  "id": "genesis-golpe-cajado",
+  "arquivo": "golpe-cajado.webm",
+  "original": "original/golpe-cajado.webm",
+  "largura": 940,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.3936,
+  "originY": 0.9597,
+  "topo": 0.0389,
+  "pes": [
+    [
+      0.0755,
+      0.9597
+    ],
+    [
+      0.7117,
+      0.9597
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "golpe-cajado",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/genesis/golpe-cajado.webp",
+  "sha256Imagem": "46f7d3f775bf8ba8ecb5ba4c9af95dbec395c00c761e651803109dd7f1c01b81",
+  "sha256PNG": "c40fc6f1bad5db7932ae3eae01d23bfb1933d03b74127fe38f4848f121be5f86",
+  "movimento": "Impulso curto do tronco e do cajado, que acompanha as duas mãos.",
+  "nota": "Somente asset; sem cadastro ou integração no jogo. Sem efeitos mágicos ou projéteis. Conferir âncoras na integração."
+}

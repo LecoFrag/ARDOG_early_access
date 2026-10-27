@@ -1,0 +1,105 @@
+{
+ "id": "arauto-rubro",
+ "nome": "Iskarion, o Arauto Rubro",
+ "lado": "inimigo",
+ "porte": "normal",
+ "alturaBatalha": 480,
+ "referenciaDnd": {
+  "nome": "Cambion",
+  "tamanho": "Medium",
+  "nd": 5
+ },
+ "poses": {
+  "idle": {
+   "arquivo": "idle.webp",
+   "originX": 0.485,
+   "originY": 0.955,
+   "pes": [
+    [
+     0.27,
+     0.975
+    ],
+    [
+     0.7,
+     0.93
+    ]
+   ]
+  },
+  "hurt": {
+   "arquivo": "hurt.webp",
+   "originX": 0.425,
+   "originY": 0.94,
+   "pes": [
+    [
+     0.13,
+     0.975
+    ],
+    [
+     0.72,
+     0.91
+    ]
+   ]
+  },
+  "attack": {
+   "arquivo": "attack.webp",
+   "originX": 0.66,
+   "originY": 0.965,
+   "pes": [
+    [
+     0.37,
+     0.965
+    ],
+    [
+     0.95,
+     0.965
+    ]
+   ],
+   "alturaBatalha": 420,
+   "acao": "lanca"
+  },
+  "cast": {
+   "arquivo": "cast.webp",
+   "originX": 0.52,
+   "originY": 0.96,
+   "pes": [
+    [
+     0.24,
+     0.98
+    ],
+    [
+     0.8,
+     0.94
+    ]
+   ],
+   "acao": "raio-de-fogo",
+   "emissor": [
+    0.05,
+    0.165
+   ]
+  },
+  "command": {
+   "arquivo": "command.webp",
+   "originX": 0.54,
+   "originY": 0.955,
+   "pes": [
+    [
+     0.3,
+     0.975
+    ],
+    [
+     0.78,
+     0.93
+    ]
+   ],
+   "acao": "comando",
+   "emissor": [
+    0.04,
+    0.2
+   ]
+  }
+ },
+ "retratos": {
+  "face": "face.webp"
+ },
+ "notas": "Chefe proposto de Neverwinter (prompts/chefe-neverwinter.md). Pés medidos à mão sobre as poses, com grade (24/10/2026); a ponta da lança não é pé. Fica de pé no chão (as asas abertas não o levantam), mas luta como voador (traço voo). O ataque em paisagem tem a cabeça cerca de 25% menor que a espera, por isso alturaBatalha 420. cast é a pose do Fire Ray e command a do Command."
+}

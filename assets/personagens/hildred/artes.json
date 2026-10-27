@@ -1,0 +1,240 @@
+{
+  "id": "hildred",
+  "matriz": "idle.webp",
+  "origemMatriz": "Versao 9 aprovada pelo usuario",
+  "data": "19/10/2026",
+  "geracao": "Ferramenta integrada de imagens",
+  "total": 20,
+  "assets": [
+    {
+      "id": 1,
+      "nome": "Espera oficial",
+      "png": "public/assets/personagens/hildred/png/idle.png",
+      "webp": "public/assets/personagens/hildred/idle.webp",
+      "largura": 1024,
+      "altura": 1536,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "d503b0b5e4c098b34b332c5162323bfe03e5e0c6da55c0813bd4665dd586daed"
+    },
+    {
+      "id": 2,
+      "nome": "Reação a dano",
+      "png": "public/assets/personagens/hildred/png/hurt.png",
+      "webp": "public/assets/personagens/hildred/hurt.webp",
+      "largura": 1024,
+      "altura": 1536,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "334b1ea6c865b655451db752feff39dbfced70914057be32f2e028d2afbd2c62"
+    },
+    {
+      "id": 3,
+      "nome": "Caído",
+      "png": "public/assets/personagens/hildred/png/prone.png",
+      "webp": "public/assets/personagens/hildred/prone.webp",
+      "largura": 1254,
+      "altura": 1254,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "162801d30739c0fd2bafc695aba91dd0c6bada00378031fb410067c9ab9726a5"
+    },
+    {
+      "id": 4,
+      "nome": "Rosto para medalhão",
+      "png": "public/assets/personagens/hildred/png/face.png",
+      "webp": "public/assets/personagens/hildred/face.webp",
+      "largura": 1254,
+      "altura": 1254,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "acd9645f55ebe1bb90cd5d90cf634676ee8a4c3f5be33b2a4ea7748456391d7e"
+    },
+    {
+      "id": 5,
+      "nome": "Busto de batalha",
+      "png": "public/assets/personagens/hildred/png/bust.png",
+      "webp": "public/assets/personagens/hildred/bust.webp",
+      "largura": 1254,
+      "altura": 1254,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "5c820b747757e36c76496da6b13b85a7731b4bad9422a78136fc702117e016a9"
+    },
+    {
+      "id": 6,
+      "nome": "Pose Quarterstaff",
+      "png": "public/assets/personagens/hildred/png/attack.png",
+      "webp": "public/assets/personagens/hildred/attack.webp",
+      "largura": 1024,
+      "altura": 1536,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "925253df2a976191056546232f1ad2a23ede5f7404eef527e296cb39a37aa2e4"
+    },
+    {
+      "id": 7,
+      "nome": "Pose Poison Spray",
+      "png": "public/assets/personagens/hildred/png/poison-spray.png",
+      "webp": "public/assets/personagens/hildred/poison-spray.webp",
+      "largura": 1024,
+      "altura": 1536,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "3497819a15e7c332cd4a05238446c22e2e56717c0f4e081cb6f0a47a176f2831"
+    },
+    {
+      "id": 8,
+      "nome": "Pose Healing Word",
+      "png": "public/assets/personagens/hildred/png/healing-word.png",
+      "webp": "public/assets/personagens/hildred/healing-word.webp",
+      "largura": 1024,
+      "altura": 1536,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "28ef77556ec3659ef0b8e6d1b2fbf3bce6e9b4355479030c83056d04de248e0c"
+    },
+    {
+      "id": 9,
+      "nome": "Pose Entangle",
+      "png": "public/assets/personagens/hildred/png/entangle.png",
+      "webp": "public/assets/personagens/hildred/entangle.webp",
+      "largura": 1024,
+      "altura": 1536,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "ed058c2754e1113e3a246a4d8c15a82dda8427775c2cff23ee22400be7806802"
+    },
+    {
+      "id": 10,
+      "nome": "Carta Quarterstaff",
+      "png": "public/assets/cartas/png/hildred-cajado.png",
+      "webp": "public/assets/cartas/hildred-cajado.webp",
+      "largura": 1254,
+      "altura": 1254,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "e458b5246abfc2024ee0e1bd9676cc56a3cc41568dfeff06ce8f9997fffb1b1e"
+    },
+    {
+      "id": 11,
+      "nome": "Carta Poison Spray",
+      "png": "public/assets/cartas/png/hildred-veneno.png",
+      "webp": "public/assets/cartas/hildred-veneno.webp",
+      "largura": 1254,
+      "altura": 1254,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "106c9ee952db3f297af4787f7ee1b8231847df0f796dfcd7aa12017d9f9a4d13"
+    },
+    {
+      "id": 12,
+      "nome": "Carta Healing Word",
+      "png": "public/assets/cartas/png/hildred-palavra-curativa.png",
+      "webp": "public/assets/cartas/hildred-palavra-curativa.webp",
+      "largura": 1254,
+      "altura": 1254,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "c6990b2167faadb96af792114ecc6dd0eaa33119ce52f6c5e9b928cc98f15548"
+    },
+    {
+      "id": 13,
+      "nome": "Carta Entangle",
+      "png": "public/assets/cartas/png/hildred-enredar.png",
+      "webp": "public/assets/cartas/hildred-enredar.webp",
+      "largura": 1254,
+      "altura": 1254,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "45762b817ade6f487d2f8468b2512d9aa81dac15a7bd45fda8f12ba2cfd59de2"
+    },
+    {
+      "id": 14,
+      "nome": "Ícone Contido",
+      "png": "public/assets/efeitos/png/hildred-contido.png",
+      "webp": "public/assets/efeitos/hildred-contido.webp",
+      "largura": 1254,
+      "altura": 1254,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "de48e8f9a9f1efc45838bddae1ef683de0bd1bf5adabd9ca34b5a3393f7849c9"
+    },
+    {
+      "id": 15,
+      "nome": "Conversa normal",
+      "png": "public/assets/retratos/png/hildred-normal.png",
+      "webp": "public/assets/retratos/hildred-normal.webp",
+      "largura": 1254,
+      "altura": 1254,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "87d07baa6bcd77fc151446f5f0928533df495496499eab2d2f8f977c59494477"
+    },
+    {
+      "id": 16,
+      "nome": "Conversa sorriso",
+      "png": "public/assets/retratos/png/hildred-sorriso.png",
+      "webp": "public/assets/retratos/hildred-sorriso.webp",
+      "largura": 1254,
+      "altura": 1254,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "710b40283105a652fd405122b2555a08b920da7b93f2193d68d2d0033aad1902"
+    },
+    {
+      "id": 17,
+      "nome": "Conversa sério",
+      "png": "public/assets/retratos/png/hildred-serio.png",
+      "webp": "public/assets/retratos/hildred-serio.webp",
+      "largura": 1254,
+      "altura": 1254,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "6df07b11288c80994bddcc818a71db46465ab4d4df792f74064e598725708fcd"
+    },
+    {
+      "id": 18,
+      "nome": "Conversa assustado",
+      "png": "public/assets/retratos/png/hildred-assustado.png",
+      "webp": "public/assets/retratos/hildred-assustado.webp",
+      "largura": 1254,
+      "altura": 1254,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "ee53cc897b607a04c8025de4865a490128dcf2470f945b80dded018c5efbca43"
+    },
+    {
+      "id": 19,
+      "nome": "Seleção normal",
+      "png": "public/assets/selecao/png/hildred.png",
+      "webp": "public/assets/selecao/hildred.webp",
+      "largura": 1024,
+      "altura": 1536,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "5089a0f4bf35d72c52ac5ffcbea4c67e7f52b71ef0a055c3231ec53f176cfef6"
+    },
+    {
+      "id": 20,
+      "nome": "Seleção escolhido",
+      "png": "public/assets/selecao/png/hildred-escolhido.png",
+      "webp": "public/assets/selecao/hildred-escolhido.webp",
+      "largura": 1024,
+      "altura": 1536,
+      "transparente": true,
+      "qualidadeWebp": 90,
+      "sha256Png": "ab80634eddeb928f034fd142f5841c55f58cf43f33a9bb59f63921380fa8a83a"
+    }
+  ],
+  "complementoPoseCaida": {
+    "video": "video/prone.webm",
+    "original": "video/original/prone.webm",
+    "medidas": "video/prone.json",
+    "quadros": 478,
+    "fps": 24,
+    "transparenciaVerificada": true,
+    "proporcaoInicial": 0.55,
+    "calibracaoFinalPendente": true
+  }
+}

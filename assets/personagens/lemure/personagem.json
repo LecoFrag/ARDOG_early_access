@@ -1,0 +1,63 @@
+{
+  "id": "lemure",
+  "nome": "Lêmure",
+  "lado": "inimigo",
+  "porte": "normal",
+  "alturaBatalha": 350,
+  "referenciaDnd": {
+    "nome": "Lemure",
+    "tamanho": "Medium",
+    "nd": 0
+  },
+  "poses": {
+    "idle": {
+      "arquivo": "idle.webp",
+      "originX": 0.49,
+      "originY": 0.863,
+      "pes": [
+        [
+          0.26,
+          0.858
+        ],
+        [
+          0.72,
+          0.868
+        ]
+      ]
+    },
+    "hurt": {
+      "arquivo": "hurt.webp",
+      "originX": 0.49,
+      "originY": 0.863,
+      "pes": [
+        [
+          0.26,
+          0.858
+        ],
+        [
+          0.72,
+          0.868
+        ]
+      ]
+    },
+    "attack": {
+      "arquivo": "attack.webp",
+      "originX": 0.64,
+      "originY": 0.943,
+      "pes": [
+        [
+          0.45,
+          0.943
+        ],
+        [
+          0.83,
+          0.943
+        ]
+      ]
+    }
+  },
+  "retratos": {
+    "face": "face.webp"
+  },
+  "notas": "Sem pernas: pes representa dois apoios da base rastejante. Escala baixa para silhueta compacta; categoria oficial Medium."
+}

@@ -1,0 +1,27 @@
+{
+  "background": "crypt.webp",
+  "size": [
+    1672,
+    941
+  ],
+  "pieces": [
+    {
+      "file": "crypt-rock-1.webp",
+      "x": 396,
+      "y": 804,
+      "base": 941
+    },
+    {
+      "file": "crypt-rock-2.webp",
+      "x": 1536,
+      "y": 666,
+      "base": 740
+    },
+    {
+      "file": "crypt-rock-3.webp",
+      "x": 1378,
+      "y": 819,
+      "base": 941
+    }
+  ]
+}

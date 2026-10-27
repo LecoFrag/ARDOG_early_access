@@ -1,0 +1,32 @@
+{
+  "id": "adao-palavra-curativa",
+  "arquivo": "palavra-curativa.webm",
+  "original": "original/palavra-curativa.webm",
+  "largura": 476,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.4717,
+  "originY": 0.9653,
+  "topo": 0.0347,
+  "pes": [
+    [
+      0.1534,
+      0.9208
+    ],
+    [
+      0.7899,
+      0.9653
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "palavra-curativa",
+  "origem": "Animação procedural por malha a partir da pose aprovada, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/adao/palavra-curativa.webp",
+  "sha256Imagem": "4d2223938358c58d5a4e10ca8ae8986a699bcde445649e7eeadec7bf63e88391",
+  "sha256PNG": "c810f592234d8f53a3fb90e3efb0e60c6abc80a877b8853c9b7891cea85ca413",
+  "movimento": "Elevação encorajadora do peito e da mão, com alaúde íntegro.",
+  "nota": "Somente asset; sem cadastro ou integração no jogo. Sem efeitos mágicos ou projéteis. Conferir âncoras na integração."
+}

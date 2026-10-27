@@ -1,0 +1,25 @@
+{
+  "id": "hildred-lagarto",
+  "arquivo": "espera.webm",
+  "original": "original/espera.webm",
+  "largura": 898,
+  "altura": 412,
+  "fps": 24.0,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.5782,
+  "originY": 0.8981,
+  "topo": 0.0364,
+  "pes": [
+    [
+      0.2177,
+      0.8956
+    ],
+    [
+      0.9388,
+      0.8981
+    ]
+  ],
+  "nota": "Gerado por scripts/preparar-videos-herois.py a partir do original com fundo verde. Ver docs/arte/VIDEOS-HEROIS.md."
+}

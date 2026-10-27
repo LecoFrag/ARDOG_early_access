@@ -1,0 +1,28 @@
+{
+  "versao": "0.1",
+  "nota": "Tamanho de cada personagem em relação ao Rheagon (1 = altura visível do Rheagon, dos pés ao alto da cabeça, na escala da formação). O laboratório de batalha mede a altura visível de cada arte (pixels opacos) e escala a imagem para bater com o número abaixo, então margens transparentes diferentes não mudam o tamanho. Valores de Kewoth, Soren, Adão, Gênesis, Azrakt, orc e goblins sugeridos pelo usuário; os outros mantêm a proporção medida das artes atuais. Ver docs/batalha/TAMANHOS.md.",
+  "referencia": "rheagon",
+  "tamanhos": {
+    "rheagon": 1,
+    "kewoth": 0.9,
+    "soren": 0.9,
+    "hildred": 0.9,
+    "hildred-lobo": 0.65,
+    "hildred-lagarto": 0.6,
+    "hildred-serpente": 0.7,
+    "adao": 0.85,
+    "genesis": 0.9,
+    "azrakt": 1,
+    "orc-clava": 1,
+    "goblin-adaga": 0.6,
+    "goblin-arqueiro": 0.6,
+    "esqueleto-maltrapilho": 0.85,
+    "sentinela": 0.9,
+    "troll-clava": 1.65,
+    "lemure": 0.6,
+    "imp": 0.55,
+    "diabo-espinhoso": 0.65,
+    "barbazu-carcereiro": 1.05,
+    "arauto-rubro": 1.1
+  }
+}

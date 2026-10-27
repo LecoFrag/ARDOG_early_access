@@ -1,0 +1,110 @@
+{
+  "versao": "rodada 3",
+  "titulo": "Como funciona o combate",
+  "intro": "Tudo o que a batalha de teste (combate v1) faz hoje, em ordem de jogo. Cada regra diz de onde vem: da D&D 2024, de uma adaptação nossa de uma regra da D&D, ou de uma decisão local. Os números de fichas estão nas abas Heróis, Bestiário e Equipamentos; esta página explica as regras que os usam.",
+  "origens": {
+    "dnd": "D&D 2024: regra de referência, aplicada como no livro ou muito perto.",
+    "adaptacao": "Adaptação: parte de uma regra da D&D, simplificada para o nosso formato de batalha.",
+    "local": "Local: decisão nossa, sem equivalente direto na D&D."
+  },
+  "secoes": [
+    {
+      "id": "abrir", "titulo": "Abrir e testar",
+      "itens": [
+        { "nome": "Onde jogar", "origem": "local", "texto": ["Atalho Abrir Combate V1.cmd, ou /?combate=v1 com o servidor ligado.", "O painel à direita mostra a semente, a iniciativa, as fichas com chances e um registro de cada rolagem. A tecla P esconde o painel."] },
+        { "nome": "Semente", "origem": "local", "texto": ["Os dados usam uma semente: a mesma semente repete a batalha inteira, com os mesmos dados.", "Reiniciar e Batalhar novamente sorteiam uma semente nova. Só o botão Repetir do painel refaz a mesma batalha.", "O bloco Sessão do painel soma os acertos de todas as batalhas desde que a página abriu e compara com a chance esperada."] },
+        { "nome": "Encontro e arma", "origem": "local", "texto": ["O seletor Encontro do painel troca os inimigos (goblins, esqueletos, orc, sentinelas, troll…).", "O seletor Arma do Rheagon troca espada e escudo por uma alabarda, para testar o alcance."] },
+        { "nome": "Ficha do monstro", "origem": "local", "texto": ["Clique num monstro fora da escolha de alvo, clique com o botão direito a qualquer momento, ou clique na placa de vida dele: a ficha completa aparece no canto inferior direito."] }
+      ]
+    },
+    {
+      "id": "turno", "titulo": "O turno",
+      "itens": [
+        { "nome": "Iniciativa", "origem": "dnd", "texto": ["No início, cada um rola d20 + modificador de Destreza. Quem tira mais age primeiro; empates vão para a maior Destreza e depois para os heróis.", "A ordem vale a batalha inteira. Um monstro pode abrir a luta."] },
+        { "nome": "Uma ação por turno", "origem": "adaptacao", "texto": ["Cada combatente faz uma ação: atacar, curar ou usar uma habilidade.", "Ainda não há movimento, ação bônus nem reação escolhida pelo jogador. Algumas reações e ações bônus da D&D viraram efeitos automáticos (Protection, Nimble Escape)."] },
+        { "nome": "Cair e terminar", "origem": "adaptacao", "texto": ["Com 0 PV o combatente cai e perde os turnos. Qualquer cura (Lay on Hands, Healing Word, Cure Wounds) levanta um herói caído, com a vida que curar. Ainda não há testes de morte.", "Vitória quando todos os inimigos caem; derrota quando os dois heróis caem."] },
+        { "nome": "Começo e fim do turno", "origem": "local", "texto": ["No começo do turno: a queimadura causa dano, e a Regeneration do troll age.", "No fim do turno: quem estava derrubado se levanta, e o Enfraquecido passa."] }
+      ]
+    },
+    {
+      "id": "ataque", "titulo": "Ataque e dano",
+      "itens": [
+        { "nome": "Acertar", "origem": "dnd", "texto": ["Role d20 + bônus de ataque (modificador do atributo + proficiência). Se o total igualar ou superar a Classe de Armadura (CA) do alvo, acerta.", "Exemplo: Rheagon tem +5. Contra CA 13 precisa de 8 ou mais no d20: 65% de chance."] },
+        { "nome": "Crítico e falha", "origem": "dnd", "texto": ["20 natural sempre acerta e dobra os dados de dano; o bônus fixo não dobra.", "1 natural sempre erra."] },
+        { "nome": "Dano", "origem": "dnd", "texto": ["Dados da arma + modificador do atributo. O Fire Bolt não soma Inteligência ao dano.", "A vida nunca fica abaixo de 0."] },
+        { "nome": "Tipos de dano e defesas", "origem": "dnd", "texto": ["Cada ataque tem um tipo: cortante, perfurante, contundente, fogo, veneno…", "Vulnerável: o dano daquele tipo dobra. Resistente: cai pela metade, arredondado para baixo. Imune: não sofre aquele dano."], "tabela": { "cabecalho": ["Criatura", "Vulnerável", "Resiste", "Imune"], "linhas": [["Esqueleto", "contundente", "—", "veneno"], ["Sentinela", "—", "perfurante", "veneno"], ["Goblins, orc, troll", "—", "—", "—"]] } }
+      ]
+    },
+    {
+      "id": "alcance", "titulo": "Linhas e alcance",
+      "itens": [
+        { "nome": "A formação", "origem": "local", "texto": ["Cada lado tem uma linha da frente (F1, F2) e uma retaguarda (B1 atrás de F1, B2 atrás de F2). Um combatente sozinho fica no centro.", "Rheagon fica na frente (F1) e Gênesis atrás (B1). Contra os goblins, o de adaga fica na frente e o arqueiro atrás."] },
+        { "nome": "Quem alcança quem", "origem": "local", "texto": ["Arma comum (corpo a corpo): só a linha da frente, ou alguém da retaguarda se ninguém estiver na frente dele.", "Arma de haste (alcance): qualquer linha.", "Arma à distância e magia: qualquer linha.", "Na batalha, só os alvos alcançáveis ganham o círculo de runas. Clicar num alvo fora de alcance avisa e não gasta o turno."], "tabela": { "cabecalho": ["Arma", "Alcance"], "linhas": [["Espada longa, espada curta, cajado, adaga, clava grande", "corpo a corpo"], ["Alabarda (teste), clava de troll", "haste: qualquer linha"], ["Arco curto, Fire Bolt", "distância: qualquer linha"]] } }
+      ]
+    },
+    {
+      "id": "vantagem", "titulo": "Vantagem e desvantagem",
+      "itens": [
+        { "nome": "Como funciona", "origem": "dnd", "texto": ["Vantagem: role dois d20 e fique com o maior. Desvantagem: fique com o menor. Se as duas aparecem, se anulam e rola-se um d20 normal.", "Com 65% normais, a vantagem leva a cerca de 88% e a desvantagem a cerca de 42%."] },
+        { "nome": "De onde vêm", "origem": "dnd", "texto": ["Vantagem: atacante escondido; alvo derrubado (corpo a corpo); Aggressive do orc.", "Desvantagem: alvo escondido; atacante derrubado; alvo derrubado (à distância); atacante Enfraquecido; Protection de Rheagon.", "A prévia no alvo e o registro do painel mostram quando um ataque tem vantagem ou desvantagem, e por quê."] }
+      ]
+    },
+    {
+      "id": "condicoes", "titulo": "Condições",
+      "itens": [
+        { "nome": "Em chamas", "origem": "local", "texto": ["Vem do Fire Bolt (10% dos acertos). Sofre 1d4 de fogo no início de cada turno, por 3 turnos. Acertar de novo renova os 3 turnos. Pode matar.", "Selo: 🔥 com os turnos restantes; chamas sobem do corpo."] },
+        { "nome": "Derrubado", "origem": "dnd", "texto": ["Vem da maestria Topple. Ataca com desvantagem; ataques corpo a corpo contra ele têm vantagem e à distância, desvantagem. Levanta no fim do próprio turno.", "Hoje ninguém usa Topple: Gênesis é mago e não tem Weapon Mastery."] },
+        { "nome": "Escondido", "origem": "dnd", "texto": ["Vem da Nimble Escape dos goblins. Ataca com vantagem e é atacado com desvantagem. Deixa de estar escondido quando ataca.", "Na tela, a criatura fica semitransparente."] },
+        { "nome": "Enfraquecido", "origem": "dnd", "texto": ["Vem da maestria Sap (espada longa de Rheagon). Desvantagem no próximo ataque; passa depois desse ataque ou no fim do turno."] },
+        { "nome": "Mirando", "origem": "dnd", "texto": ["Vem da maestria Vex (arco curto, espada curta). Vantagem no próximo ataque contra o mesmo alvo, até o fim do próximo turno.", "Hoje ninguém a usa: só quem tem Weapon Mastery usa maestrias, e os monstros não têm."] }
+      ]
+    },
+    {
+      "id": "maestrias", "titulo": "Maestrias de arma",
+      "itens": [
+        { "nome": "Quem usa", "origem": "dnd", "texto": ["Na D&D 2024, maestria de arma é um recurso de classe (guerreiros, paladinos, patrulheiros, bárbaros, ladinos). Só quem tem o traço Weapon Mastery aplica o efeito da arma.", "Hoje só Rheagon (paladino) tem. Gênesis (mago) e os monstros não têm.", "Correção: na rodada anterior, monstros e Gênesis aplicavam maestrias de graça, o que deixava o esqueleto Mirando a cada acerto."] },
+        { "nome": "Efeitos cadastrados", "origem": "dnd", "texto": ["Os efeitos ficam prontos para quem tiver o traço."], "tabela": { "cabecalho": ["Arma", "Maestria", "Efeito no acerto"], "linhas": [["Espada longa", "Sap", "o alvo tem desvantagem no próximo ataque"], ["Espada curta, arco curto", "Vex", "vantagem no próximo ataque contra o mesmo alvo"], ["Cajado", "Topple", "resistência de Constituição (CD 8 + proficiência + Força) ou cai"]] } }
+      ]
+    },
+    {
+      "id": "habilidades", "titulo": "Magias e habilidades",
+      "itens": [
+        { "nome": "MP (Magic Points)", "origem": "adaptacao", "texto": ["Substitui os espaços de magia da D&D. Toda magia que não é truque gasta MP de uma reserva que enche no começo de cada batalha: mago 8, clérigo e bardo 6. Paladino, ladino e monstros não têm MP.", "Truques custam 0. Healing Word e Shield of Faith custam 2; as outras magias de 1º círculo, 3; Lightning Bolt, 5. Só uma magia com MP por turno. Ver docs/batalha/MP.md."] },
+        { "nome": "Fire Bolt (Gênesis)", "origem": "adaptacao", "texto": ["Truque de fogo, +5, 1d10, qualquer linha. 10% dos acertos põem o alvo Em chamas.", "A queimadura é nossa: na D&D 2024 o Fire Bolt só incendeia objetos."] },
+        { "nome": "Lay on Hands (Rheagon)", "origem": "adaptacao", "texto": ["Cura 8 PV num aliado de pé, sem passar do máximo. Uma vez por batalha, gasta a ação. Na D&D é uma reserva de 5 × nível, com ação bônus."] },
+        { "nome": "Protection (Rheagon)", "origem": "adaptacao", "texto": ["Com escudo e na frente, uma vez por rodada, um ataque contra Gênesis sai com desvantagem. Na D&D é uma reação escolhida pelo jogador; aqui é automática.", "Na tela: Rheagon ergue o escudo e aparece Protection!. Com a alabarda (sem escudo) não funciona."] },
+        { "nome": "Nimble Escape (goblins)", "origem": "adaptacao", "texto": ["Depois de atacar, se estiver atrás de um aliado vivo (cobertura), o goblin tenta se esconder: Furtividade +6 contra CD 15 (60% de chance). Na D&D é uma ação bônus.", "Na prática, só o arqueiro se esconde, e só enquanto o Goblin Warrior estiver de pé. Por isso o Fire Bolt de Gênesis contra o arqueiro sai muitas vezes com desvantagem."] },
+        { "nome": "Aggressive (orc)", "origem": "adaptacao", "texto": ["O primeiro ataque do orc na batalha tem vantagem. Na D&D, Aggressive é uma ação bônus para avançar."] },
+        { "nome": "Regeneration (troll)", "origem": "dnd", "texto": ["Recupera 5 PV no início do turno, se não sofreu dano de fogo desde o último turno. Não volta dos 0 PV.", "Fire Bolt e a queimadura bloqueiam a regeneração."] },
+        { "nome": "Steadfast (sentinela)", "origem": "local", "texto": ["Não pode ser derrubada."] },
+        { "nome": "Undead e Colosso", "origem": "local", "texto": ["Undead: imune a veneno (esqueleto, sentinela).", "Colosso: o troll ocupa uma linha inteira. A formação de colosso ainda não está na batalha, então por enquanto ele luta sozinho no centro."] }
+      ]
+    },
+    {
+      "id": "monstros", "titulo": "Como os monstros escolhem",
+      "itens": [
+        { "nome": "Alvo", "origem": "local", "texto": ["Corpo a corpo e com alcance (troll): ataca o herói da frente (Rheagon, enquanto estiver de pé); se ele cair, ataca o de trás.", "À distância (arqueiro): escolhe o herói de menor CA (Gênesis) e, em empate, o mais ferido.", "A escolha é decidida no início do turno e aparece na placa de intenção e no registro, com o motivo."] }
+      ]
+    },
+    {
+      "id": "recompensas", "titulo": "Experiência e espólios",
+      "itens": [
+        { "nome": "Experiência", "origem": "dnd", "texto": ["Cada monstro vale XP (campo xp da ficha), dividido igualmente entre os heróis.", "Tabela de níveis da D&D 2024: nível 2 com 300 XP, 3 com 900, 4 com 2.700, 5 com 6.500.", "A experiência fica guardada no navegador entre batalhas, e a tela final mostra a barra enchendo e a subida de nível. Zerar experiência recomeça."], "tabela": { "cabecalho": ["Monstro", "XP"], "linhas": [["Goblin Warrior, Goblin Archer, esqueleto", "50"], ["Orc", "100"], ["Sentinela", "200"], ["Troll", "700"]] } },
+        { "nome": "Espólios", "origem": "local", "texto": ["Rolados com os dados da própria batalha: moedas (cobre, prata e, de monstros maiores, ouro) e itens com chance.", "Exemplos: adaga enferrujada, flechas, arco curto e poção de cura (goblins); espada curta e osso entalhado (esqueleto); dente de javali (orc); couro de troll (sempre) e poção (troll); emblema da cripta (sentinela).", "Os itens ainda não vão para a bolsa dos heróis."] }
+      ]
+    },
+    {
+      "id": "equilibrio", "titulo": "Equilíbrio medido",
+      "itens": [
+        { "nome": "Dificuldade por encontro", "origem": "local", "texto": ["Simulação de 3.000 batalhas por encontro: Rheagon ataca, Gênesis usa Fire Bolt (cajado contra esqueletos), e Rheagon cura o mais ferido uma vez. Os números mudam à medida que ajustamos as regras."], "tabela": { "cabecalho": ["Encontro", "Vitória", "Rodadas"], "linhas": [["Orc", "99,9%", "3,1"], ["Goblins", "99,4%", "5,3"], ["Dois esqueletos", "97,4%", "4,9"], ["Orc + arqueiro", "93,9%", "5,9"], ["Goblins + esqueleto", "87,5%", "7,8"], ["Troll", "80,0%", "6,6"], ["Duas sentinelas", "72,8%", "9,1"]] } },
+        { "nome": "Taxa de acerto real", "origem": "local", "texto": ["Em 2.000 batalhas contra goblins, Rheagon acerta 65,0% (esperado 65%). Gênesis acerta 65,5% nos ataques normais, mas 42% dos ataques dele saem com desvantagem (arqueiro escondido), e o total cai para 56%.", "Contra sentinelas (CA 16), os dois acertam 50%."] }
+      ]
+    },
+    {
+      "id": "pendencias", "titulo": "Em aberto",
+      "itens": [
+        { "nome": "Decisões pendentes", "origem": "local", "texto": ["Se o arqueiro escondido deve pesar tanto contra Gênesis: uma ação Procurar, um limite por batalha ou só a vantagem para o goblin.", "Testes de morte.", "Ação bônus, reação e movimento escolhidos pelo jogador.", "Formação de colosso na batalha (troll com outros monstros).", "Itens dos espólios na bolsa e uso de poções.", "Nome do herói: o compêndio usa Rheagon; a batalha e o HUD usam Rheagon."] }
+      ]
+    }
+  ]
+}

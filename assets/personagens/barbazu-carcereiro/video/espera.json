@@ -1,0 +1,25 @@
+{
+  "id": "barbazu-carcereiro",
+  "arquivo": "espera.webm",
+  "original": "original/espera.webm",
+  "largura": 402,
+  "altura": 548,
+  "fps": 24.0,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.5199,
+  "originY": 0.9872,
+  "topo": 0.0237,
+  "pes": [
+    [
+      0.1878,
+      0.9599
+    ],
+    [
+      0.852,
+      0.9872
+    ]
+  ],
+  "nota": "Gerado por scripts/preparar-videos-herois.py a partir do original com fundo verde. Ver docs/arte/VIDEOS-HEROIS.md."
+}

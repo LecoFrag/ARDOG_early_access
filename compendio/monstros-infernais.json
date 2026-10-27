@@ -1,0 +1,145 @@
+{
+  "versao": "0.1",
+  "nota": "Diabos do Monster Manual 2024 (lêmure, imp e diabo espinhoso) adaptados ao nosso formato (docs/batalha/DIABOS-FICHAS.md). Mesmos campos de monstros-bestiario.json e herois-propostos.json, mais danoExtra (dano de um segundo tipo), ataques (vários golpes na mesma ação) e semTeste (esconder-se sem rolagem nem cobertura). Lidos pelo laboratório de batalha; o combate v1 não os usa.",
+  "equipamentos": [
+    { "id": "carne-infernal", "nome": "Carne infernal", "categoria": "Armadura natural", "caBase": 12, "somaDes": true, "nota": "Massa disforme e grossa: CA 12 + Destreza (−3) = 9, como na ficha oficial." },
+    { "id": "couro-espinhoso", "nome": "Couro espinhoso", "categoria": "Armadura natural", "caBase": 11, "somaDes": true, "nota": "Pele coberta de espinhos: CA 11 + Destreza (+2) = 13, como na ficha oficial." },
+    { "id": "pele-de-barbazu", "nome": "Pele de barbazu", "categoria": "Armadura natural", "caBase": 11, "somaDes": true, "nota": "Couro grosso e escamas nos antebraços e nas canelas: CA 11 + Destreza (+2) = 13, como na ficha oficial do Bearded Devil." },
+    { "id": "escamas-do-arauto", "nome": "Cota de escamas do arauto", "categoria": "Armadura natural", "caBase": 12, "somaDes": true, "nota": "Casaco de escamas rubras com a Bênção Corruptora: CA 12 + Destreza (+3) = 15. A ficha oficial do Cambion tem CA 19; a nossa é a adaptação para heróis de nível 2 (prompts/chefe-neverwinter.md)." }
+  ],
+  "combatentes": [
+    {
+      "id": "lemure", "nome": "Lemure", "subtitulo": "Diabo · médio", "grupo": "monstros", "nivel": null, "xp": 10,
+      "pv": 13, "proficiencia": 2, "imagem": "/ARDOG_early_access/assets/personagens/lemure/idle.webp",
+      "atributos": { "for": 10, "des": 5, "con": 11, "int": 1, "sab": 11, "car": 3 },
+      "armadura": "carne-infernal", "escudo": null, "equipamentos": ["carne-infernal"],
+      "resumo": "Uma alma condenada derretida em lodo. Fraco e lento, mas se recompõe depois de cair, a não ser que seja destruído por luz sagrada.",
+      "defesas": { "vulneravel": [], "resistente": ["frio"], "imune": ["fogo", "veneno"] },
+      "tracos": [
+        { "id": "restauracao-infernal", "nome": "Hellish Restoration", "texto": "Na primeira vez que cai, volta no início do próprio turno com metade dos PV, se a luta ainda não acabou. Não volta se o golpe final foi radiante ou veio de alguém abençoado (Bless)." },
+        { "id": "diabo", "nome": "Devil", "texto": "Resistente a frio; imune a fogo e veneno. O Fire Bolt e a queimadura não o ferem." }
+      ],
+      "notas": [
+        "Ficha oficial 2024: CA 9, 9 PV, deslocamento 6 m, iniciativa −3, Lodo Vil +2 com 1d4 de veneno, ND 0 (10 XP).",
+        "PV 13 em vez de 9, como os goblins e o esqueleto, que também ganharam PV no nosso jogo. Dano 1d6 em vez de 1d4, para não ser inofensivo contra o grupo de quatro.",
+        "Hellish Restoration na D&D: se morre nos Nove Infernos, volta em 1d10 dias, a não ser que seja morto por alguém sob Bless ou com água benta. Aqui virou uma regra de batalha: volta uma vez na mesma luta.",
+        "Pensado para hordas de três ou quatro. Kewoth e Azrakt (dano radiante e Bless) são a resposta."
+      ],
+      "acoes": [
+        { "id": "lodo-vil", "nome": "Vile Slime", "tipo": "ataque", "atributo": "for", "proficiente": true, "dados": 1, "faces": 6, "tipoDano": "veneno", "alcance": "corpo-a-corpo", "alvo": "Um herói", "custo": "Uma ação", "nota": "+2, 1d6 de veneno." }
+      ]
+    },
+    {
+      "id": "imp", "nome": "Imp", "subtitulo": "Diabo · miúdo, voador", "grupo": "monstros", "nivel": null, "xp": 200,
+      "pv": 24, "proficiencia": 2, "imagem": "/ARDOG_early_access/assets/personagens/imp/idle-voo.webp",
+      "atributos": { "for": 6, "des": 17, "con": 13, "int": 11, "sab": 12, "car": 14 },
+      "armadura": null, "escudo": null, "equipamentos": [],
+      "resumo": "Um diabinho que voa sobre a linha da frente, crava o ferrão envenenado em quem está atrás e some no ar.",
+      "defesas": { "vulneravel": [], "resistente": ["frio"], "imune": ["fogo", "veneno"] },
+      "tracos": [
+        { "id": "voo", "nome": "Flight", "texto": "Passa por cima da linha da frente: o ferrão alcança qualquer linha. Para os heróis, ele continua seguindo a regra das vagas (atrás de um aliado vivo, só armas de alcance, à distância e magias o alcançam)." },
+        { "id": "resistencia-magica", "nome": "Magic Resistance", "texto": "Vantagem nas resistências contra magias (Sacred Flame, Toll the Dead, Vicious Mockery, Lightning Bolt…)." },
+        { "id": "diabo", "nome": "Devil", "texto": "Resistente a frio; imune a fogo e veneno." }
+      ],
+      "notas": [
+        "Ficha oficial 2024: CA 13, 21 PV, voo 12 m, Sting +5 com 1d6 + 3 perfurante e 2d6 de veneno, Invisibility à vontade, Mudar de Forma, Magic Resistance, ND 1 (200 XP).",
+        "PV 24 em vez de 21. Mudar de Forma ficou de fora (não serve na batalha).",
+        "Invisibility à vontade seria forte demais a cada turno. Aqui ela gasta a ação: o imp só some quando está com metade da vida ou menos. Invisível, ataca com vantagem e é atacado com desvantagem, até atacar de novo.",
+        "Use a versão em voo da arte (personagem-voo.json)."
+      ],
+      "acoes": [
+        { "id": "ferrao", "nome": "Sting", "tipo": "ataque", "atributo": "des", "proficiente": true, "somaAtributo": true, "dados": 1, "faces": 6, "tipoDano": "perfurante", "danoExtra": [2, 6, "veneno"], "resistenciaExtra": "con", "alcance": "corpo-a-corpo", "alvo": "Um herói", "custo": "Uma ação", "nota": "+5, 1d6 + 3 perfurante mais 2d6 de veneno. O alvo acertado faz resistência de Constituição CD 11 (8 + proficiência + Constituição, como na D&D 2014): passando, sofre metade do veneno. Com Voo, alcança qualquer linha." },
+        { "id": "invisibilidade", "nome": "Invisibility", "tipo": "esconder", "semTeste": true, "usos": 1, "alvo": "Ele mesmo", "custo": "Uma ação · 1 uso por batalha", "nota": "Fica invisível sem rolagem e sem precisar de cobertura (conta como Escondido). Atacar o revela. Uma vez por batalha (22/10/2026)." }
+      ]
+    },
+    {
+      "id": "diabo-espinhoso", "nome": "Spined Devil", "subtitulo": "Diabo · pequeno, voador", "grupo": "monstros", "nivel": null, "xp": 450,
+      "pv": 45, "proficiencia": 2, "imagem": "/ARDOG_early_access/assets/personagens/diabo-espinhoso/idle.webp",
+      "atributos": { "for": 10, "des": 15, "con": 12, "int": 11, "sab": 14, "car": 8 },
+      "armadura": "couro-espinhoso", "escudo": null, "equipamentos": ["couro-espinhoso"],
+      "resumo": "Um diabo coberto de espinhos que golpeia duas vezes com o tridente em brasa ou lança espinhos flamejantes da cauda em toda uma linha.",
+      "defesas": { "vulneravel": [], "resistente": ["frio"], "imune": ["fogo", "veneno"] },
+      "tracos": [
+        { "id": "voo", "nome": "Flight", "texto": "Passa por cima da linha da frente: o tridente alcança qualquer linha." },
+        { "id": "resistencia-magica", "nome": "Magic Resistance", "texto": "Vantagem nas resistências contra magias." },
+        { "id": "ataque-multiplo", "nome": "Multiattack", "texto": "Dois golpes de tridente no mesmo turno, ou um espinho para cada herói de uma linha." },
+        { "id": "diabo", "nome": "Devil", "texto": "Resistente a frio; imune a fogo e veneno." }
+      ],
+      "notas": [
+        "Ficha oficial 2024: CA 13, 45 PV, voo 12 m, Multiattack (dois ataques entre Tridente Infernal e Espinho da Cauda), Tridente +4 com 1d6 + 2 perfurante e 1d6 de fogo, Espinho +4 com 1d4 + 2 perfurante e 1d6 de fogo (alcance 6/24 m), Magic Resistance, ND 2 (450 XP).",
+        "Os PV ficaram como os oficiais: para heróis de nível 1, ele já é um chefe pequeno.",
+        "Os dois ataques do Multiattack viraram duas opções: dois golpes de tridente num alvo, ou o Tail Spines, um espinho para cada herói de uma linha (até dois ataques). Ele escolhe a que rende mais.",
+        "O Tail Spines usa a pose attack-espinhos.webp."
+      ],
+      "acoes": [
+        { "id": "tridente", "nome": "Fork", "tipo": "ataque", "atributo": "des", "proficiente": true, "somaAtributo": true, "dados": 1, "faces": 6, "tipoDano": "perfurante", "danoExtra": [1, 6, "fogo"], "ataques": 2, "alcance": "corpo-a-corpo", "alvo": "Um herói, duas vezes", "custo": "Uma ação (Multiattack)", "nota": "Dois ataques +4, cada um 1d6 + 2 perfurante mais 1d6 de fogo. Com Voo, alcança qualquer linha." },
+        { "id": "leque-espinhos", "nome": "Tail Spines", "tipo": "ataque", "atributo": "des", "proficiente": true, "somaAtributo": true, "dados": 1, "faces": 4, "tipoDano": "perfurante", "danoExtra": [1, 6, "fogo"], "area": "linha", "alcance": "distancia", "alvo": "Todos os heróis de uma linha", "custo": "Uma ação (Multiattack)", "nota": "Um espinho +4 para cada herói da linha escolhida (até dois): 1d4 + 2 perfurante mais 1d6 de fogo cada. Sem desvantagem, porque são os dois ataques do Multiattack." }
+      ]
+    },
+    {
+      "id": "barbazu-carcereiro",
+      "nome": "Vharzul",
+      "subtitulo": "Bearded Devil · médio, chefe",
+      "grupo": "monstros",
+      "nivel": null,
+      "xp": 700,
+      "pv": 58,
+      "proficiencia": 2,
+      "imagem": "/ARDOG_early_access/assets/personagens/barbazu-carcereiro/idle.webp",
+      "atributos": {"for": 16, "des": 15, "con": 15, "int": 9, "sab": 11, "car": 11},
+      "armadura": "pele-de-barbazu",
+      "escudo": null,
+      "equipamentos": ["pele-de-barbazu"],
+      "resumo": "O Carcereiro: um soldado dos Nove Infernos que guarda portas com a glaive serrilhada. Cada golpe abre uma ferida que não fecha, e a barba de tentáculos envenena quem chega perto.",
+      "defesas": {"vulneravel": [], "resistente": ["frio"], "imune": ["fogo", "veneno"]},
+      "tracos": [
+        {"id": "resistencia-magica", "nome": "Magic Resistance", "texto": "Vantagem nas resistências contra magias."},
+        {"id": "inabalavel", "nome": "Steadfast", "texto": "Não se deixa derrubar nem amedrontar enquanto tiver um aliado por perto."},
+        {"id": "ataque-multiplo", "nome": "Multiattack", "texto": "Um golpe de Glaive e um de Beard no mesmo turno."},
+        {"id": "diabo", "nome": "Devil", "texto": "Resistente a frio; imune a fogo e veneno."}
+      ],
+      "notas": [
+        "Ficha oficial (Monster Manual 2014, Bearded Devil): CA 13, 52 PV, Multiattack (Beard e Glaive), Beard +5 com 1d8 + 2 perfurante e veneno (Constituição CD 12; envenenado não recupera PV), Glaive +5 com alcance de 3 m e 1d10 + 3 cortante e Infernal Wound (Constituição CD 12; perde 1d10 PV no início de cada turno até ser curado), Magic Resistance, Steadfast, ND 3 (700 XP).",
+        "Adaptação para quatro heróis de nível 2 (prompts/chefe-neverwinter.md): 58 PV; a Infernal Wound tira 1d6 por turno, no máximo três vezes, e qualquer cura a fecha; o veneno da barba dá desvantagem nos ataques por dois turnos, sem impedir a cura; a resistência a armas não mágicas ficou de fora.",
+        "A Glaive alcança a retaguarda (haste). A Beard é corpo a corpo e vai no mesmo herói, se ele estiver ao alcance. A Beard usa a pose attack-barba.webp."
+      ],
+      "acoes": [
+        {"id": "glaive", "nome": "Glaive", "tipo": "ataque", "atributo": "for", "proficiente": true, "somaAtributo": true, "dados": 1, "faces": 10, "tipoDano": "cortante", "efeito": "ferida-infernal", "seguidoDe": "barba", "alcance": "haste", "alvo": "Um herói (alcança a retaguarda)", "custo": "Uma ação (Multiattack)", "nota": "+5, 1d10 + 3 cortante. Quem é acertado faz resistência de Constituição CD 12: falhando, sofre uma Infernal Wound (perde 1d6 PV no início dos próximos 3 turnos; qualquer cura fecha). Depois vem a Beard."},
+        {"id": "barba", "nome": "Beard", "tipo": "ataque", "atributo": "for", "proficiente": true, "somaAtributo": true, "dados": 1, "faces": 8, "tipoDano": "perfurante", "efeito": "envenenar-barba", "alcance": "corpo-a-corpo", "alvo": "Um herói ao alcance", "custo": "Segundo golpe do Multiattack", "nota": "+5, 1d8 + 3 perfurante. Quem é acertado faz resistência de Constituição CD 12: falhando, fica envenenado (ataca com desvantagem por 2 turnos)."}
+      ]
+    },
+    {
+      "id": "arauto-rubro",
+      "nome": "Iskarion",
+      "subtitulo": "Cambion · médio, voador, chefe",
+      "grupo": "monstros",
+      "nivel": null,
+      "xp": 700,
+      "pv": 60,
+      "proficiencia": 2,
+      "imagem": "/ARDOG_early_access/assets/personagens/arauto-rubro/idle.webp",
+      "atributos": {"for": 14, "des": 16, "con": 14, "int": 14, "sab": 12, "car": 16},
+      "armadura": "escamas-do-arauto",
+      "escudo": null,
+      "equipamentos": ["escamas-do-arauto"],
+      "resumo": "O Arauto Rubro: filho de um diabo de Phlegethos, quem abriu os portais. Voa sobre a linha da frente, lança raios de fogo da mão vazia e manda os heróis largarem tudo com uma palavra.",
+      "defesas": {"vulneravel": [], "resistente": ["frio", "eletrico", "veneno"], "imune": ["fogo"]},
+      "tracos": [
+        {"id": "voo", "nome": "Flight", "texto": "Passa por cima da linha da frente e mira a menor CA."},
+        {"id": "resistencia-magica", "nome": "Fiendish Blessing", "texto": "Vantagem nas resistências contra magias (adaptação: o Cambion oficial soma o Carisma à CA)."},
+        {"id": "ataque-multiplo", "nome": "Multiattack", "texto": "Dois Fire Rays no mesmo turno."},
+        {"id": "diabo", "nome": "Fiend", "texto": "Resistente a frio, elétrico e veneno; imune a fogo."}
+      ],
+      "notas": [
+        "Ficha oficial (Monster Manual 2014, Cambion): CA 19, 82 PV, voo 18 m, Multiattack (dois ataques corpo a corpo ou dois Fire Rays), Fire Ray +7 com 3d6 de fogo, Spear +7 com 1d6 + 4 perfurante e 1d6 de fogo, Command 3 por dia (Carisma, CD 14), Fiendish Charm, Plane Shift, ND 5 (1.800 XP).",
+        "Adaptação para ND 3, contra quatro heróis de nível 2 (prompts/chefe-neverwinter.md): CA 15, 60 PV; Fire Ray +5 com 2d6 de fogo, dois por turno; Command 2 vezes (Sabedoria CD 13), nas rodadas ímpares, em quem mais causou dano; Fiendish Charm e Plane Shift ficaram de fora; 700 XP.",
+        "Fire Bolt não o fere (imune a fogo). O Fire Ray usa a pose cast.webp e o Command a command.webp. A Spear fica na ficha, mas o monstro sempre prefere os raios."
+      ],
+      "acoes": [
+        {"id": "raio-de-fogo", "nome": "Fire Ray", "tipo": "ataque", "atributo": "car", "proficiente": true, "somaAtributo": false, "dados": 2, "faces": 6, "tipoDano": "fogo", "ataques": 2, "alcance": "distancia", "alvo": "Um herói, duas vezes", "custo": "Uma ação (Multiattack)", "nota": "Dois raios de magia +5, cada um 2d6 de fogo. Voando, mira a menor CA."},
+        {"id": "comando", "nome": "Command", "tipo": "resistencia", "resistencia": "sab", "atributo": "car", "dados": 0, "faces": 0, "tipoDano": "", "efeito": "comando", "usos": 2, "alcance": "distancia", "alvo": "Um herói", "custo": "Uma ação · 2 usos por batalha", "nota": "Uma palavra (\"Larga!\"): resistência de Sabedoria CD 13; falhando, o herói perde o próximo turno."},
+        {"id": "lanca", "nome": "Spear", "tipo": "ataque", "atributo": "des", "proficiente": true, "somaAtributo": true, "dados": 1, "faces": 8, "tipoDano": "perfurante", "danoExtra": [1, 6, "fogo"], "alcance": "corpo-a-corpo", "alvo": "Um herói", "custo": "Uma ação", "nota": "+5, 1d8 + 3 perfurante mais 1d6 de fogo."}
+      ]
+    }
+  ]
+}

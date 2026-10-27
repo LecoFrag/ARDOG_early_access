@@ -1,0 +1,36 @@
+{
+  "id": "hildred-serpente",
+  "arquivo": "espera-malha.webm",
+  "original": "original/espera-malha.webm",
+  "largura": 1080,
+  "altura": 720,
+  "fps": 24,
+  "quadros": 192,
+  "ida": 4.041666666666667,
+  "idaEVolta": true,
+  "originX": 0.58767,
+  "originY": 0.96289,
+  "topo": 0.0459,
+  "pes": [
+    [
+      0.43587,
+      0.95898
+    ],
+    [
+      0.5485,
+      0.96289
+    ],
+    [
+      0.77865,
+      0.94141
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "idle",
+  "origem": "Animação procedural por malha da arte transparente, sem geração de vídeo por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/hildred-serpente/idle.webp",
+  "imagemOriginal": "public/assets/personagens/hildred-serpente/png/idle.png",
+  "sha256Imagem": "86ed3c1b9facb164d34d41331cf35145552895268b8819c3962a39802bfbcddd",
+  "movimento": "Pescoço ondulante, cabeça em guarda, ponta da cauda e língua com movimentos próprios; base das espiras fixa.",
+  "nota": "Versão anterior, animada por malha (docs/arte/HILDRED-FORMAS-SELVAGENS-ARTES.md), preservada em 20/10/2026 quando o vídeo do usuário passou a ser a espera. "
+}

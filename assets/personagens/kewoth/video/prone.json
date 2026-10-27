@@ -1,0 +1,36 @@
+{
+  "id": "kewoth",
+  "arquivo": "prone.webm",
+  "original": "original/prone.webm",
+  "largura": 714,
+  "altura": 634,
+  "fps": 24,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.4958,
+  "originY": 0.8991,
+  "topo": 0.0189,
+  "pes": [
+    [
+      0.119,
+      0.8312
+    ],
+    [
+      0.4216,
+      0.888
+    ],
+    [
+      0.9468,
+      0.8991
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "prone",
+  "elevacaoCena": 0,
+  "origem": "Animacao procedural por malha, a partir do PNG transparente; sem geracao de video por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/kewoth/png/prone.png",
+  "sha256Imagem": "f665c5a2b2c4c57645b766b247ffbf05c57d663d78d2476b2366d61f25294fa7",
+  "movimento": "Respiracao discreta e microdeslocamento da cabeca; apoios, armas caidas e asas de voo ficam fixos.",
+  "nota": "Asset isolado, sem integracao. Calibrar a escala da pose baixa e conferir apoios antes de cadastrar no jogo. Os pontos em pes representam apoios da pose derrubada, nao apenas solas."
+}

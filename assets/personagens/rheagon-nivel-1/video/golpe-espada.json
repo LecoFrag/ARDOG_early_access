@@ -1,0 +1,25 @@
+{
+  "id": "rheagon-golpe",
+  "arquivo": "golpe-espada.webm",
+  "original": "original/golpe-espada.webm",
+  "largura": 404,
+  "altura": 654,
+  "fps": 24.0,
+  "quadros": 190,
+  "ida": 4.0,
+  "idaEVolta": true,
+  "originX": 0.5006,
+  "originY": 0.9893,
+  "topo": 0.0214,
+  "pes": [
+    [
+      0.099,
+      0.9679
+    ],
+    [
+      0.9022,
+      0.9893
+    ]
+  ],
+  "nota": "Gerado por scripts/preparar-videos-herois.py a partir do original com fundo verde. Ver docs/arte/VIDEOS-HEROIS.md."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "rheagon-tabardo",
+  "arquivo": "prone.webm",
+  "original": "original/prone.webm",
+  "largura": 720,
+  "altura": 606,
+  "fps": 24,
+  "quadros": 478,
+  "ida": 10.0,
+  "idaEVolta": true,
+  "originX": 0.6558,
+  "originY": 0.9769,
+  "topo": 0.0198,
+  "pes": [
+    [
+      0.3792,
+      0.9208
+    ],
+    [
+      0.7097,
+      0.9769
+    ],
+    [
+      0.8785,
+      0.9521
+    ]
+  ],
+  "apoiosEstimados": true,
+  "pose": "prone",
+  "elevacaoCena": 0,
+  "origem": "Animacao procedural por malha, a partir do PNG transparente; sem geracao de video por IA e sem chroma key.",
+  "imagem": "public/assets/personagens/rheagon-tabardo/png/prone.png",
+  "sha256Imagem": "1eb2903fc9280111b2536cb1dad8a5f26807f1e172dae3366d9ea166a8a6c9fb",
+  "movimento": "Respiracao discreta e microdeslocamento da cabeca; apoios, armas caidas e asas de voo ficam fixos.",
+  "nota": "Asset isolado, sem integracao. Calibrar a escala da pose baixa e conferir apoios antes de cadastrar no jogo. Os pontos em pes representam apoios da pose derrubada, nao apenas solas."
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480">
+  <!-- The voice behind the portals (PROLOGO.md): a horned silhouette against red light. Nobody knows who it is. -->
+  <defs>
+    <radialGradient id="fundo" cx="50%" cy="58%" r="62%"><stop offset="0" stop-color="#ff3a1c"/><stop offset=".35" stop-color="#a0140c"/><stop offset=".75" stop-color="#3a0503"/><stop offset="1" stop-color="#120101"/></radialGradient>
+    <radialGradient id="olho" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff2b0"/><stop offset=".4" stop-color="#ffb02a"/><stop offset="1" stop-color="#ff3a00" stop-opacity="0"/></radialGradient>
+    <filter id="borra"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <rect width="400" height="480" fill="url(#fundo)"/>
+  <g fill="#050000" filter="url(#borra)">
+    <!-- horns -->
+    <path d="M150 150 C 120 110, 92 70, 60 52 C 98 64, 140 98, 168 136 Z"/>
+    <path d="M250 150 C 280 110, 308 70, 340 52 C 302 64, 260 98, 232 136 Z"/>
+    <!-- head and shoulders -->
+    <path d="M200 112 C 150 112, 138 160, 142 200 C 146 240, 168 268, 180 282 C 120 296, 60 330, 30 480 L 370 480 C 340 330, 280 296, 220 282 C 232 268, 254 240, 258 200 C 262 160, 250 112, 200 112 Z"/>
+    <!-- wings folded behind -->
+    <path d="M60 330 C 20 250, 10 180, 0 140 L 0 480 L 60 480 Z"/>
+    <path d="M340 330 C 380 250, 390 180, 400 140 L 400 480 L 340 480 Z"/>
+  </g>
+  <circle cx="178" cy="196" r="16" fill="url(#olho)"><animate attributeName="r" values="16;12;16" dur="3.2s" repeatCount="indefinite"/></circle>
+  <circle cx="222" cy="196" r="16" fill="url(#olho)"><animate attributeName="r" values="16;12;16" dur="3.2s" repeatCount="indefinite"/></circle>
+  <rect x="172" y="193" width="12" height="4" rx="2" fill="#fff6d0"/>
+  <rect x="216" y="193" width="12" height="4" rx="2" fill="#fff6d0"/>
+</svg>

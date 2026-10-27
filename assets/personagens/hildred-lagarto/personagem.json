@@ -1,0 +1,33 @@
+{
+  "id": "hildred-lagarto",
+  "nome": "Lagarto gigante — forma de Hildred",
+  "lado": "heroi",
+  "porte": "normal",
+  "alturaBatalha": 360,
+  "poses": {
+    "idle": {
+      "arquivo": "idle.webp",
+      "originX": 0.63167,
+      "originY": 0.89062,
+      "pes": [
+        [
+          0.31283,
+          0.83203
+        ],
+        [
+          0.6084,
+          0.78125
+        ],
+        [
+          0.69727,
+          0.89062
+        ],
+        [
+          0.9082,
+          0.82422
+        ]
+      ]
+    }
+  },
+  "notas": "Escala inicial para estudo; conferir na formação antes de integrar. Só a espera foi gerada nesta etapa. Vídeo em video/espera.webm; movimento alternativo em src/personagens/hildred-lagarto-idle.ts."
+}

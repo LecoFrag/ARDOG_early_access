@@ -1,0 +1,80 @@
+{
+ "id": "barbazu-carcereiro",
+ "nome": "Vharzul, o Carcereiro",
+ "lado": "inimigo",
+ "porte": "normal",
+ "alturaBatalha": 480,
+ "referenciaDnd": {
+  "nome": "Bearded Devil",
+  "tamanho": "Medium",
+  "nd": 3
+ },
+ "poses": {
+  "idle": {
+   "arquivo": "idle.webp",
+   "originX": 0.53,
+   "originY": 0.96,
+   "pes": [
+    [
+     0.17,
+     0.935
+    ],
+    [
+     0.89,
+     0.985
+    ]
+   ]
+  },
+  "hurt": {
+   "arquivo": "hurt.webp",
+   "originX": 0.53,
+   "originY": 0.945,
+   "pes": [
+    [
+     0.17,
+     0.92
+    ],
+    [
+     0.89,
+     0.97
+    ]
+   ]
+  },
+  "attack": {
+   "arquivo": "attack.webp",
+   "originX": 0.71,
+   "originY": 0.95,
+   "pes": [
+    [
+     0.46,
+     0.935
+    ],
+    [
+     0.96,
+     0.965
+    ]
+   ],
+   "alturaBatalha": 400
+  },
+  "attack-barba": {
+   "arquivo": "attack-barba.webp",
+   "originX": 0.575,
+   "originY": 0.95,
+   "pes": [
+    [
+     0.2,
+     0.93
+    ],
+    [
+     0.95,
+     0.97
+    ]
+   ],
+   "acao": "barba"
+  }
+ },
+ "retratos": {
+  "face": "face.webp"
+ },
+ "notas": "Chefe proposto de Neverwinter (prompts/chefe-neverwinter.md). Pés medidos à mão sobre as poses, com grade (24/10/2026); a ponta da glaive no chão não é pé. O ataque em paisagem tem a cabeça cerca de 20% menor que a espera, por isso alturaBatalha 400. attack-barba é a pose da ação 'barba' (o segundo golpe do Multiattack)."
+}
