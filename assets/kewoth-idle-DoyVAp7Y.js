@@ -1,1 +1,0 @@
-import{m as t,H as s}from"./herois-motion-base-C1VfJb-u.js";import"./recompensas-BecvTzXi.js";import"./rheagon-visual-Dod8B_aK.js";const i={respiracao:6,ritmo:1.45,balanco:1.5,fase:.6};function a(r,o,e){return t(r,o,e,i)}class p extends s{constructor(o,e){super(o,e,a)}}export{p as KewothIdle};

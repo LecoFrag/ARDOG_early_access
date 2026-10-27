@@ -1,0 +1,15 @@
+{
+  "name": "As Relíquias de Oghma",
+  "short_name": "Oghma",
+  "description": "RPG de batalha em turnos em Neverwinter.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#000000",
+  "theme_color": "#080e15",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "assets/inicio/orbes/orbe-ambar-v1.webp", "sizes": "1254x1254", "type": "image/webp", "purpose": "any" }
+  ]
+}
